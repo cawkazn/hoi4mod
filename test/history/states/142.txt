@@ -1,0 +1,28 @@
+state={
+	id=142
+	name= "STATE_142"
+	manpower = 2067398
+
+	resources={
+		oil = 1
+		steel = 2
+		tungsten = 6
+	}
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = { 3010 7 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		515 1262 1347 1763 1804 3010 3706 4765 6726 6754 7348 7718 7766 7787 7858 10684 12166 12534 
+	}
+}

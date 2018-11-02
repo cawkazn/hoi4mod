@@ -1,0 +1,27 @@
+state={
+	id=210
+	name= "STATE_210"
+	manpower = 1099768
+
+	resources={
+		oil = 6
+		tungsten = 9
+	}
+	state_category = town
+
+	history={
+		owner = ENG
+		victory_points = { 7869 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		3606 7869 7891 
+	}
+}

@@ -1,0 +1,45 @@
+state={
+	id=99
+	name= "STATE_99"
+	manpower = 12643676
+
+	resources={
+		aluminium = 19
+		steel = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHI
+		victory_points = { 1055 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1055 = {
+				naval_base = 2
+			}
+			1096 = {
+				naval_base = 2
+			}
+			1168 = {
+				naval_base = 2
+			}
+			4042 = {
+				naval_base = 2
+			}
+			7191 = {
+				naval_base = 2
+			}
+			9974 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1055 1096 1168 1195 4013 4042 7058 7086 7120 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
+	}
+}

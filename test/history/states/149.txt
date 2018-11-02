@@ -1,0 +1,27 @@
+state={
+	id=149
+	name= "STATE_149"
+	manpower = 1076664
+
+	state_category = city
+
+	history={
+		owner = ENG
+		victory_points = { 12505 5 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			12505 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+		add_core_of = QUE
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+}

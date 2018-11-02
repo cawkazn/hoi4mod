@@ -1,0 +1,26 @@
+state={
+	id=526
+	name= "STATE_526"
+	manpower = 502680
+
+	resources={
+		steel = 4
+	}
+	state_category = rural
+
+	history={
+		owner = SCA
+		victory_points = { 2126 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		1552 2126 4735 7548 8054 12981 
+	}
+}

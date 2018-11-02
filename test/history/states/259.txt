@@ -1,0 +1,43 @@
+state={
+	id=259
+	name= "STATE_259"
+	manpower = 1539740
+
+	resources={
+		steel = 21
+	}
+	state_category = metropolis
+
+	history={
+		owner = FRA
+		victory_points = { 1145 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+			dockyard = 1
+			1013 = {
+				naval_base = 8
+			}
+			1145 = {
+				naval_base = 8
+			}
+			1160 = {
+				naval_base = 8
+			}
+			4046 = {
+				naval_base = 8
+			}
+			7132 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = ALG
+		add_core_of = FRA
+	}
+
+	provinces={
+		1013 1145 1160 4046 7081 7132 7166 9964 10078 11923 11939 12051 
+	}
+}

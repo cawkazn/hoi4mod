@@ -1,0 +1,23 @@
+state={
+	id=102
+	name= "STATE_102"
+	manpower = 2526682
+
+	state_category = metropolis
+
+	history={
+		owner = CHI
+		victory_points = { 4638 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = KGZ
+	}
+
+	provinces={
+		4488 4578 4581 4638 7243 7486 7600 7657 10353 10452 12329 12471 
+	}
+}

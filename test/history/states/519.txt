@@ -1,0 +1,28 @@
+state={
+	id=519
+	name= "STATE_519"
+	manpower = 545654
+
+	resources={
+		aluminium = 0
+		rubber = 2
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = SCA
+		victory_points = { 4997 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		4997 5028 
+	}
+}

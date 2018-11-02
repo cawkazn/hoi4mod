@@ -1,0 +1,30 @@
+state={
+	id=6
+	name= "STATE_6"
+	manpower = 257158
+
+	resources={
+		aluminium = 2
+		oil = 1
+		steel = 2
+		tungsten = 23
+	}
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		victory_points = { 11001 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ARG
+		add_core_of = BOL
+	}
+
+	provinces={
+		2224 5229 10944 10965 11001 12979 
+	}
+}

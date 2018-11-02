@@ -1,0 +1,29 @@
+state={
+	id=49
+	name= "STATE_49"
+	manpower = 38288
+
+	resources={
+		oil = 1
+	}
+	state_category = rural
+
+	history={
+		owner = X10
+		victory_points = { 3326 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			3326 = {
+				naval_base = 4
+			}
+			air_base = 5
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		3326 
+	}
+}

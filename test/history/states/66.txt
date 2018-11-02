@@ -1,0 +1,26 @@
+state={
+	id=66
+	name= "STATE_66"
+	manpower = 125210
+
+	resources={
+		chromium = 5
+	}
+	state_category = rural
+
+	history={
+		owner = UZB
+		victory_points = { 12218 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = UZB
+	}
+
+	provinces={
+		1384 4542 7224 10205 12218 12250 
+	}
+}

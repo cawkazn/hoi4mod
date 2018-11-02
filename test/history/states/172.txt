@@ -1,0 +1,33 @@
+state={
+	id=172
+	name= "STATE_172"
+	manpower = 602024
+
+	resources={
+		aluminium = 0
+		chromium = 3
+		steel = 5
+	}
+	state_category = town
+
+	history={
+		owner = ENG
+		victory_points = { 10088 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 2
+			10088 = {
+				naval_base = 8
+			}
+			air_base = 1
+		}
+		add_core_of = ENG
+		add_core_of = X44
+	}
+
+	provinces={
+		10088 10116 12063 
+	}
+}

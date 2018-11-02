@@ -1,0 +1,30 @@
+state={
+	id=248
+	name= "STATE_248"
+	manpower = 880966
+
+	resources={
+		steel = 14
+	}
+	state_category = city
+
+	history={
+		owner = FRA
+		victory_points = { 3495 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 4
+			dockyard = 1
+			11600 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		503 3495 3523 3659 9478 9631 9867 11600 11613 
+	}
+}

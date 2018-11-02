@@ -1,0 +1,39 @@
+state={
+	id=524
+	name= "STATE_524"
+	manpower = 1440932
+
+	state_category = large_city
+
+	history={
+		owner = SCA
+		victory_points = { 11105 6 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 1
+			3061 = {
+				naval_base = 4
+			}
+			3083 = {
+				naval_base = 4
+			}
+			3122 = {
+				naval_base = 4
+			}
+			9228 = {
+				naval_base = 4
+			}
+			11105 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+		add_core_of = SCA
+		add_core_of = SOV
+	}
+
+	provinces={
+		32 63 66 67 169 204 3009 3025 3061 3083 3117 3119 3122 3137 3161 3172 6009 6013 6047 6066 6082 6108 6138 6141 6144 6163 6186 6198 9038 9094 9129 9156 9160 9166 9167 9183 9194 9219 9228 11033 11056 11065 11066 11105 11126 11144 11172 11211 
+	}
+}

@@ -1,0 +1,33 @@
+state={
+	id=606
+	name= "STATE_606"
+	manpower = 114914
+
+	resources={
+		oil = 2
+		steel = 2
+	}
+	state_category = rural
+
+	history={
+		owner = URG
+		victory_points = { 10362 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			10347 = {
+				naval_base = 2
+			}
+			10502 = {
+				naval_base = 2
+			}
+			air_base = 5
+		}
+		add_core_of = URG
+	}
+
+	provinces={
+		1613 1626 1641 1654 4457 10347 10362 10502 12336 12440 12468 12481 12496 
+	}
+}

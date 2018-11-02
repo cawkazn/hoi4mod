@@ -1,0 +1,30 @@
+state={
+	id=313
+	name= "STATE_313"
+	manpower = 531996
+
+	resources={
+		rubber = 0
+	}
+	state_category = rural
+
+	history={
+		owner = FRA
+		victory_points = { 12154 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			4421 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1286 1301 1329 1358 1361 1389 2129 4226 4304 4317 4332 4352 4378 4393 4418 4421 5135 7251 7324 7339 7352 7365 7409 7412 7614 10166 10206 10234 10251 10423 10954 10974 11004 11018 12154 12193 12222 12237 12240 12400 12428 12931 
+	}
+}

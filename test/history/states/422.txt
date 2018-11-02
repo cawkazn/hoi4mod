@@ -1,0 +1,37 @@
+state={
+	id=422
+	name= "STATE_422"
+	manpower = 824230
+
+	resources={
+		aluminium = 4
+		steel = 12
+	}
+	state_category = city
+
+	history={
+		owner = X47
+		victory_points = { 362 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 2
+			362 = {
+				naval_base = 10
+			}
+			3380 = {
+				naval_base = 10
+			}
+			9263 = {
+				naval_base = 10
+			}
+			air_base = 1
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		334 362 389 3295 3324 3380 6402 9252 9263 11260 11288 
+	}
+}

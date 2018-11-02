@@ -1,0 +1,23 @@
+state={
+	id=560
+	name= "STATE_560"
+	manpower = 1013398
+
+	state_category = town
+
+	history={
+		owner = SPR
+		victory_points = { 11953 6 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = ALG
+	}
+
+	provinces={
+		1058 1128 1141 1967 4018 4970 5053 7033 7149 9943 9960 9976 10059 11953 12034 12888 
+	}
+}

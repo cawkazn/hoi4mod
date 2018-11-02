@@ -1,0 +1,35 @@
+state={
+	id=408
+	name= "STATE_408"
+	manpower = 400082
+
+	resources={
+		steel = 17
+	}
+	state_category = pastoral
+
+	history={
+		owner = POR
+		victory_points = { 7215 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7215 = {
+				naval_base = 6
+			}
+			9945 = {
+				naval_base = 6
+			}
+			12087 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = MAR
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 
+	}
+}

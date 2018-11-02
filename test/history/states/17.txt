@@ -1,0 +1,29 @@
+state={
+	id=17
+	name= "STATE_17"
+	manpower = 1807162
+
+	resources={
+		aluminium = 0
+		oil = 1
+		steel = 9
+		tungsten = 12
+	}
+	state_category = metropolis
+
+	history={
+		owner = AUS
+		victory_points = { 11666 23 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 8
+			arms_factory = 0
+			air_base = 10
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		704 732 3684 3700 3703 3718 6552 6690 6708 6723 6739 9527 9661 9665 11630 11651 11666 
+	}
+}

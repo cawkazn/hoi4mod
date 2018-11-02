@@ -1,0 +1,32 @@
+state={
+	id=466
+	name= "STATE_466"
+	manpower = 641310
+
+	resources={
+		steel = 2
+	}
+	state_category = rural
+
+	history={
+		owner = SOV
+		victory_points = { 12518 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10598 = {
+				naval_base = 4
+			}
+			12518 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1714 1772 1878 4798 4810 4878 7746 10572 10598 10641 10701 12518 12623 
+	}
+}

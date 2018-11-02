@@ -1,0 +1,29 @@
+state={
+	id=67
+	name= "STATE_67"
+	manpower = 258216
+
+	resources={
+		chromium = 6
+		oil = 3
+		steel = 3
+		tungsten = 5
+	}
+	state_category = pastoral
+
+	history={
+		owner = UZB
+		victory_points = { 12877 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = UZB
+	}
+
+	provinces={
+		7448 7584 7984 10852 12248 12877 
+	}
+}

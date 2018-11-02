@@ -1,0 +1,23 @@
+state={
+	id=342
+	name= "STATE_342"
+	manpower = 163698
+
+	state_category = rural
+
+	history={
+		owner = TKM
+		victory_points = { 1479 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = TKM
+	}
+
+	provinces={
+		1479 1576 1614 4618 7541 10395 10435 12233 12324 12454 12465 12474 
+	}
+}

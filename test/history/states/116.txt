@@ -1,0 +1,23 @@
+state={
+	id=116
+	name= "STATE_116"
+	manpower = 2781252
+
+	state_category = megalopolis
+
+	history={
+		owner = ECU
+		victory_points = { 10942 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = ECU
+	}
+
+	provinces={
+		8149 10942 12869 
+	}
+}

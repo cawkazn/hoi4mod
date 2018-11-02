@@ -1,0 +1,26 @@
+state={
+	id=564
+	name= "STATE_564"
+	manpower = 482288
+
+	resources={
+		chromium = 8
+	}
+	state_category = rural
+
+	history={
+		owner = SPR
+		victory_points = { 1493 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = TKM
+	}
+
+	provinces={
+		756 1493 1632 1649 4482 4549 4958 5003 7560 7618 7635 7924 9605 10357 10414 10485 10742 
+	}
+}

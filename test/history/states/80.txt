@@ -1,0 +1,43 @@
+state={
+	id=80
+	name= "STATE_80"
+	manpower = 8936626
+
+	resources={
+		chromium = 6
+		rubber = 2
+		steel = 26
+		tungsten = 38
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHI
+		victory_points = { 1047 4 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 2
+			1047 = {
+				naval_base = 2
+			}
+			1070 = {
+				naval_base = 2
+			}
+			9963 = {
+				naval_base = 2
+			}
+			11981 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+	}
+
+	provinces={
+		994 1018 1038 1047 1070 1087 1131 1187 4023 4092 4160 7039 7135 7152 9963 10004 10080 10105 11926 11938 11941 11963 11981 11990 12077 12095 
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=423
+	name= "STATE_423"
+	manpower = 955998
+
+	state_category = city
+
+	history={
+		owner = X47
+		victory_points = { 6332 5 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			3288 = {
+				naval_base = 10
+			}
+			6332 = {
+				naval_base = 10
+			}
+			air_base = 2
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		281 348 395 3288 3351 3384 6332 6347 6375 9346 9372 9398 11245 11265 
+	}
+}

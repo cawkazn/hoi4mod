@@ -1,0 +1,40 @@
+state={
+	id=104
+	name= "STATE_104"
+	manpower = 6886502
+
+	resources={
+		aluminium = 4
+		steel = 9
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHL
+		victory_points = { 650 13 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			5191 = {
+				naval_base = 4
+			}
+			8194 = {
+				naval_base = 4
+			}
+			8222 = {
+				naval_base = 4
+			}
+			11000 = {
+				naval_base = 4
+			}
+			air_base = 8
+		}
+		add_core_of = CHL
+	}
+
+	provinces={
+		650 5191 5192 5228 8194 8222 11000 12914 
+	}
+}

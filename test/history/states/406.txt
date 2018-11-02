@@ -1,0 +1,35 @@
+state={
+	id=406
+	name= "STATE_406"
+	manpower = 719396
+
+	resources={
+		aluminium = 5
+		rubber = 1
+	}
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = { 2123 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			2123 = {
+				naval_base = 6
+			}
+			2202 = {
+				naval_base = 6
+			}
+			5164 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		2123 2180 2202 2217 5164 
+	}
+}

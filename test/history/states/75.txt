@@ -1,0 +1,27 @@
+state={
+	id=75
+	name= "STATE_75"
+	manpower = 7564414
+
+	resources={
+		aluminium = 0
+		steel = 3
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHI
+		victory_points = { 11916 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		4066 4079 7085 7094 7126 9937 9995 10040 10079 10098 11916 11973 12036 
+	}
+}

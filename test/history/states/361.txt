@@ -1,0 +1,39 @@
+state={
+	id=361
+	name= "STATE_361"
+	manpower = 2068728
+
+	state_category = metropolis
+
+	history={
+		owner = MEX
+		victory_points = { 12753 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 3
+			4904 = {
+				naval_base = 4
+			}
+			4965 = {
+				naval_base = 4
+			}
+			12715 = {
+				naval_base = 4
+			}
+			12753 = {
+				naval_base = 6
+			}
+			12867 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1900 2021 4904 4965 12715 12753 12867 
+	}
+}

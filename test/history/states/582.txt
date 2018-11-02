@@ -1,0 +1,36 @@
+state={
+	id=582
+	name= "STATE_582"
+	manpower = 261190
+
+	resources={
+		chromium = 6
+	}
+	state_category = pastoral
+
+	history={
+		owner = TUR
+		victory_points = { 6550 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			6550 = {
+				naval_base = 4
+			}
+			8435 = {
+				naval_base = 4
+			}
+			10007 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = GRE
+		add_core_of = TUR
+	}
+
+	provinces={
+		6550 7003 8435 10007 
+	}
+}

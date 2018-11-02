@@ -1,0 +1,64 @@
+state={
+	id=372
+	name= "STATE_372"
+	manpower = 1605030
+
+	resources={
+		rubber = 52
+	}
+	state_category = city
+
+	history={
+		owner = HOL
+		victory_points = { 1574 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1419 = {
+				naval_base = 10
+			}
+			1518 = {
+				naval_base = 8
+			}
+			1574 = {
+				naval_base = 8
+			}
+			4564 = {
+				naval_base = 8
+			}
+			4579 = {
+				naval_base = 8
+			}
+			7598 = {
+				naval_base = 8
+			}
+			10153 = {
+				naval_base = 8
+			}
+			10222 = {
+				naval_base = 8
+			}
+			10263 = {
+				naval_base = 10
+			}
+			10342 = {
+				naval_base = 8
+			}
+			10409 = {
+				naval_base = 8
+			}
+			12330 = {
+				naval_base = 10
+			}
+			12358 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1098 1289 1419 1437 1484 1505 1518 1561 1574 1589 4262 4307 4308 4349 4493 4537 4564 4579 7311 7336 7369 7413 7557 7598 10141 10153 10169 10197 10222 10263 10342 10409 10450 10464 12330 12358 12444 
+	}
+}

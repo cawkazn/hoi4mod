@@ -1,0 +1,26 @@
+state={
+	id=45
+	name= "STATE_45"
+	manpower = 45162
+
+	resources={
+		tungsten = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = BHU
+		victory_points = { 8010 8 }
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BHU
+	}
+
+	provinces={
+		8010 12860 
+	}
+}

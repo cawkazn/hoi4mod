@@ -1,0 +1,42 @@
+state={
+	id=603
+	name= "STATE_603"
+	manpower = 3584068
+
+	resources={
+		chromium = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = U78
+		victory_points = { 12865 9 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 3
+			2031 = {
+				naval_base = 6
+			}
+			8017 = {
+				naval_base = 6
+			}
+			12823 = {
+				naval_base = 6
+			}
+			12865 = {
+				naval_base = 6
+			}
+			13093 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = U78
+	}
+
+	provinces={
+		2031 8017 12823 12865 13093 
+	}
+}

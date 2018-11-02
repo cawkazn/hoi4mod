@@ -1,0 +1,27 @@
+state={
+	id=625
+	name= "STATE_625"
+	manpower = 1773326
+
+	state_category = large_city
+
+	history={
+		owner = USA
+		victory_points = { 3513 6 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 3
+			12281 = {
+				naval_base = 6
+			}
+			air_base = 2
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		505 528 1414 3471 3513 4274 4328 4347 4380 4826 7398 7721 7865 10151 10183 10305 10625 11495 11733 12183 12211 12281 12553 
+	}
+}

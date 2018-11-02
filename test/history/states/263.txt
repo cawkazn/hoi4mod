@@ -1,0 +1,26 @@
+state={
+	id=263
+	name= "STATE_263"
+	manpower = 155504
+
+	state_category = rural
+
+	history={
+		owner = FRA
+		victory_points = { 177 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			177 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		177 
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=403
+	name= "STATE_403"
+	manpower = 359994
+
+	resources={
+		steel = 0
+	}
+	state_category = pastoral
+
+	history={
+		owner = POR
+		victory_points = { 12958 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12958 = {
+				naval_base = 6
+			}
+			12985 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		12958 12985 
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=173
+	name= "STATE_173"
+	manpower = 2840082
+
+	resources={
+		tungsten = 20
+	}
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = { 4971 22 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 2
+			air_base = 10
+		}
+		add_core_of = ENG
+		add_core_of = X23
+		add_core_of = X24
+		add_core_of = X36
+	}
+
+	provinces={
+		1199 1908 2054 2092 4971 7905 7998 10866 12829 
+	}
+}

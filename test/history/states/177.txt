@@ -1,0 +1,38 @@
+state={
+	id=177
+	name= "STATE_177"
+	manpower = 4389158
+
+	resources={
+		aluminium = 4
+		chromium = 6
+		tungsten = 67
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 1349 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 5
+			1349 = {
+				naval_base = 6
+			}
+			7232 = {
+				naval_base = 8
+			}
+			12208 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1349 1405 4072 4278 4291 4353 4395 7119 7177 7205 7232 7250 7411 10019 10210 10270 11993 12105 12142 12182 12208 12269 12295 
+	}
+}

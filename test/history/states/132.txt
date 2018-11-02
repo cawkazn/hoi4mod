@@ -1,0 +1,33 @@
+state={
+	id=132
+	name= "STATE_132"
+	manpower = 368260
+
+	resources={
+		aluminium = 2
+		steel = 12
+	}
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 5069 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5069 = {
+				naval_base = 2
+			}
+			12002 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		1028 1064 1151 4068 4910 5069 7073 7156 11999 12002 12071 12889 
+	}
+}

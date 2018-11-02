@@ -1,0 +1,36 @@
+state={
+	id=162
+	name= "STATE_162"
+	manpower = 1709514
+
+	resources={
+		steel = 11
+	}
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = { 3369 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 2
+			540 = {
+				naval_base = 10
+			}
+			3422 = {
+				naval_base = 10
+			}
+			9484 = {
+				naval_base = 10
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		540 3369 3422 3463 6351 6378 6526 9484 9562 11406 
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=165
+	name= "STATE_165"
+	manpower = 282530
+
+	state_category = rural
+
+	history={
+		owner = ENG
+		victory_points = { 12003 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			12003 = {
+				naval_base = 10
+			}
+			air_base = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		12003 
+	}
+}

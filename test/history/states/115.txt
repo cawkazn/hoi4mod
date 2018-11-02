@@ -1,0 +1,37 @@
+state={
+	id=115
+	name= "STATE_115"
+	manpower = 6142604
+
+	resources={
+		oil = 2
+		rubber = 12
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ECU
+		victory_points = { 12798 14 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			5023 = {
+				naval_base = 8
+			}
+			8047 = {
+				naval_base = 8
+			}
+			8252 = {
+				naval_base = 8
+			}
+			air_base = 8
+		}
+		add_core_of = ECU
+	}
+
+	provinces={
+		5023 5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+}

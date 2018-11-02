@@ -1,0 +1,35 @@
+state={
+	id=371
+	name= "STATE_371"
+	manpower = 131732
+
+	resources={
+		oil = 2
+		rubber = 44
+	}
+	state_category = rural
+
+	history={
+		owner = HOL
+		victory_points = { 7296 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			7227 = {
+				naval_base = 6
+			}
+			7296 = {
+				naval_base = 8
+			}
+			12252 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1225 1416 4409 7227 7296 8221 10138 10178 10282 10310 12110 12252 12280 12955 
+	}
+}

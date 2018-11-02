@@ -1,0 +1,40 @@
+state={
+	id=105
+	name= "STATE_105"
+	manpower = 2644828
+
+	resources={
+		oil = 1
+	}
+	state_category = megalopolis
+
+	history={
+		owner = COL
+		victory_points = { 7630 13 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 7
+			dockyard = 1
+			4611 = {
+				naval_base = 6
+			}
+			4624 = {
+				naval_base = 6
+			}
+			7630 = {
+				naval_base = 6
+			}
+			10482 = {
+				naval_base = 6
+			}
+			air_base = 8
+		}
+		add_core_of = COL
+		add_core_of = PAN
+	}
+
+	provinces={
+		1633 4611 4624 7630 10482 
+	}
+}

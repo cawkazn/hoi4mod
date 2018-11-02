@@ -1,0 +1,40 @@
+state={
+	id=266
+	name= "STATE_266"
+	manpower = 1472092
+
+	resources={
+		steel = 8
+	}
+	state_category = large_city
+
+	history={
+		owner = FRA
+		victory_points = { 9994 11 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 3
+			7005 = {
+				naval_base = 8
+			}
+			9994 = {
+				naval_base = 8
+			}
+			11921 = {
+				naval_base = 8
+			}
+			11969 = {
+				naval_base = 8
+			}
+			air_base = 6
+		}
+		add_core_of = FRA
+		add_core_of = TUN
+	}
+
+	provinces={
+		1037 1046 1105 3987 4061 4129 4163 4992 7005 7077 7162 7180 9983 9994 10026 10082 10091 11921 11935 11957 11969 12000 
+	}
+}

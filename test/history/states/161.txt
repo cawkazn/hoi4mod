@@ -1,0 +1,36 @@
+state={
+	id=161
+	name= "STATE_161"
+	manpower = 2865186
+
+	resources={
+		steel = 5
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 6103 48 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			3501 = {
+				naval_base = 10
+			}
+			6489 = {
+				naval_base = 10
+			}
+			11446 = {
+				naval_base = 10
+			}
+			air_base = 10
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		507 3501 6103 6221 6489 9239 9458 11333 11446 11471 13070 
+	}
+}

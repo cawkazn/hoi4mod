@@ -1,0 +1,33 @@
+state={
+	id=647
+	name= "STATE_647"
+	manpower = 40072
+
+	resources={
+		chromium = 119
+	}
+	state_category = rural
+
+	history={
+		owner = USA
+		victory_points = { 12148 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4268 = {
+				naval_base = 6
+			}
+			12148 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+		add_core_of = USA
+	}
+
+	provinces={
+		1263 4231 4268 7264 10160 10188 12132 12148 
+	}
+}

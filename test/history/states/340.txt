@@ -1,0 +1,28 @@
+state={
+	id=340
+	name= "STATE_340"
+	manpower = 190860
+
+	resources={
+		rubber = 475
+		steel = 18
+		tungsten = 173
+	}
+	state_category = pastoral
+
+	history={
+		owner = X26
+		victory_points = { 10313 8 }
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X26
+	}
+
+	provinces={
+		1364 1376 1392 4310 4367 4384 4412 4424 7399 10297 10313 12215 12255 12271 
+	}
+}

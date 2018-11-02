@@ -1,0 +1,33 @@
+state={
+	id=655
+	name= "STATE_655"
+	manpower = 6819696
+
+	resources={
+		oil = 43
+	}
+	state_category = megalopolis
+
+	history={
+		owner = VEN
+		victory_points = { 8113 19 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 7
+			arms_factory = 4
+			dockyard = 1
+			7968 = {
+				naval_base = 8
+			}
+			8113 = {
+				naval_base = 8
+			}
+			air_base = 10
+		}
+		add_core_of = VEN
+	}
+
+	provinces={
+		4892 4942 5000 5056 7968 8024 8080 8113 
+	}
+}

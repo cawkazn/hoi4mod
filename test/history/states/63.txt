@@ -1,0 +1,36 @@
+state={
+	id=63
+	name= "STATE_63"
+	manpower = 409314
+
+	resources={
+		steel = 11
+		tungsten = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = BRA
+		victory_points = { 2182 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			2210 = {
+				naval_base = 4
+			}
+			5131 = {
+				naval_base = 4
+			}
+			13086 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2182 2210 5131 5202 10940 13086 
+	}
+}

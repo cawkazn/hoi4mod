@@ -1,0 +1,33 @@
+state={
+	id=153
+	name= "STATE_153"
+	manpower = 2013340
+
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 7394 9 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 8
+			arms_factory = 0
+			dockyard = 4
+			6289 = {
+				naval_base = 6
+			}
+			7394 = {
+				naval_base = 6
+			}
+			11237 = {
+				naval_base = 2
+			}
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 
+	}
+}

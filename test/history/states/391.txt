@@ -1,0 +1,32 @@
+state={
+	id=391
+	name= "STATE_391"
+	manpower = 2444880
+
+	resources={
+		oil = 8
+	}
+	state_category = metropolis
+
+	history={
+		owner = PRU
+		victory_points = { 12969 6 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 6
+			2156 = {
+				naval_base = 8
+			}
+			8199 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2156 5162 8199 12969 
+	}
+}

@@ -1,0 +1,35 @@
+state={
+	id=184
+	name= "STATE_184"
+	manpower = 787380
+
+	resources={
+		rubber = 2
+		steel = 4
+		tungsten = 4
+	}
+	state_category = large_town
+
+	history={
+		owner = ENG
+		victory_points = { 1403 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			1403 = {
+				naval_base = 2
+			}
+			12292 = {
+				naval_base = 4
+			}
+			air_base = 1
+		}
+		add_core_of = BUR
+		add_core_of = ENG
+	}
+
+	provinces={
+		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292 
+	}
+}

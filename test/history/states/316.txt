@@ -1,0 +1,47 @@
+state={
+	id=316
+	name= "STATE_316"
+	manpower = 1062926
+
+	resources={
+		oil = 1
+	}
+	state_category = town
+
+	history={
+		owner = FRA
+		victory_points = { 2029 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1920 = {
+				naval_base = 4
+			}
+			2029 = {
+				naval_base = 4
+			}
+			5074 = {
+				naval_base = 2
+			}
+			8000 = {
+				naval_base = 4
+			}
+			10752 = {
+				naval_base = 4
+			}
+			12821 = {
+				naval_base = 4
+			}
+			13079 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1920 1973 2029 4924 4976 5074 8000 10752 10840 12821 12894 13079 
+	}
+}

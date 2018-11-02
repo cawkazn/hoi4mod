@@ -1,0 +1,46 @@
+state={
+	id=333
+	name= "STATE_333"
+	manpower = 2412064
+
+	resources={
+		steel = 24
+		tungsten = 10
+	}
+	state_category = metropolis
+
+	history={
+		owner = JAP
+		victory_points = { 10125 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			1117 = {
+				naval_base = 6
+			}
+			7087 = {
+				naval_base = 2
+			}
+			7102 = {
+				naval_base = 6
+			}
+			10032 = {
+				naval_base = 6
+			}
+			10125 = {
+				naval_base = 2
+			}
+			10128 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		998 1117 4069 4172 7087 7102 7157 7187 7217 9952 10015 10032 10100 10125 10128 11930 11989 12007 12072 12097 
+	}
+}

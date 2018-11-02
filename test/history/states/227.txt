@@ -1,0 +1,26 @@
+state={
+	id=227
+	name= "STATE_227"
+	manpower = 862922
+
+	resources={
+		rubber = 2
+	}
+	state_category = rural
+
+	history={
+		owner = ENG
+		victory_points = { 8048 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		988 7219 7931 8048 10071 10883 10951 12741 12824 
+	}
+}

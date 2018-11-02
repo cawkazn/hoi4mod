@@ -1,0 +1,28 @@
+state={
+	id=214
+	name= "STATE_214"
+	manpower = 2004476
+
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = { 3456 11 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 0
+			dockyard = 2
+			3456 = {
+				naval_base = 4
+			}
+			air_base = 7
+		}
+		add_core_of = ENG
+		add_core_of = X52
+	}
+
+	provinces={
+		1147 1971 1980 3456 4003 4110 4382 7049 7084 10108 10735 
+	}
+}

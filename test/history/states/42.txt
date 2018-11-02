@@ -1,0 +1,31 @@
+state={
+	id=42
+	name= "STATE_42"
+	manpower = 2564488
+
+	resources={
+		oil = 0
+		steel = 43
+	}
+	state_category = megalopolis
+
+	history={
+		owner = BEL
+		victory_points = { 516 13 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+			dockyard = 4
+			6446 = {
+				naval_base = 6
+			}
+			air_base = 7
+		}
+		add_core_of = BEL
+	}
+
+	provinces={
+		480 516 6446 6560 6598 9574 11419 13068 
+	}
+}

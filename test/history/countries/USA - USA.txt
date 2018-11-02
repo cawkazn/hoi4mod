@@ -1,0 +1,474 @@
+﻿capital = 619
+set_research_slots = 4
+add_named_threat = { threat = 0.3837 name = infamy }
+
+oob = "USA_OOB"
+
+# Starting tech
+set_technology = {
+basic_battleship = 1
+basic_destroyer = 1
+basic_heavy_cruiser = 1
+basic_light_cruiser = 1
+basic_light_tank = 1
+early_battleship = 1
+early_bomber = 1
+early_destroyer = 1
+early_fighter = 1
+early_heavy_cruiser = 1
+early_light_cruiser = 1
+early_submarine = 1
+fighter1 = 1
+gw_artillery = 1
+gwtank = 1
+improved_light_tank = 1
+infantry_weapons = 1
+interwar_antiair = 1
+interwar_artillery = 1
+marines = 1
+motorised_infantry = 1
+tactical_bomber1 = 1
+tech_support = 1
+transport = 1
+}
+
+# Research Bonuses
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_battlefield_support name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_grand_battle_plan name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_mass_assault name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_mobile_warfare name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_operational_integrity name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_strategic_destruction name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_superior_firepower name = doctrine_bonus }
+set_convoys = 35
+
+
+set_politics = {
+
+    parties = {
+        absolutist = {
+            popularity = 7
+        }
+        democratic = {
+            popularity = 71
+        }
+        neutrality = {
+            popularity = 22
+        }
+    }
+    
+    ruling_party = democratic
+    last_election = "1935.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = AUS modifier = negative_35 }
+add_opinion_modifier = { target = BEL modifier = negative_135 }
+add_opinion_modifier = { target = BHU modifier = negative_50 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = positive_115 }
+add_opinion_modifier = { target = BUR modifier = positive_30 }
+add_opinion_modifier = { target = CAM modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = negative_200 }
+add_opinion_modifier = { target = CHL modifier = positive_0 }
+add_opinion_modifier = { target = COL modifier = positive_128 }
+add_opinion_modifier = { target = ECU modifier = positive_55 }
+add_opinion_modifier = { target = EGY modifier = positive_10 }
+add_opinion_modifier = { target = ENG modifier = negative_125 }
+add_opinion_modifier = { target = ETH modifier = negative_200 }
+add_opinion_modifier = { target = FRA modifier = negative_200 }
+add_opinion_modifier = { target = GRE modifier = positive_5 }
+add_opinion_modifier = { target = HAI modifier = positive_105 }
+add_opinion_modifier = { target = HOL modifier = positive_40 }
+add_opinion_modifier = { target = JAP modifier = positive_30 }
+add_opinion_modifier = { target = KGZ modifier = negative_60 }
+add_opinion_modifier = { target = KOR modifier = positive_115 }
+add_opinion_modifier = { target = LIB modifier = positive_0 }
+add_opinion_modifier = { target = LUX modifier = positive_5 }
+add_opinion_modifier = { target = MDA modifier = positive_5 }
+add_opinion_modifier = { target = MEX modifier = negative_199 }
+add_opinion_modifier = { target = MNT modifier = positive_5 }
+add_opinion_modifier = { target = NEP modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = positive_0 }
+add_opinion_modifier = { target = PAR modifier = positive_0 }
+add_opinion_modifier = { target = POR modifier = positive_45 }
+add_opinion_modifier = { target = PRU modifier = negative_200 }
+add_opinion_modifier = { target = SCA modifier = positive_80 }
+add_opinion_modifier = { target = SER modifier = positive_20 }
+add_opinion_modifier = { target = SIA modifier = positive_40 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SPR modifier = negative_130 }
+add_opinion_modifier = { target = SWI modifier = positive_30 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = TKM modifier = negative_60 }
+add_opinion_modifier = { target = TUR modifier = negative_200 }
+add_opinion_modifier = { target = U78 modifier = positive_133 }
+add_opinion_modifier = { target = URG modifier = positive_0 }
+add_opinion_modifier = { target = UZB modifier = negative_50 }
+add_opinion_modifier = { target = VAT modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = positive_30 }
+add_opinion_modifier = { target = VIN modifier = negative_105 }
+add_opinion_modifier = { target = X00 modifier = positive_40 }
+add_opinion_modifier = { target = X02 modifier = positive_5 }
+add_opinion_modifier = { target = X04 modifier = negative_10 }
+add_opinion_modifier = { target = X05 modifier = positive_5 }
+add_opinion_modifier = { target = X07 modifier = negative_10 }
+add_opinion_modifier = { target = X08 modifier = negative_10 }
+add_opinion_modifier = { target = X09 modifier = positive_20 }
+add_opinion_modifier = { target = X10 modifier = positive_20 }
+add_opinion_modifier = { target = X12 modifier = positive_40 }
+add_opinion_modifier = { target = X13 modifier = positive_40 }
+add_opinion_modifier = { target = X15 modifier = positive_20 }
+add_opinion_modifier = { target = X16 modifier = positive_20 }
+add_opinion_modifier = { target = X18 modifier = positive_40 }
+add_opinion_modifier = { target = X19 modifier = positive_40 }
+add_opinion_modifier = { target = X20 modifier = positive_60 }
+add_opinion_modifier = { target = X22 modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X26 modifier = negative_200 }
+add_opinion_modifier = { target = X27 modifier = negative_10 }
+add_opinion_modifier = { target = X28 modifier = positive_15 }
+add_opinion_modifier = { target = X30 modifier = positive_20 }
+add_opinion_modifier = { target = X31 modifier = positive_20 }
+add_opinion_modifier = { target = X32 modifier = positive_0 }
+add_opinion_modifier = { target = X34 modifier = positive_20 }
+add_opinion_modifier = { target = X35 modifier = positive_0 }
+add_opinion_modifier = { target = X37 modifier = positive_5 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = positive_20 }
+add_opinion_modifier = { target = X42 modifier = positive_20 }
+add_opinion_modifier = { target = X43 modifier = positive_20 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X45 modifier = negative_180 }
+add_opinion_modifier = { target = X46 modifier = positive_5 }
+add_opinion_modifier = { target = X47 modifier = positive_50 }
+add_opinion_modifier = { target = X48 modifier = positive_20 }
+add_opinion_modifier = { target = X49 modifier = positive_20 }
+add_opinion_modifier = { target = X50 modifier = positive_5 }
+add_opinion_modifier = { target = X51 modifier = negative_10 }
+add_opinion_modifier = { target = X53 modifier = positive_20 }
+add_opinion_modifier = { target = X54 modifier = positive_0 }
+add_opinion_modifier = { target = X55 modifier = positive_5 }
+add_opinion_modifier = { target = X56 modifier = positive_20 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+
+
+add_ideas = {
+	great_power
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_yankee
+}
+set_stability = 0.60
+set_war_support = 0.62
+create_country_leader = {
+    name = "Russell Barkhauer"
+    desc = "POLITICS_RUSSELL_BARKHAUER_DESC"
+    picture = "gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+    }
+}
+create_corps_commander = {
+	name = "Isaac Asboth"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Chester Blunt"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Christopher Barkhauer"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John Crittenden"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Benjamin Anderson"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Samuel Sedgwick"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Isaac Abbott"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Edward Arthur"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Christopher Forsyth"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nathaniel Potter"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Amos Meade"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joshua Chipman"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Chester Barkhauer"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Russell Barnum"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Christopher Farnsworth"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jeffrey Asboth"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mark Bradley"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Norton Caldwell"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Abner Armstrong"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joshua Fry"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lafayette Barnes"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Randolph Reynolds"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lafayette Stone"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Amos Hunter"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Matthew Heintzelman"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Lafayette Chapman"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Luke Sedgwick"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Alexander Allen"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "William Mitchell"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+

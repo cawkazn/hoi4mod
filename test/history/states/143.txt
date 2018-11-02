@@ -1,0 +1,28 @@
+state={
+	id=143
+	name= "STATE_143"
+	manpower = 1350458
+
+	resources={
+		oil = 4
+		steel = 4
+		tungsten = 13
+	}
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = { 12603 6 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		736 1671 1788 3481 3498 3769 3800 4695 4739 6779 9669 10552 10611 10656 11440 12593 12603 12663 12682 
+	}
+}

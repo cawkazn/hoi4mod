@@ -1,0 +1,23 @@
+state={
+	id=71
+	name= "STATE_71"
+	manpower = 181464
+
+	state_category = rural
+
+	history={
+		owner = BUR
+		victory_points = { 4613 6 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = LAO
+	}
+
+	provinces={
+		1374 1563 1577 4339 4554 4568 4613 7075 7103 7218 7356 7426 9961 10238 10496 12210 12392 12433 
+	}
+}

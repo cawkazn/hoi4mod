@@ -1,0 +1,26 @@
+state={
+	id=339
+	name= "STATE_339"
+	manpower = 645856
+
+	resources={
+		tungsten = 9
+	}
+	state_category = rural
+
+	history={
+		owner = X25
+		victory_points = { 4984 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		4149 4984 10847 12886 
+	}
+}

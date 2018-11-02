@@ -1,0 +1,42 @@
+state={
+	id=355
+	name= "STATE_355"
+	manpower = 2552508
+
+	resources={
+		rubber = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = MEX
+		victory_points = { 10765 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 10
+			arms_factory = 0
+			dockyard = 2
+			4908 = {
+				naval_base = 6
+			}
+			8119 = {
+				naval_base = 6
+			}
+			10848 = {
+				naval_base = 4
+			}
+			12461 = {
+				naval_base = 4
+			}
+			12833 = {
+				naval_base = 4
+			}
+			air_base = 3
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1892 1904 2069 4908 4977 7964 8012 8033 8119 10765 10848 12461 12736 12833 12859 
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=609
+	name= "STATE_609"
+	manpower = 1175160
+
+	resources={
+		oil = 42
+	}
+	state_category = large_city
+
+	history={
+		owner = USA
+		victory_points = { 1352 6 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1352 1753 4586 4740 4757 4811 4814 4871 7834 7892 9802 10340 10532 12024 12513 
+	}
+}

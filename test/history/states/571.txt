@@ -1,0 +1,28 @@
+state={
+	id=571
+	name= "STATE_571"
+	manpower = 2434600
+
+	resources={
+		aluminium = 2
+		chromium = 65
+		steel = 13
+	}
+	state_category = metropolis
+
+	history={
+		owner = X53
+		victory_points = { 10400 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X53
+	}
+
+	provinces={
+		1688 2171 2213 5106 5217 7900 10400 10566 
+	}
+}

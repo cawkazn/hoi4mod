@@ -1,0 +1,26 @@
+state={
+	id=420
+	name= "STATE_420"
+	manpower = 185704
+
+	resources={
+		aluminium = 2
+	}
+	state_category = rural
+
+	history={
+		owner = X47
+		victory_points = { 519 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		519 694 
+	}
+}

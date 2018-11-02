@@ -1,0 +1,38 @@
+state={
+	id=500
+	name= "STATE_500"
+	manpower = 458400
+
+	resources={
+		aluminium = 8
+	}
+	state_category = town
+
+	history={
+		owner = SCA
+		victory_points = { 6235 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			399 = {
+				naval_base = 8
+			}
+			3277 = {
+				naval_base = 6
+			}
+			6235 = {
+				naval_base = 10
+			}
+			6364 = {
+				naval_base = 8
+			}
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		316 394 399 3206 3277 3341 6235 6364 
+	}
+}

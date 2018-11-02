@@ -1,0 +1,27 @@
+state={
+	id=538
+	name= "STATE_538"
+	manpower = 26038
+
+	resources={
+		steel = 1
+		tungsten = 1
+	}
+	state_category = pastoral
+
+	history={
+		owner = X51
+		victory_points = { 4435 8 }
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X51
+	}
+
+	provinces={
+		4435 
+	}
+}

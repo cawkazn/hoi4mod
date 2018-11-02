@@ -1,0 +1,26 @@
+state={
+	id=367
+	name= "STATE_367"
+	manpower = 291726
+
+	resources={
+		chromium = 2
+	}
+	state_category = rural
+
+	history={
+		owner = NEP
+		victory_points = { 4987 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = NEP
+	}
+
+	provinces={
+		4386 4987 5310 7374 10825 10910 12892 
+	}
+}

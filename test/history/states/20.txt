@@ -1,0 +1,27 @@
+state={
+	id=20
+	name= "STATE_20"
+	manpower = 2296308
+
+	resources={
+		oil = 2
+		steel = 13
+	}
+	state_category = large_city
+
+	history={
+		owner = AUS
+		victory_points = { 3569 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 3
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		421 557 569 3414 3553 3569 3583 6485 6562 6576 6590 9412 9551 9567 11511 
+	}
+}

@@ -1,0 +1,44 @@
+state={
+	id=338
+	name= "STATE_338"
+	manpower = 2044338
+
+	resources={
+		steel = 24
+	}
+	state_category = large_city
+
+	history={
+		owner = JAP
+		victory_points = { 6994 4 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			1024 = {
+				naval_base = 2
+			}
+			4067 = {
+				naval_base = 4
+			}
+			6870 = {
+				naval_base = 2
+			}
+			6994 = {
+				naval_base = 2
+			}
+			7169 = {
+				naval_base = 2
+			}
+			9865 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+	}
+}

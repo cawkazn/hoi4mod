@@ -1,0 +1,39 @@
+state={
+	id=347
+	name= "STATE_347"
+	manpower = 738676
+
+	resources={
+		steel = 6
+		tungsten = 2
+	}
+	state_category = rural
+
+	history={
+		owner = KOR
+		victory_points = { 11948 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1177 = {
+				naval_base = 2
+			}
+			4056 = {
+				naval_base = 2
+			}
+			7121 = {
+				naval_base = 2
+			}
+			11948 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = KOR
+	}
+
+	provinces={
+		1054 1081 1177 4056 4086 4126 7121 10085 10110 11948 12060 12085 12089 
+	}
+}

@@ -1,0 +1,925 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Armored Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Assault Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		light_armor = { x = 4 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Assault Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "VEN"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "VEN"
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "VEN"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "VEN"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "VEN"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "VEN"
+		}
+		requested_factories = 10
+		progress = 0.50
+		amount = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Infantry Brigade"
+		location = 8113
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 8113
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 8113
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 1944
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7968
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 7968
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 7968
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 8113
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 8113
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 7968
+		location = 7968
+		ship = {
+			name = "Almirante Brión"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Francisco de Miranda"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "General Falcón"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "General Páez"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "General Zamora"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Guaicaipuro"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Mariscal Sucre"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Simón Bolivar"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Tamanaco"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Venezuela"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "4th Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "4th Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "4th Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "4th San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "5th Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "5th Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "5th Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "5th San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "6th Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "6th Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "6th Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "6th San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "7th Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "7th Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "7th Cumana Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "7th San Felipe Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "8th Maracaibo Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "8th Coro Dreadnought"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Caroní"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Casiquiare"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Aragua"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "General Salom"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Cumaná"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Maracaibo"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Orinoco"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Restaurador"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Sucre"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st Maracaibo Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st Coro Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd Maracaibo Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "Zulia"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd Coro Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd Maracaibo Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "1st Cumana Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd Coro Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "4th Maracaibo Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "2nd Cumana Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "4th Coro Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+		ship = {
+			name = "3rd Cumana Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = VEN
+				}
+			}
+		}
+	}
+}

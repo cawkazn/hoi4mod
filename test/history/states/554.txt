@@ -1,0 +1,39 @@
+state={
+	id=554
+	name= "STATE_554"
+	manpower = 1447952
+
+	resources={
+		chromium = 160
+		steel = 4
+	}
+	state_category = city
+
+	history={
+		owner = SPR
+		victory_points = { 7622 6 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			7451 = {
+				naval_base = 4
+			}
+			7546 = {
+				naval_base = 4
+			}
+			7590 = {
+				naval_base = 4
+			}
+			7622 = {
+				naval_base = 4
+			}
+			air_base = 5
+		}
+		add_core_of = CUB
+	}
+
+	provinces={
+		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347 
+	}
+}

@@ -1,0 +1,36 @@
+state={
+	id=269
+	name= "STATE_269"
+	manpower = 764472
+
+	resources={
+		chromium = 7
+	}
+	state_category = large_town
+
+	history={
+		owner = FRA
+		victory_points = { 8188 9 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			5222 = {
+				naval_base = 2
+			}
+			8188 = {
+				naval_base = 2
+			}
+			10993 = {
+				naval_base = 2
+			}
+			air_base = 5
+		}
+		add_core_of = FRA
+		add_core_of = MAD
+	}
+
+	provinces={
+		5128 5222 8188 10993 
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=398
+	name= "STATE_398"
+	manpower = 318674
+
+	state_category = pastoral
+
+	history={
+		owner = POR
+		victory_points = { 1273 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1273 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1273 
+	}
+}

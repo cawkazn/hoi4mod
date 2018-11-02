@@ -1,0 +1,47 @@
+state={
+	id=337
+	name= "STATE_337"
+	manpower = 2992544
+
+	resources={
+		chromium = 88
+	}
+	state_category = megalopolis
+
+	history={
+		owner = JAP
+		victory_points = { 7110 5 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			1020 = {
+				naval_base = 2
+			}
+			4102 = {
+				naval_base = 2
+			}
+			7110 = {
+				naval_base = 2
+			}
+			7115 = {
+				naval_base = 4
+			}
+			9950 = {
+				naval_base = 2
+			}
+			10124 = {
+				naval_base = 4
+			}
+			11925 = {
+				naval_base = 2
+			}
+			air_base = 1
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1020 1025 1123 1158 1183 4027 4102 4164 4198 7110 7115 7178 9950 10011 10020 10092 10124 11925 11932 11949 12006 12032 
+	}
+}

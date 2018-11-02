@@ -1,0 +1,29 @@
+state={
+	id=558
+	name= "STATE_558"
+	manpower = 1377904
+
+	resources={
+		steel = 15
+	}
+	state_category = large_town
+
+	history={
+		owner = SPR
+		victory_points = { 13077 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4116 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = ALG
+	}
+
+	provinces={
+		3991 4116 4131 4146 4150 7008 7040 7065 10045 12018 12020 12760 13074 13077 
+	}
+}

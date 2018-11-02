@@ -1,0 +1,27 @@
+state={
+	id=487
+	name= "STATE_487"
+	manpower = 1353440
+
+	resources={
+		chromium = 3
+	}
+	state_category = large_town
+
+	history={
+		owner = SOV
+		victory_points = { 10837 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = PER
+		add_core_of = SOV
+	}
+
+	provinces={
+		7969 8093 10837 10922 12704 12818 
+	}
+}

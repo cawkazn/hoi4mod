@@ -1,0 +1,27 @@
+state={
+	id=433
+	name= "STATE_433"
+	manpower = 1356844
+
+	resources={
+		steel = 20
+	}
+	state_category = large_town
+
+	history={
+		owner = SOV
+		victory_points = { 493 4 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = POL
+		add_core_of = SOV
+	}
+
+	provinces={
+		493 548 562 584 3458 3482 3497 3586 6401 6416 9439 9508 9546 11428 11430 11515 11532 
+	}
+}

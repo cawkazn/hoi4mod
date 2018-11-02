@@ -1,0 +1,30 @@
+state={
+	id=481
+	name= "STATE_481"
+	manpower = 786138
+
+	state_category = rural
+
+	history={
+		owner = SOV
+		victory_points = { 10472 4 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			3653 = {
+				naval_base = 4
+			}
+			11753 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = SOV
+		add_core_of = TUR
+	}
+
+	provinces={
+		789 864 3653 4583 6935 7454 7470 10403 10472 11753 12376 
+	}
+}

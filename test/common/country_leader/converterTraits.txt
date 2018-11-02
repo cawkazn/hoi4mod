@@ -1,0 +1,40 @@
+leader_traits = {
+	absolutist_minister= {
+		random = no
+		# Boosts Absolutism
+		absolutist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	democratic_minister= {
+		random = no
+		# Boosts Democracy
+		sprite = 13
+		democratic_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	anti_democrat= {
+		random = no
+		democratic_acceptance = -50
+		democratic_drift = -0.02
+		stability_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	neutrality_minister= {
+		random = no
+		sprite = 13
+		neutrality_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

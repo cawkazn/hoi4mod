@@ -1,0 +1,31 @@
+state={
+	id=503
+	name= "STATE_503"
+	manpower = 686918
+
+	state_category = city
+
+	history={
+		owner = SCA
+		victory_points = { 6336 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			6336 = {
+				naval_base = 10
+			}
+			9335 = {
+				naval_base = 8
+			}
+			air_base = 1
+		}
+		add_core_of = HOL
+		add_core_of = SCA
+	}
+
+	provinces={
+		6286 6336 9309 9335 9403 11318 
+	}
+}

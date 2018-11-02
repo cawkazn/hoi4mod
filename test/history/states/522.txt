@@ -1,0 +1,38 @@
+state={
+	id=522
+	name= "STATE_522"
+	manpower = 433940
+
+	resources={
+		aluminium = 0
+		oil = 0
+		steel = 1
+	}
+	state_category = pastoral
+
+	history={
+		owner = SCA
+		victory_points = { 5037 8 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			8073 = {
+				naval_base = 4
+			}
+			12101 = {
+				naval_base = 4
+			}
+			12883 = {
+				naval_base = 4
+			}
+			air_base = 6
+		}
+		add_core_of = SCA
+		add_core_of = X17
+	}
+
+	provinces={
+		1033 1923 2027 2033 2090 2095 4981 5006 5037 7934 8073 8092 10748 10786 10835 12101 12455 12758 12883 
+	}
+}

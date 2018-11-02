@@ -1,0 +1,30 @@
+state={
+	id=393
+	name= "STATE_393"
+	manpower = 3172512
+
+	resources={
+		steel = 5
+		tungsten = 0
+	}
+	state_category = megalopolis
+
+	history={
+		owner = PRU
+		victory_points = { 2225 6 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 0
+			2225 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2225 5166 8160 8191 12953 
+	}
+}

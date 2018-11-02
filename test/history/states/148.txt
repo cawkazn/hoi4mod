@@ -1,0 +1,30 @@
+state={
+	id=148
+	name= "STATE_148"
+	manpower = 1852838
+
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 1424 8 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 4
+			dockyard = 2
+			1424 = {
+				naval_base = 2
+			}
+			7361 = {
+				naval_base = 4
+			}
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		634 1354 1424 4285 4342 4360 4362 4430 4432 4623 7304 7361 7379 7644 10244 12289 
+	}
+}

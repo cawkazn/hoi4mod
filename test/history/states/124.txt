@@ -1,0 +1,29 @@
+state={
+	id=124
+	name= "STATE_124"
+	manpower = 43440
+
+	resources={
+		aluminium = 2
+		oil = 0
+		steel = 5
+	}
+	state_category = rural
+
+	history={
+		owner = EGY
+		victory_points = { 8101 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = EGY
+		add_core_of = TUR
+	}
+
+	provinces={
+		5099 7970 8101 10815 10901 
+	}
+}

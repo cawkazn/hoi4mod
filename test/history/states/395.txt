@@ -1,0 +1,30 @@
+state={
+	id=395
+	name= "STATE_395"
+	manpower = 314598
+
+	resources={
+		steel = 8
+		tungsten = 300
+	}
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = { 9817 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			9817 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		724 845 877 889 938 3892 3969 6818 6921 6941 6996 9787 9817 11673 11885 
+	}
+}

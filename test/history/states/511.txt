@@ -1,0 +1,29 @@
+state={
+	id=511
+	name= "STATE_511"
+	manpower = 1151708
+
+	resources={
+		aluminium = 0
+		rubber = 1
+		steel = 0
+	}
+	state_category = town
+
+	history={
+		owner = SCA
+		victory_points = { 4889 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = NIG
+		add_core_of = SCA
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+}

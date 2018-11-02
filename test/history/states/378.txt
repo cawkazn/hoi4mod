@@ -1,0 +1,38 @@
+state={
+	id=378
+	name= "STATE_378"
+	manpower = 613512
+
+	resources={
+		aluminium = 0
+		oil = 4
+		rubber = 49
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = HOL
+		victory_points = { 7658 6 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			7658 = {
+				naval_base = 8
+			}
+			10522 = {
+				naval_base = 8
+			}
+			12488 = {
+				naval_base = 8
+			}
+			air_base = 5
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		1460 1648 4446 4652 7658 7673 8360 10509 10522 12488 
+	}
+}

@@ -1,0 +1,37 @@
+state={
+	id=107
+	name= "STATE_107"
+	manpower = 2641460
+
+	resources={
+		oil = 19
+		steel = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = COL
+		victory_points = { 12845 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 4
+			1937 = {
+				naval_base = 6
+			}
+			10494 = {
+				naval_base = 6
+			}
+			12790 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=360
+	name= "STATE_360"
+	manpower = 3282922
+
+	state_category = megalopolis
+
+	history={
+		owner = MEX
+		victory_points = { 1965 23 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 1
+			dockyard = 2
+			10889 = {
+				naval_base = 4
+			}
+			12810 = {
+				naval_base = 4
+			}
+			air_base = 10
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1965 7913 8089 10732 10773 10889 12810 
+	}
+}

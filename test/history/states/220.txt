@@ -1,0 +1,28 @@
+state={
+	id=220
+	name= "STATE_220"
+	manpower = 1400740
+
+	resources={
+		aluminium = 0
+		rubber = 0
+		steel = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = ENG
+		victory_points = { 12830 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1974 3165 5084 8078 11012 11108 12830 
+	}
+}

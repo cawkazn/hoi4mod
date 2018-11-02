@@ -1,0 +1,28 @@
+state={
+	id=431
+	name= "STATE_431"
+	manpower = 1586286
+
+	resources={
+		oil = 2
+		steel = 17
+	}
+	state_category = city
+
+	history={
+		owner = SOV
+		victory_points = { 3544 10 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 6
+		}
+		add_core_of = POL
+		add_core_of = SOV
+	}
+
+	provinces={
+		402 467 524 3230 3521 3544 3559 6259 6321 6484 6511 6567 6580 9290 9316 9400 9452 9494 9521 9544 11385 11399 11466 11492 12562 
+	}
+}

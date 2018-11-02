@@ -1,0 +1,7 @@
+﻿name = "Converted - test"
+path = "mod/test/"
+user_dir = "test_user_dir"
+replace_path="common/ideologies"
+replace_path="history/countries"
+replace_path="history/states"
+supported_version="1.5.4"

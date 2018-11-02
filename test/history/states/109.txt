@@ -1,0 +1,23 @@
+state={
+	id=109
+	name= "STATE_109"
+	manpower = 2101256
+
+	state_category = megalopolis
+
+	history={
+		owner = COL
+		victory_points = { 10792 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1887 2007 5026 10792 12729 12770 12825 
+	}
+}

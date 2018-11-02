@@ -1,0 +1,26 @@
+state={
+	id=568
+	name= "STATE_568"
+	manpower = 939432
+
+	resources={
+		aluminium = 29
+	}
+	state_category = city
+
+	history={
+		owner = SWI
+		victory_points = { 663 5 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		636 658 661 663 3641 3660 3662 9600 11601 11604 11623 
+	}
+}

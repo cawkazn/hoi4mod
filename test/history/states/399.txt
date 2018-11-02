@@ -1,0 +1,26 @@
+state={
+	id=399
+	name= "STATE_399"
+	manpower = 24348
+
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = { 4189 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4189 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		4189 
+	}
+}

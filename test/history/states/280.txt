@@ -1,0 +1,24 @@
+state={
+	id=280
+	name= "STATE_280"
+	manpower = 235968
+
+	state_category = rural
+	impassable = yes
+
+	history={
+		owner = FRA
+		victory_points = { 10917 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1956 4913 7939 8128 10917 
+	}
+}

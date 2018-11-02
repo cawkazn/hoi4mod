@@ -1,0 +1,29 @@
+state={
+	id=175
+	name= "STATE_175"
+	manpower = 2184174
+
+	resources={
+		aluminium = 2
+		chromium = 1
+		steel = 0
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 7430 8 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 1
+			air_base = 3
+		}
+		add_core_of = ENG
+		add_core_of = X39
+	}
+
+	provinces={
+		7430 7497 10030 12375 12480 12781 
+	}
+}

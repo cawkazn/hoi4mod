@@ -1,0 +1,33 @@
+state={
+	id=537
+	name= "STATE_537"
+	manpower = 949086
+
+	state_category = large_town
+
+	history={
+		owner = X50
+		victory_points = { 4159 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			4014 = {
+				naval_base = 2
+			}
+			4159 = {
+				naval_base = 2
+			}
+			10074 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = X50
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=47
+	name= "STATE_47"
+	manpower = 79902
+
+	resources={
+		oil = 2
+		steel = 1
+		tungsten = 29
+	}
+	state_category = rural
+
+	history={
+		owner = BOL
+		victory_points = { 5179 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2160 5179 10924 10938 10987 12902 12916 12930 12973 
+	}
+}

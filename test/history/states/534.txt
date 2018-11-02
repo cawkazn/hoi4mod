@@ -1,0 +1,29 @@
+state={
+	id=534
+	name= "STATE_534"
+	manpower = 92566
+
+	resources={
+		rubber = 238
+		steel = 10
+		tungsten = 87
+	}
+	state_category = rural
+
+	history={
+		owner = SIA
+		victory_points = { 12144 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = SIA
+		add_core_of = X26
+	}
+
+	provinces={
+		1291 1348 4355 7329 10227 12144 12199 
+	}
+}

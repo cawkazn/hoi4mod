@@ -1,0 +1,27 @@
+state={
+	id=295
+	name= "STATE_295"
+	manpower = 130870
+
+	resources={
+		chromium = 2
+		oil = 1
+	}
+	state_category = rural
+
+	history={
+		owner = FRA
+		victory_points = { 5060 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1960 5060 
+	}
+}

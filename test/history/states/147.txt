@@ -1,0 +1,36 @@
+state={
+	id=147
+	name= "STATE_147"
+	manpower = 3760570
+
+	resources={
+		aluminium = 8
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 4345 14 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 7
+			arms_factory = 5
+			1356 = {
+				naval_base = 2
+			}
+			7683 = {
+				naval_base = 2
+			}
+			12149 = {
+				naval_base = 2
+			}
+			air_base = 9
+		}
+		add_core_of = ENG
+		add_core_of = QUE
+	}
+
+	provinces={
+		490 983 1284 1341 1356 1657 1764 3208 3911 4305 4345 4417 4419 4422 4666 4769 6740 7289 7291 7345 7364 7433 7435 7683 7807 7810 7875 7893 9601 10174 10176 10230 10249 10320 10534 10700 10715 11682 11902 12147 12149 12205 12223 12276 12291 12600 13196 
+	}
+}

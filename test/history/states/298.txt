@@ -1,0 +1,27 @@
+state={
+	id=298
+	name= "STATE_298"
+	manpower = 332778
+
+	resources={
+		steel = 1
+	}
+	state_category = pastoral
+	impassable = yes
+
+	history={
+		owner = FRA
+		victory_points = { 10104 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1057 1140 1994 4191 7985 10104 10754 10785 12866 
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=26
+	name= "STATE_26"
+	manpower = 1368052
+
+	resources={
+		aluminium = 13
+		oil = 26
+	}
+	state_category = large_city
+
+	history={
+		owner = AUS
+		victory_points = { 577 6 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 2
+		}
+		add_core_of = AUS
+		add_core_of = MDA
+	}
+
+	provinces={
+		438 462 491 577 3434 3483 3562 3743 6431 6460 6483 9425 9454 9548 11411 11427 11550 
+	}
+}

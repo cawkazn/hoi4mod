@@ -1,0 +1,32 @@
+state={
+	id=478
+	name= "STATE_478"
+	manpower = 437190
+
+	state_category = pastoral
+
+	history={
+		owner = SOV
+		victory_points = { 12683 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1865 = {
+				naval_base = 4
+			}
+			12551 = {
+				naval_base = 4
+			}
+			12683 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1865 11607 12551 12683 
+	}
+}

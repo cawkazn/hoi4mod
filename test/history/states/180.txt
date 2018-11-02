@@ -1,0 +1,29 @@
+state={
+	id=180
+	name= "STATE_180"
+	manpower = 3178982
+
+	resources={
+		chromium = 10
+		tungsten = 61
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 4315 12 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 1
+			air_base = 8
+		}
+		add_core_of = ENG
+		add_core_of = X38
+	}
+
+	provinces={
+		1412 4315 4344 7244 7395 8011 8100 10190 10208 12146 12734 
+	}
+}

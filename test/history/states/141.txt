@@ -1,0 +1,37 @@
+state={
+	id=141
+	name= "STATE_141"
+	manpower = 2490368
+
+	resources={
+		oil = 21
+		tungsten = 50
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 1408 8 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 4
+			1408 = {
+				naval_base = 4
+			}
+			1799 = {
+				naval_base = 4
+			}
+			7259 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		917 1214 1323 1393 1408 1411 1420 1737 1799 1858 1869 1872 4343 4385 4413 4428 4678 4870 4877 7259 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12259 12272 12508 12571 12578 
+	}
+}

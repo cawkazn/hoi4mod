@@ -1,0 +1,26 @@
+state={
+	id=103
+	name= "STATE_103"
+	manpower = 379698
+
+	resources={
+		chromium = 7
+	}
+	state_category = pastoral
+
+	history={
+		owner = CHI
+		victory_points = { 1459 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = KGZ
+	}
+
+	provinces={
+		1459 10187 11687 
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=123
+	name= "STATE_123"
+	manpower = 292370
+
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 7176 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4088 = {
+				naval_base = 2
+			}
+			4206 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = EGY
+		add_core_of = TUR
+	}
+
+	provinces={
+		1015 1086 1201 4088 4206 7107 7176 11970 
+	}
+}

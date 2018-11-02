@@ -1,0 +1,42 @@
+state={
+	id=380
+	name= "STATE_380"
+	manpower = 173832
+
+	resources={
+		chromium = 2
+		oil = 2
+	}
+	state_category = rural
+
+	history={
+		owner = OMA
+		victory_points = { 10760 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			2103 = {
+				naval_base = 2
+			}
+			4993 = {
+				naval_base = 2
+			}
+			8002 = {
+				naval_base = 2
+			}
+			8020 = {
+				naval_base = 2
+			}
+			10760 = {
+				naval_base = 2
+			}
+			air_base = 5
+		}
+		add_core_of = OMA
+	}
+
+	provinces={
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+	}
+}

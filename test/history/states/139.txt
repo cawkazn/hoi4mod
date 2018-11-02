@@ -1,0 +1,26 @@
+state={
+	id=139
+	name= "STATE_139"
+	manpower = 453392
+
+	resources={
+		rubber = 1
+	}
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 10734 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		2009 4954 7912 10734 12856 
+	}
+}

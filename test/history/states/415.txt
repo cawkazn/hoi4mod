@@ -1,0 +1,26 @@
+state={
+	id=415
+	name= "STATE_415"
+	manpower = 1504344
+
+	resources={
+		aluminium = 24
+	}
+	state_category = metropolis
+
+	history={
+		owner = X47
+		victory_points = { 6521 14 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 8
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		375 444 478 537 3207 3312 3367 3473 3499 3572 6236 6521 9387 9428 9496 11219 11415 11444 11478 11505 
+	}
+}

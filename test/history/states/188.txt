@@ -1,0 +1,35 @@
+state={
+	id=188
+	name= "STATE_188"
+	manpower = 1180242
+
+	resources={
+		aluminium = 5
+		rubber = 2
+	}
+	state_category = city
+
+	history={
+		owner = ENG
+		victory_points = { 10862 5 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+			10862 = {
+				naval_base = 2
+			}
+			12742 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = ENG
+		add_core_of = HOL
+	}
+
+	provinces={
+		8039 8096 10862 12742 12787 
+	}
+}

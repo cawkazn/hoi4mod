@@ -1,0 +1,39 @@
+state={
+	id=312
+	name= "STATE_312"
+	manpower = 1310642
+
+	resources={
+		chromium = 59
+		rubber = 4
+	}
+	state_category = large_town
+
+	history={
+		owner = FRA
+		victory_points = { 4329 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 2
+			1237 = {
+				naval_base = 2
+			}
+			1242 = {
+				naval_base = 2
+			}
+			1269 = {
+				naval_base = 2
+			}
+			4329 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1042 1085 1222 1237 1242 1269 1283 1310 1370 4247 4252 4289 4292 4329 4346 4635 7305 7333 7349 7362 7378 7390 7437 10147 10231 10248 10260 10291 10319 12107 12120 12123 12135 12265 12484 12995 
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=281
+	name= "STATE_281"
+	manpower = 127504
+
+	state_category = pastoral
+
+	history={
+		owner = FRA
+		victory_points = { 1126 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1126 
+	}
+}

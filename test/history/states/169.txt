@@ -1,0 +1,38 @@
+state={
+	id=169
+	name= "STATE_169"
+	manpower = 11842498
+
+	resources={
+		rubber = 0
+		steel = 7
+		tungsten = 5
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 4245 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 1
+			4245 = {
+				naval_base = 8
+			}
+			9935 = {
+				naval_base = 8
+			}
+			9991 = {
+				naval_base = 8
+			}
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1159 2843 4062 4162 4245 7078 7124 7220 9935 9991 10035 10321 11911 11968 12010 12050 12251 
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=101
+	name= "STATE_101"
+	manpower = 2418120
+
+	resources={
+		aluminium = 17
+		chromium = 14
+		steel = 14
+		tungsten = 5
+	}
+	state_category = metropolis
+
+	history={
+		owner = CHI
+		victory_points = { 10506 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = KGZ
+	}
+
+	provinces={
+		1591 1840 4224 4492 4651 4773 4845 7556 7597 7711 10146 10506 10508 10547 10603 12340 12385 12397 12487 12640 12658 
+	}
+}

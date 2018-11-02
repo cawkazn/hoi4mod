@@ -1,0 +1,29 @@
+state={
+	id=185
+	name= "STATE_185"
+	manpower = 771444
+
+	resources={
+		rubber = 101
+		steel = 3
+		tungsten = 36
+	}
+	state_category = rural
+
+	history={
+		owner = ENG
+		victory_points = { 12299 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = ENG
+		add_core_of = X26
+	}
+
+	provinces={
+		7342 7427 12299 
+	}
+}

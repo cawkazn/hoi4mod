@@ -1,0 +1,30 @@
+state={
+	id=83
+	name= "STATE_83"
+	manpower = 3905146
+
+	resources={
+		chromium = 6
+		rubber = 10
+		steel = 27
+		tungsten = 65
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHI
+		victory_points = { 7137 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+	}
+
+	provinces={
+		1023 1448 1469 1597 1625 4028 4077 4085 4121 4125 4134 4152 4177 4628 4656 7044 7095 7128 7137 7159 7168 7192 7210 7502 7650 9982 10039 10050 10377 10404 10431 10459 11918 11983 12023 12350 12378 12407 12436 
+	}
+}

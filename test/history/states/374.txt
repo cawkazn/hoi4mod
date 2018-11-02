@@ -1,0 +1,25 @@
+state={
+	id=374
+	name= "STATE_374"
+	manpower = 88142
+
+	state_category = rural
+
+	history={
+		owner = HOL
+		victory_points = { 153 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			153 = {
+				naval_base = 10
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		153 
+	}
+}

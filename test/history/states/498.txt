@@ -1,0 +1,26 @@
+state={
+	id=498
+	name= "STATE_498"
+	manpower = 912068
+
+	resources={
+		steel = 58
+	}
+	state_category = large_town
+
+	history={
+		owner = X49
+		victory_points = { 514 9 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = X49
+	}
+
+	provinces={
+		514 573 3535 6559 9441 9471 11481 
+	}
+}

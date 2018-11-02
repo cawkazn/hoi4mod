@@ -1,0 +1,43 @@
+state={
+	id=2
+	name= "STATE_2"
+	manpower = 431090
+
+	resources={
+		aluminium = 38
+		oil = 0
+	}
+	state_category = town
+
+	history={
+		owner = ARG
+		victory_points = { 12364 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			1639 = {
+				naval_base = 6
+			}
+			7621 = {
+				naval_base = 6
+			}
+			12321 = {
+				naval_base = 6
+			}
+			12364 = {
+				naval_base = 6
+			}
+			12379 = {
+				naval_base = 6
+			}
+			air_base = 5
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		1555 1568 1596 1624 1639 4573 4602 4643 7621 10375 10390 10402 10418 12321 12351 12364 12379 12394 12409 12494 
+	}
+}

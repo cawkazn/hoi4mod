@@ -1,0 +1,26 @@
+state={
+	id=40
+	name= "STATE_40"
+	manpower = 1319180
+
+	resources={
+		aluminium = 30
+	}
+	state_category = large_city
+
+	history={
+		owner = X05
+		victory_points = { 692 11 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 1
+			air_base = 7
+		}
+		add_core_of = X05
+	}
+
+	provinces={
+		532 571 692 707 708 3299 3541 3571 3688 3705 6540 6693 6725 9515 9652 9666 9681 11497 11620 11638 11653 
+	}
+}

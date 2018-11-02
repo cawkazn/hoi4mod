@@ -1,0 +1,26 @@
+state={
+	id=352
+	name= "STATE_352"
+	manpower = 210738
+
+	resources={
+		steel = 8
+	}
+	state_category = rural
+
+	history={
+		owner = LUX
+		victory_points = { 6583 8 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		6583 
+	}
+}

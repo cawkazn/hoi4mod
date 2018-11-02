@@ -1,0 +1,26 @@
+state={
+	id=634
+	name= "STATE_634"
+	manpower = 2097084
+
+	resources={
+		aluminium = 20
+	}
+	state_category = metropolis
+
+	history={
+		owner = USA
+		victory_points = { 12458 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+	}
+}

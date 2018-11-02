@@ -1,0 +1,51 @@
+state={
+	id=409
+	name= "STATE_409"
+	manpower = 1684162
+
+	resources={
+		rubber = 16
+	}
+	state_category = city
+
+	history={
+		owner = POR
+		victory_points = { 4273 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1355 = {
+				naval_base = 6
+			}
+			4273 = {
+				naval_base = 6
+			}
+			7293 = {
+				naval_base = 6
+			}
+			7321 = {
+				naval_base = 6
+			}
+			10191 = {
+				naval_base = 6
+			}
+			10219 = {
+				naval_base = 6
+			}
+			12190 = {
+				naval_base = 6
+			}
+			12234 = {
+				naval_base = 6
+			}
+			air_base = 5
+		}
+		add_core_of = POR
+		add_core_of = X03
+	}
+
+	provinces={
+		1298 1326 1339 1355 4273 4301 4358 7293 7321 10175 10191 10219 12151 12162 12178 12190 12206 12219 12234 13001 
+	}
+}

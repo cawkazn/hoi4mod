@@ -1,0 +1,41 @@
+state={
+	id=179
+	name= "STATE_179"
+	manpower = 3020264
+
+	resources={
+		aluminium = 5
+		chromium = 12
+		steel = 13
+		tungsten = 6
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 10255 8 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 5
+			7340 = {
+				naval_base = 2
+			}
+			10152 = {
+				naval_base = 6
+			}
+			10255 = {
+				naval_base = 2
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+		add_core_of = X21
+		add_core_of = X44
+	}
+
+	provinces={
+		1228 1430 4237 4321 4365 4414 5032 7090 7297 7310 7340 7372 10001 10152 10255 10296 10756 10897 11924 11978 12180 12241 12462 12779 
+	}
+}

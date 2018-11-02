@@ -1,0 +1,29 @@
+state={
+	id=170
+	name= "STATE_170"
+	manpower = 15953528
+
+	resources={
+		rubber = 0
+		steel = 9
+		tungsten = 7
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 12338 9 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 4
+			air_base = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1609 4204 4616 4644 7565 7662 9993 10077 10389 10416 10443 11929 12338 12423 
+	}
+}

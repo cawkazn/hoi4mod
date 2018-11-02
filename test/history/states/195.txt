@@ -1,0 +1,33 @@
+state={
+	id=195
+	name= "STATE_195"
+	manpower = 911696
+
+	state_category = city
+
+	history={
+		owner = ENG
+		victory_points = { 13016 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			10995 = {
+				naval_base = 2
+			}
+			13013 = {
+				naval_base = 2
+			}
+			13016 = {
+				naval_base = 4
+			}
+			air_base = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		10995 13013 13016 
+	}
+}

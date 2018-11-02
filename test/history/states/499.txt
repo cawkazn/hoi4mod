@@ -1,0 +1,43 @@
+state={
+	id=499
+	name= "STATE_499"
+	manpower = 370342
+
+	resources={
+		aluminium = 24
+		oil = 6
+		steel = 2
+	}
+	state_category = rural
+
+	history={
+		owner = SCA
+		victory_points = { 12512 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			10245 = {
+				naval_base = 2
+			}
+			10636 = {
+				naval_base = 2
+			}
+			12512 = {
+				naval_base = 4
+			}
+			12674 = {
+				naval_base = 4
+			}
+			13003 = {
+				naval_base = 2
+			}
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		4861 10245 10636 12512 12674 12689 13003 13058 13066 
+	}
+}

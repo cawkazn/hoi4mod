@@ -1,0 +1,27 @@
+state={
+	id=137
+	name= "STATE_137"
+	manpower = 113660
+
+	resources={
+		steel = 0
+	}
+	state_category = pastoral
+	impassable = yes
+
+	history={
+		owner = EGY
+		victory_points = { 10900 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		10900 
+	}
+}

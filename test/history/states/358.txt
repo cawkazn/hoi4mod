@@ -1,0 +1,28 @@
+state={
+	id=358
+	name= "STATE_358"
+	manpower = 2569698
+
+	resources={
+		rubber = 0
+		steel = 4
+		tungsten = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = MEX
+		victory_points = { 2011 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		2008 2011 2083 4956 10172 12804 
+	}
+}
