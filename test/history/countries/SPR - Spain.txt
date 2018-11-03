@@ -27,17 +27,17 @@ set_politics = {
 
     parties = {
         absolutist = {
-            popularity = 5
+            popularity = 32
         }
         democratic = {
-            popularity = 82
+            popularity = 17
         }
         neutrality = {
-            popularity = 13
+            popularity = 51
         }
     }
     
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
     elections_allowed = yes

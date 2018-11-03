@@ -31,13 +31,13 @@ set_politics = {
 
     parties = {
         absolutist = {
-            popularity = 6
+            popularity = 29
         }
         democratic = {
-            popularity = 87
+            popularity = 43
         }
         neutrality = {
-            popularity = 7
+            popularity = 38
         }
     }
     
