@@ -1,7 +1,7 @@
 state={
 	id=644
 	name= "STATE_644"
-	manpower = 2797462
+	manpower = 2497462
 
 	state_category = megalopolis
 
@@ -9,9 +9,9 @@ state={
 		owner = USA
 		victory_points = { 13202 9 }
 		buildings = {
-			infrastructure = 8
+			infrastructure = 7
 			industrial_complex = 3
-			arms_factory = 2
+			arms_factory = 0
 			dockyard = 1
 			1830 = {
 				naval_base = 6
