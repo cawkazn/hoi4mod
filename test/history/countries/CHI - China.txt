@@ -135,7 +135,6 @@ add_opinion_modifier = { target = X59 modifier = negative_20 }
 
 
 add_ideas = {
-	uncivilized
 	volunteer_only
 	civilian_economy
 	export_focus

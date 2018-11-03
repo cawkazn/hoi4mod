@@ -4,8 +4,8 @@ state={
 	manpower = 797188
 
 	resources={
-		aluminium = 103
-		steel = 116
+		aluminium = 78
+		steel = 101
 	}
 	state_category = city
 
@@ -15,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
-			arms_factory = 3
+			arms_factory = 2
 			air_base = 2
 		}
 		add_core_of = FRA

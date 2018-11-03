@@ -9,11 +9,11 @@ state={
 		owner = ENG
 		victory_points = { 4989 3 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 0
 			arms_factory = 1
 			4989 = {
-				naval_base = 6
+				naval_base = 5
 			}
 			air_base = 1
 		}

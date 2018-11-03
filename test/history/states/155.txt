@@ -6,7 +6,7 @@ state={
 	resources={
 		aluminium = 2
 		chromium = 1
-		steel = 36
+		steel = 30
 		tungsten = 4
 	}
 	state_category = metropolis
@@ -15,9 +15,9 @@ state={
 		owner = ENG
 		victory_points = { 3273 7 }
 		buildings = {
-			infrastructure = 8
-			industrial_complex = 7
-			arms_factory = 2
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
 			6395 = {
 				naval_base = 2
 			}

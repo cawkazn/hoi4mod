@@ -10,17 +10,17 @@ state={
 		victory_points = { 3379 6 }
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 3
-			arms_factory = 2
+			industrial_complex = 2
+			arms_factory = 1
 			dockyard = 1
 			276 = {
-				naval_base = 6
+				naval_base = 2
 			}
 			337 = {
 				naval_base = 6
 			}
 			3242 = {
-				naval_base = 6
+				naval_base = 4
 			}
 			3379 = {
 				naval_base = 6

@@ -4,8 +4,8 @@ state={
 	manpower = 3588590
 
 	resources={
-		aluminium = 30
-		steel = 27
+		aluminium = 27
+		steel = 24
 	}
 	state_category = megalopolis
 
@@ -13,10 +13,10 @@ state={
 		owner = ENG
 		victory_points = { 3775 9 }
 		buildings = {
-			infrastructure = 8
-			industrial_complex = 6
-			arms_factory = 4
-			dockyard = 2
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
 			4753 = {
 				naval_base = 4
 			}

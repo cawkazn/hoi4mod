@@ -6,7 +6,7 @@ state={
 	resources={
 		aluminium = 4
 		oil = 0
-		tungsten = 36
+		tungsten = 29
 	}
 	state_category = large_city
 
@@ -15,9 +15,9 @@ state={
 		victory_points = { 7564 6 }
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 3
-			arms_factory = 1
-			dockyard = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
 			air_base = 2
 		}
 		add_core_of = ENG

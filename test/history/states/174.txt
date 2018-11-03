@@ -15,9 +15,9 @@ state={
 		victory_points = { 10801 19 }
 		buildings = {
 			infrastructure = 9
-			industrial_complex = 8
-			arms_factory = 4
-			air_base = 10
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 7
 		}
 		add_core_of = ENG
 		add_core_of = X07
