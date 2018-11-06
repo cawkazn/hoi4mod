@@ -1,0 +1,11 @@
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.deps.json
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.runtimeconfig.json
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.runtimeconfig.dev.json
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.dll
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.pdb
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.csprojAssemblyReference.cache
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.csproj.CoreCompileInputs.cache
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.AssemblyInfoInputs.cache
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.AssemblyInfo.cs
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.dll
+C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.pdb
