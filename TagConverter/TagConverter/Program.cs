@@ -171,7 +171,7 @@ namespace TagConverter
                             {
                                 if (fileName.Length > 3)
                                 {
-                                    string newFileName = directoryInfo.FullName + "\\" + newTag;
+                                    string newFileName = directoryInfo.FullName + "\\" + newTag + ".tga";
                                     File.Delete(newFileName);
                                     File.Move(fi.FullName, newFileName);
                                 }
