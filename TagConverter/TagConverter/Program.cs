@@ -143,7 +143,7 @@ namespace TagConverter
                                 {
                                     if (fileName.Length > 3)
                                     {
-                                        string newFileName = directoryInfo.FullName + "\\" + newTag + "_OOB.txt";
+                                        string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
                                         File.Delete(newFileName);
                                         File.Move(fi.FullName, newFileName);
                                         ProcessCountry(fi, tag, newTag);
@@ -171,7 +171,7 @@ namespace TagConverter
                             {
                                 if (fileName.Length > 3)
                                 {
-                                    string newFileName = directoryInfo.FullName + "\\" + newTag + ".tga";
+                                    string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
                                     File.Delete(newFileName);
                                     File.Move(fi.FullName, newFileName);
                                 }
