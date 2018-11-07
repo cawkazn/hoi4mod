@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩ㄽ㜱਍渉浡㵥∠呓呁彅ㄱ∷਍洉湡潰敷⁲‽㤱㈲㈰਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠奇਍उ楶瑣牯役潰湩獴㴠笠ㄠ〲㠵㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㌠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㤉㐹‰‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ㈱㔰‸‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䔠奇਍उ摡彤潣敲潟⁦‽則൅ऊൽഊऊ牰癯湩散㵳ൻऊㄉ㘱‴ㄴ〷㤠㐹‰㈱㔰‸਍紉਍ൽ
+state={
+	id=117
+	name= "STATE_117"
+	manpower = 192202
+
+	state_category = rural
+
+	history={
+		owner = EGY
+		victory_points = { 12058 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			9940 = {
+				naval_base = 2
+			}
+			12058 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = EGY
+		add_core_of = GRE
+	}
+
+	provinces={
+		1164 4170 9940 12058 
+	}
+}

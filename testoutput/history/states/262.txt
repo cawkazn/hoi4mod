@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩㈽㈶਍渉浡㵥∠呓呁彅㘲∲਍洉湡潰敷⁲‽㜱㈴㐱਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䘠䅒਍उ楶瑣牯役潰湩獴㴠笠ㄠ〳㜱㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ搉捯祫牡⁤‽റऊउ㌱㄰‷‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㌱㜰′‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䘠䅒਍紉਍਍瀉潲楶据獥笽਍उ㌱㄰‷㌱㜰′਍紉਍ൽ
+state={
+	id=262
+	name= "STATE_262"
+	manpower = 174214
+
+	state_category = rural
+
+	history={
+		owner = FRA
+		victory_points = { 13017 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			13017 = {
+				naval_base = 4
+			}
+			13072 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		13017 13072 
+	}
+}

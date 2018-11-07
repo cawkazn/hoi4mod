@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㘽㜳਍渉浡㵥∠呓呁彅㌶∷਍洉湡潰敷⁲‽㌳㘴㐱രഊऊ敲潳牵散㵳ൻऊ猉整汥㴠ㄠ㈱਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠唠䅓਍उ楶瑣牯役潰湩獴㴠笠ㄠ㔲㄰㤠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㠠਍उ椉摮獵牴慩彬潣灭敬⁸‽ഴऊउ牡獭晟捡潴祲㴠ㄠ਍उ愉物扟獡⁥‽ഴऊ紉਍उ摡彤潣敲潟⁦‽单ുऊൽഊऊ牰癯湩散㵳ൻऊ㤉㌱ㄠ㔷‸㤱㜸㜠ㄶ‵㜷ㄹ㜠㤷‷〸㐱㠠㠰″〱㠲‱〱ㄶ‵〱㔶‷〱㈸‴〱〹‹㈱〵‱㈱㜶‰਍紉਍ൽ
+state={
+	id=637
+	name= "STATE_637"
+	manpower = 3346140
+
+	resources={
+		steel = 112
+	}
+	state_category = megalopolis
+
+	history={
+		owner = USA
+		victory_points = { 12501 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 4
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		913 1758 1987 7615 7791 7797 8014 8083 10281 10615 10657 10824 10909 12501 12670 
+	}
+}

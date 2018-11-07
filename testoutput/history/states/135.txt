@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩ㄽ㔳਍渉浡㵥∠呓呁彅㌱∵਍洉湡潰敷⁲‽㔵㈶രഊऊ敲潳牵散㵳ൻऊ猉整汥㴠〠਍紉਍猉慴整损瑡来牯⁹‽慰瑳牯污਍椉灭獡慳汢⁥‽敹൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠奇਍उ楶瑣牯役潰湩獴㴠笠㜠㠹‷″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䔠奇਍紉਍਍瀉潲楶据獥笽਍उ㤷㜸ഠऊൽ紊਍
+state={
+	id=135
+	name= "STATE_135"
+	manpower = 55620
+
+	resources={
+		steel = 0
+	}
+	state_category = pastoral
+	impassable = yes
+
+	history={
+		owner = EGY
+		victory_points = { 7987 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		7987 
+	}
+}

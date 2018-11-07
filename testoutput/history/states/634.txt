@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㘽㐳਍渉浡㵥∠呓呁彅㌶∴਍洉湡潰敷⁲‽〲㜹㠰ഴഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㈠രऊൽऊ瑳瑡彥慣整潧祲㴠洠瑥潲潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠唠䅓਍उ楶瑣牯役潰湩獴㴠笠ㄠ㐲㠵㜠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㜠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠㈠਍उ愉物扟獡⁥‽ളऊ紉਍उ摡彤潣敲潟⁦‽单ുऊൽഊऊ牰癯湩散㵳ൻऊㄉ〵″㘱㘴㐠㐴‴㔴㜶㐠㤵‷㘴㔲㜠㠴‵㔷㌴㜠㠵‶〱㔳‵〱㜴‷㈱㔴‸㈱㠴‹㈱㜷‸਍紉਍ൽ
+state={
+	id=634
+	name= "STATE_634"
+	manpower = 2097084
+
+	resources={
+		aluminium = 20
+	}
+	state_category = metropolis
+
+	history={
+		owner = USA
+		victory_points = { 12458 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+	}
+}

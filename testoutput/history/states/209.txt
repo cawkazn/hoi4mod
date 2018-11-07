@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㈽㤰਍渉浡㵥∠呓呁彅〲∹਍洉湡潰敷⁲‽〲㐹〴രഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㠠਍उ瑳敥⁬‽ലऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠ㄠ㤸‶‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ㘱㘳ㄠ㈸′㠱㘹㈠㜰‱㔴㌵㐠㔷‵㠴㔲㐠〹‱㘷㐰ㄠ㐰㐵ㄠ㔰㌲ㄠ㜲㌹ㄠ㠲ㄶഠऊൽ紊਍
+state={
+	id=209
+	name= "STATE_209"
+	manpower = 2094400
+
+	resources={
+		aluminium = 8
+		steel = 2
+	}
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = { 1896 6 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1636 1822 1896 2071 4553 4755 4825 4901 7604 10454 10523 12793 12861 
+	}
+}

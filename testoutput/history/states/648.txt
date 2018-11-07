@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㘽㠴਍渉浡㵥∠呓呁彅㐶∸਍洉湡潰敷⁲‽ㄲ㘰ㄴലഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㌠ലऊ漉汩㴠ㄠ〰਍紉਍猉慴整损瑡来牯⁹‽慬杲彥楣祴਍਍栉獩潴祲笽਍उ睯敮⁲‽单ുऊ瘉捩潴祲灟楯瑮⁳‽⁻〱㤷‸‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠唠䅓਍紉਍਍瀉潲楶据獥笽਍उ㘱㠱ㄠ〸‶〲㌴㐠ㄹ‹ㄵ㌰㘠〸″㜷㈶㜠〹‴㤷㔴㠠㈰‵㠹㈲ㄠ㜰㈰ㄠ㜰㠹ㄠ㜱㌴ㄠ㠱㈰ㄠ㘲㐲ഠऊൽ紊਍
+state={
+	id=648
+	name= "STATE_648"
+	manpower = 2106412
+
+	resources={
+		aluminium = 32
+		oil = 100
+	}
+	state_category = large_city
+
+	history={
+		owner = USA
+		victory_points = { 10798 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 12624 
+	}
+}

@@ -1,1 +1,40 @@
-瑳瑡㵥ൻऊ摩㔽㌸਍渉浡㵥∠呓呁彅㠵∳਍洉湡潰敷⁲‽㐷㠴㐷਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ളऊ按牨浯畩⁭‽ളऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽啔൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄹ‴‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउㄹ‴‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㠳㐸㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ㤉㠷‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउㄱ㘷‷‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䄠䉌਍उ摡彤潣敲潟⁦‽啔൒ऊൽഊऊ牰癯湩散㵳ൻऊ㤉㐱㌠㐴‸㠳㐸㌠㤸‶㤶〰㤠㠷‰㠹㔷㤠ㄹ‴ㄱ㘷′ㄱ㘷‷਍紉਍ൽ
+state={
+	id=583
+	name= "STATE_583"
+	manpower = 744874
+
+	resources={
+		aluminium = 3
+		chromium = 3
+	}
+	state_category = rural
+
+	history={
+		owner = TUR
+		victory_points = { 914 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			914 = {
+				naval_base = 4
+			}
+			3884 = {
+				naval_base = 4
+			}
+			9780 = {
+				naval_base = 4
+			}
+			11767 = {
+				naval_base = 4
+			}
+			air_base = 5
+		}
+		add_core_of = ALB
+		add_core_of = TUR
+	}
+
+	provinces={
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 
+	}
+}

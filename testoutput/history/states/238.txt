@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㈽㠳਍渉浡㵥∠呓呁彅㌲∸਍洉湡潰敷⁲‽㔶㔰〷਍਍爉獥畯捲獥笽਍उ畲扢牥㴠ㄠ਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䡔਍उ楶瑣牯役潰湩獴㴠笠ㄠ㠹‴‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䔠䡔਍紉਍਍瀉潲楶据獥笽਍उ㤱㐸㈠㐰‰〲㈷㔠㐰‱〵㜹㜠㐹‴਍紉਍ൽ
+state={
+	id=238
+	name= "STATE_238"
+	manpower = 650570
+
+	resources={
+		rubber = 1
+	}
+	state_category = rural
+
+	history={
+		owner = ETH
+		victory_points = { 1984 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		1984 2040 2072 5041 5097 7944 
+	}
+}

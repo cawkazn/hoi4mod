@@ -1,1 +1,42 @@
-瑳瑡㵥ൻऊ摩㘽㌰਍渉浡㵥∠呓呁彅〶∳਍洉湡潰敷⁲‽㐳㐸㘰സഊऊ敲潳牵散㵳ൻऊ按牨浯畩⁭‽ലऊൽऊ瑳瑡彥慣整潧祲㴠洠来污灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽㝕സऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㘸‵‹ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഹऊउ湩畤瑳楲污损浯汰硥㴠㘠਍उ愉浲彳慦瑣牯⁹‽റऊउ潤正慹摲㴠㌠਍उ㈉㌰‱‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ〸㜱㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㠲㌲㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㠲㔶㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ〳㌹㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ愉物扟獡⁥‽ളऊ紉਍उ摡彤潣敲潟⁦‽㝕സऊൽഊऊ牰癯湩散㵳ൻऊ㈉㌰‱〸㜱ㄠ㠲㌲ㄠ㠲㔶ㄠ〳㌹ഠऊൽ紊਍
+state={
+	id=603
+	name= "STATE_603"
+	manpower = 3484068
+
+	resources={
+		chromium = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = U78
+		victory_points = { 12865 9 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 3
+			2031 = {
+				naval_base = 6
+			}
+			8017 = {
+				naval_base = 6
+			}
+			12823 = {
+				naval_base = 6
+			}
+			12865 = {
+				naval_base = 6
+			}
+			13093 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = U78
+	}
+
+	provinces={
+		2031 8017 12823 12865 13093 
+	}
+}

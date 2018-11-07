@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩ㄽ㈹਍渉浡㵥∠呓呁彅㤱∲਍洉湡潰敷⁲‽〲㌵㔷സഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㘠਍उ档潲業浵㴠㐠ലऊ猉整汥㴠〠਍紉਍猉慴整损瑡来牯⁹‽慬杲彥楣祴਍਍栉獩潴祲笽਍उ睯敮⁲‽久േऊ瘉捩潴祲灟楯瑮⁳‽⁻㘴㘹㘠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㜠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠ㄠ਍उ搉捯祫牡⁤‽റऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ㠱㌳㐠㠵‴㘴㘹㜠㜵‶਍紉਍ൽ
+state={
+	id=192
+	name= "STATE_192"
+	manpower = 2053758
+
+	resources={
+		aluminium = 6
+		chromium = 42
+		steel = 0
+	}
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = { 4696 6 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1833 4584 4696 7576 
+	}
+}

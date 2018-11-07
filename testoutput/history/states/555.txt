@@ -1,1 +1,25 @@
-瑳瑡㵥ൻऊ摩㔽㔵਍渉浡㵥∠呓呁彅㔵∵਍洉湡潰敷⁲‽㠳㐶〶਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽偓൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㐱〴ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उㄉ㐴‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠〠਍उൽऊൽഊऊ牰癯湩散㵳ൻऊㄉ㐴‰਍紉਍ൽ
+state={
+	id=555
+	name= "STATE_555"
+	manpower = 386460
+
+	state_category = pastoral
+
+	history={
+		owner = SPR
+		victory_points = { 1440 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			1440 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1440 
+	}
+}

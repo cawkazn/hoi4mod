@@ -1,1 +1,39 @@
-瑳瑡㵥ൻऊ摩㌽ㄶ਍渉浡㵥∠呓呁彅㘳∱਍洉湡潰敷⁲‽〲㠶㈷സഊऊ瑳瑡彥慣整潧祲㴠洠瑥潲潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䴠塅਍उ楶瑣牯役潰湩獴㴠笠ㄠ㜲㌵㜠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㜠਍उ椉摮獵牴慩彬潣灭敬⁸‽ളऊउ牡獭晟捡潴祲㴠㌠਍उ搉捯祫牡⁤‽ലऊउ㤴㐰㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ㐉㘹‵‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㈱ㄷ‵‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㈱㔷″‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㈱㘸‷‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䴠塅਍紉਍਍瀉潲楶据獥笽਍उ㤱〰㈠㈰‱㤴㐰㐠㘹‵㈱ㄷ‵㈱㔷″㈱㘸‷਍紉਍ൽ
+state={
+	id=361
+	name= "STATE_361"
+	manpower = 2068728
+
+	state_category = metropolis
+
+	history={
+		owner = MEX
+		victory_points = { 12753 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 2
+			4904 = {
+				naval_base = 4
+			}
+			4965 = {
+				naval_base = 4
+			}
+			12715 = {
+				naval_base = 4
+			}
+			12753 = {
+				naval_base = 6
+			}
+			12867 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1900 2021 4904 4965 12715 12753 12867 
+	}
+}

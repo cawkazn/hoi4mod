@@ -116,9 +116,9 @@ add_opinion_modifier = { target = VAT modifier = positive_135 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
 add_opinion_modifier = { target = VIN modifier = negative_200 }
 add_opinion_modifier = { target = X00 modifier = positive_180 }
-add_opinion_modifier = { target = X02 modifier = positive_124 }
+add_opinion_modifier = { target = BAD modifier = positive_124 }
 add_opinion_modifier = { target = X04 modifier = positive_0 }
-add_opinion_modifier = { target = BAV modifier = positive_134 }
+add_opinion_modifier = { target = X05 modifier = positive_134 }
 add_opinion_modifier = { target = X07 modifier = positive_0 }
 add_opinion_modifier = { target = X08 modifier = positive_0 }
 add_opinion_modifier = { target = X09 modifier = positive_200 }
@@ -156,7 +156,7 @@ add_opinion_modifier = { target = X53 modifier = positive_20 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_15 }
 add_opinion_modifier = { target = X56 modifier = positive_180 }
-add_opinion_modifier = { target = X58 modifier = positive_63 }
+add_opinion_modifier = { target = WUR modifier = positive_63 }
 add_opinion_modifier = { target = X59 modifier = positive_0 }
 
 

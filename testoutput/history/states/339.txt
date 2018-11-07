@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㤳਍渉浡㵥∠呓呁彅㌳∹਍洉湡潰敷⁲‽㐶㠵㘵਍਍爉獥畯捲獥笽਍उ畴杮瑳湥㴠㤠਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㔲਍उ楶瑣牯役潰湩獴㴠笠㐠㠹‴‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㔲਍紉਍਍瀉潲楶据獥笽਍उㄴ㤴㐠㠹‴〱㐸‷㈱㠸‶਍紉਍ൽ
+state={
+	id=339
+	name= "STATE_339"
+	manpower = 645856
+
+	resources={
+		tungsten = 9
+	}
+	state_category = rural
+
+	history={
+		owner = X25
+		victory_points = { 4984 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		4149 4984 10847 12886 
+	}
+}

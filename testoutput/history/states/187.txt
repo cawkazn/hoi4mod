@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩ㄽ㜸਍渉浡㵥∠呓呁彅㠱∷਍洉湡潰敷⁲‽㘱㌳㐷സഊऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠㈠㌰‸‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽രऊउ潤正慹摲㴠ㄠ਍उ㈉㌰‸‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ〲㠳㈠㤰‴਍紉਍ൽ
+state={
+	id=187
+	name= "STATE_187"
+	manpower = 1633748
+
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = { 2038 6 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			2038 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		2038 2094 
+	}
+}

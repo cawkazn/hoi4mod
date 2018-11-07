@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩㔽㌲਍渉浡㵥∠呓呁彅㈵∳਍洉湡潰敷⁲‽〳㘲㘹਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ലऊ爉扵敢⁲‽റऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠䅃਍उ楶瑣牯役潰湩獴㴠笠㠠㤱″″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ㈱㜹‵‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠匠䅃਍紉਍਍瀉潲楶据獥笽਍उㄲ㈹㌠〱‹〶㠰㠠㤱″㈱㜹‵਍紉਍ൽ
+state={
+	id=523
+	name= "STATE_523"
+	manpower = 302696
+
+	resources={
+		aluminium = 2
+		rubber = 1
+	}
+	state_category = pastoral
+
+	history={
+		owner = SCA
+		victory_points = { 8193 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			12975 = {
+				naval_base = 4
+			}
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		2192 3109 6008 8193 12975 
+	}
+}

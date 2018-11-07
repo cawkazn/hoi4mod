@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㔽㠲਍渉浡㵥∠呓呁彅㈵∸਍洉湡潰敷⁲‽〲㠳㈳਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽റऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽䕓൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㠵‶‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠匠剅਍紉਍਍瀉潲楶据獥笽਍उ㌶‰㤷‷㘳㤰㌠㔹‶㤳㐸㘠㌶‴㤶㠹㤠㤵‹㘹㈰㤠㔷‶ㄱ㠵″ㄱ㠵‶਍紉਍ൽ
+state={
+	id=528
+	name= "STATE_528"
+	manpower = 203832
+
+	resources={
+		steel = 1
+	}
+	state_category = rural
+
+	history={
+		owner = SER
+		victory_points = { 11586 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = SER
+	}
+
+	provinces={
+		630 797 3609 3956 3984 6634 6998 9599 9602 9756 11583 11586 
+	}
+}

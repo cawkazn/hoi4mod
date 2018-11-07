@@ -1,1 +1,35 @@
-瑳瑡㵥ൻऊ摩㠽റऊ慮敭‽匢䅔䕔㡟∱਍洉湡潰敷⁲‽㘳㌶㈸ഴഊऊ敲潳牵散㵳ൻऊ按牨浯畩⁭‽ഴऊ爉扵敢⁲‽ളऊ猉整汥㴠ㄠഹऊ琉湵獧整⁮‽㘴਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䌠䥈਍उ楶瑣牯役潰湩獴㴠笠㐠㘱‵″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ〴〵㴠笠਍उउ慮慶彬慢敳㴠㈠਍उ紉਍उ㤉㜹‸‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䌠䥈਍紉਍਍瀉潲楶据獥笽਍उ〱㠷ㄠ㈱‰ㄱ㈶ㄠ〲′〴〵㐠㘱‵㈴㜰㜠㘰‷ㄷ㠰㜠㐱‱ㄷ㈸㤠㌹‸㤹〷㤠㜹‸㤹㜹ㄠ㄰ㄲㄠ〲㐱ഠऊൽ紊਍
+state={
+	id=81
+	name= "STATE_81"
+	manpower = 3663824
+
+	resources={
+		chromium = 4
+		rubber = 3
+		steel = 19
+		tungsten = 46
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHI
+		victory_points = { 4165 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			4050 = {
+				naval_base = 2
+			}
+			9978 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1078 1120 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9970 9978 9997 10121 12014 
+	}
+}

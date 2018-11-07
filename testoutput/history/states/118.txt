@@ -1,1 +1,24 @@
-瑳瑡㵥ൻऊ摩ㄽ㠱਍渉浡㵥∠呓呁彅ㄱ∸਍洉湡潰敷⁲‽㐲㌳㘳਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽䝅൙ऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㐷‶″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䔠奇਍उ摡彤潣敲潟⁦‽啔൒ऊൽഊऊ牰癯湩散㵳ൻऊ㠉㘰㠠㘸㌠㠸‹㤳ㄲ㘠ㄸ″㤶㘵㤠㤸″ㄱ㐷‶਍紉਍ൽ
+state={
+	id=118
+	name= "STATE_118"
+	manpower = 243336
+
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 11746 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = EGY
+		add_core_of = TUR
+	}
+
+	provinces={
+		806 886 3889 3921 6813 6956 9893 11746 
+	}
+}

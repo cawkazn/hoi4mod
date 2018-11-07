@@ -1,1 +1,38 @@
-瑳瑡㵥ൻऊ摩㔽〰਍渉浡㵥∠呓呁彅〵∰਍洉湡潰敷⁲‽㔴㐸〰਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽സऊൽऊ瑳瑡彥慣整潧祲㴠琠睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠䅃਍उ楶瑣牯役潰湩獴㴠笠㘠㌲‵‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ㤳‹‽ൻऊउ渉癡污扟獡⁥‽സऊउൽऊउ㈳㜷㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ㘉㌲‵‽ൻऊउ渉癡污扟獡⁥‽〱਍उ紉਍उ㘉㘳‴‽ൻऊउ渉癡污扟獡⁥‽സऊउൽऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠匠䅃਍紉਍਍瀉潲楶据獥笽਍उㄳ‶㤳‴㤳‹㈳㘰㌠㜲‷㌳ㄴ㘠㌲‵㌶㐶ഠऊൽ紊਍
+state={
+	id=500
+	name= "STATE_500"
+	manpower = 458400
+
+	resources={
+		aluminium = 8
+	}
+	state_category = town
+
+	history={
+		owner = SCA
+		victory_points = { 6235 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			399 = {
+				naval_base = 8
+			}
+			3277 = {
+				naval_base = 6
+			}
+			6235 = {
+				naval_base = 10
+			}
+			6364 = {
+				naval_base = 8
+			}
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		316 394 399 3206 3277 3341 6235 6364 
+	}
+}

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace TagConverter
 {
@@ -20,26 +19,27 @@ namespace TagConverter
             //Console.WriteLine("Give me a directory");
             //string directory = Console.ReadLine();
             int level;
-            string tag = "X05";
-            string newTag = "BAV";
             string baseDirectory = "C:\\myprojects\\hoi4mod\\test";
             string outputDirectory = "C:\\myprojects\\hoi4mod\\testoutput";
 
             ClearDirectory(outputDirectory);
+            Directory.CreateDirectory(outputDirectory);
             Copy(baseDirectory, outputDirectory);
 
-            List<TagHelper> tagsToChange = new List<TagHelper>();
-            tagsToChange.Add(new TagHelper("X05", "BAV"));
-            foreach (TagHelper th in tagsToChange)
-            {
-                level = 0;
-                SlamItOut(th.oldTag, outputDirectory, level, th.newTag);
-                Console.WriteLine("finished tag " + th.oldTag + " to " + th.newTag);
-            }
+            Dictionary<string, TagHelper> tagsToChange = new Dictionary<string, TagHelper>();
+            Dictionary<int, CountryMergeHelper> statesToChangeOwnership = new Dictionary<int, CountryMergeHelper>();
+            statesToChangeOwnership.Add(659, new CountryMergeHelper("WUR","BAD", 659));
+            tagsToChange.Add("X02", new TagHelper("X02", "BAD"));
+            tagsToChange.Add("X58", new TagHelper("X58", "WUR"));
+            level = 0;
+            SlamItOut(tagsToChange, statesToChangeOwnership, outputDirectory, level);
+                //Console.WriteLine("finished tag " + th.oldTag + " to " + th.newTag);
+            
+            Console.WriteLine("Tag change done, continue with country merging?");
             Console.ReadLine();
         }
 
-        public static void SlamItOut(string tag, string directory, int level, string newTag)
+        public static void SlamItOut(Dictionary<string, TagHelper> tagsToChange, Dictionary<int, CountryMergeHelper> statesToChangeOwnership, string directory, int level)
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(directory);
 
@@ -63,7 +63,7 @@ namespace TagConverter
                     {
                         foreach (DirectoryInfo di in bestFuckinList)
                         {
-                            SlamItOut(tag, di.FullName, level + 1, newTag);
+                            SlamItOut(tagsToChange, statesToChangeOwnership, di.FullName, level + 1);
                         }
                     }
                 }
@@ -76,12 +76,12 @@ namespace TagConverter
                 }
                 foreach (FileInfo fi in files)
                 {
-                    ProcessFile(fi, level, directoryInfo, tag, newTag);
+                    ProcessFile(fi, level, directoryInfo, tagsToChange, statesToChangeOwnership);
                 }       
             }
         }
 
-        public static void ProcessFile(FileInfo fi, int level, DirectoryInfo directoryInfo, string tag, string newTag)
+        public static void ProcessFile(FileInfo fi, int level, DirectoryInfo directoryInfo, Dictionary<string, TagHelper> tagsToChange, Dictionary<int, CountryMergeHelper> statesToChangeOwner)
         {
             switch (level.ToString())
             {
@@ -89,10 +89,6 @@ namespace TagConverter
                     break;
                 case "1":
                     if (directoryInfo.Name == "history")
-                    {
-                        break;
-                    }
-                    if(directoryInfo.Name == "gfx")
                     {
                         break;
                     }
@@ -107,23 +103,27 @@ namespace TagConverter
                         //if one is found
                         if (File.Exists(fi.FullName))
                         {
-                            //check to see if our own tag already exists to change
+                            //scrub this file for every tag we're changing
+                            ProcessCountryTags(fi, tagsToChange);                  
                             string fileName = fi.Name;
-                            if (fileName.Substring(0, 3) == tag)
+                            string newFileName = "";
+
+                            //direct lookup this file in our list of tags to change
+                            TagHelper th;
+                            if (tagsToChange.TryGetValue(fileName.Substring(0, 3), out th))
                             {
                                 if (fileName.Length > 3)
                                 {
-                                    string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
-                                    ProcessCountry(fi, tag, newTag);
+                                    newFileName = directoryInfo.FullName + "\\" + th.newTag + fileName.Substring(3);
                                     File.Delete(newFileName);
                                     File.Move(fi.FullName, newFileName);
                                     countryEdited = true;
                                 }
                             }
-                            if (!countryEdited)
+                            if (countryEdited)
                             {
-                                ProcessCountry(fi, tag, newTag);
-                            }
+                                fileName = newFileName;                                
+                            }                            
                         }
                         else
                         {
@@ -135,30 +135,46 @@ namespace TagConverter
                     {
                         if (File.Exists(fi.FullName))
                         {
-                            ProcessCountry(fi, tag, newTag);
-                        }
-                        else
-                        {
-                            Console.WriteLine("CAN't FIND THA FUCKIN " + fi.FullName + "FILE");
-                            //NEW COUNTRY;
+                            if(fi.Name == "659.txt")
+                            {
+                                string shit = "stuff";
+                            }
+                            ProcessCountryTags(fi, tagsToChange);
+
+                            int stateId = 0;
+                            if (int.TryParse(fi.Name.Replace(fi.Extension, ""), out stateId))
+                            {
+                                CountryMergeHelper cmh;
+                                if (statesToChangeOwner.TryGetValue(stateId, out cmh))
+                                {
+                                    ChangeStateOwner(fi, cmh.tagToGetRidOf, cmh.tagToMergeTo);
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("CAN't FIND THA FUCKIN " + fi.FullName + "FILE");
+                                //NEW COUNTRY;
+                            }
                         }
                     }
                     if (directoryInfo.Name == "units")
                     {
-                            if (File.Exists(fi.FullName))
+                        if (File.Exists(fi.FullName))
+                        {
+                            string fileName = fi.Name;
+                            TagHelper th;
+                            if (tagsToChange.TryGetValue(fileName.Substring(0, 3), out th))
                             {
-                                string fileName = fi.Name;
-                                if (fileName.Substring(0, 3) == tag)
+                                if (fileName.Length > 3)
                                 {
-                                    if (fileName.Length > 3)
-                                    {
-                                        string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
-                                        ProcessCountry(fi, tag, newTag);
-                                        File.Delete(newFileName);
-                                        File.Move(fi.FullName, newFileName);                                        
-                                    }
+                                    string newFileName = directoryInfo.FullName + "\\" + th.newTag + fileName.Substring(3);
+                                    ProcessCountry(fi, th.oldTag, th.newTag);
+                                    File.Delete(newFileName);
+                                    File.Move(fi.FullName, newFileName);
                                 }
                             }
+                        }
+                            
                         else
                         {
                             Console.WriteLine("CAN't FIND THA FUCKIN " + fi.FullName + "FILE");
@@ -176,11 +192,12 @@ namespace TagConverter
                         {
                             string fileName = fi.Name;
 
-                            if (fileName.Substring(0, 3) == tag)
+                            TagHelper th;
+                            if (tagsToChange.TryGetValue(fileName.Substring(0, 3), out th))
                             {
                                 if (fileName.Length > 3)
                                 {
-                                    string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
+                                    string newFileName = directoryInfo.FullName + "\\" + th.newTag + fileName.Substring(3);
                                     File.Delete(newFileName);
                                     File.Move(fi.FullName, newFileName);
                                 }
@@ -198,10 +215,73 @@ namespace TagConverter
 
         public static void ProcessCountry(FileInfo fi, string tag, string newTag)
         {
-            string file = File.ReadAllText(fi.FullName, Encoding.Unicode);
+            Console.WriteLine("changing country tags for " + fi.Name);
+            string file = File.ReadAllText(fi.FullName, Encoding.UTF8);
             string newText = file.Replace(tag.ToUpperInvariant(), newTag.ToUpperInvariant());
             File.WriteAllText(fi.FullName, newText);
         }
+
+        public static void ProcessCountryTags(FileInfo fi, Dictionary<string, TagHelper> tagsToChange)
+        {
+            Console.WriteLine("changing country tags for " + fi.Name);
+            string file = File.ReadAllText(fi.FullName, Encoding.UTF8);
+            string newText = "";
+            bool firstRun = true;
+            foreach(TagHelper th in tagsToChange.Values)
+            {
+                if (firstRun)
+                {
+                    newText = file.Replace(th.oldTag.ToUpperInvariant(), th.newTag.ToUpperInvariant());
+                    firstRun = false;                    
+                }
+                else
+                {
+                    newText = newText.Replace(th.oldTag.ToUpperInvariant(), th.newTag.ToUpperInvariant());
+                }
+            }
+            if(String.IsNullOrWhiteSpace(newText))
+            {
+                return;
+            }
+            File.WriteAllText(fi.FullName, newText);
+        }
+
+        public static void ChangeStateOwner(FileInfo fi, string tag, string newTag)
+        {
+            Console.WriteLine("changing state owner for stateId " + fi.Name);
+
+            string keyphrase = "owner = ";
+            string file = File.ReadAllText(fi.FullName, Encoding.UTF8);
+            string newText = file.Replace(keyphrase + tag.ToUpperInvariant(), keyphrase + newTag.ToUpperInvariant());
+            File.WriteAllText(fi.FullName, newText);
+        }
+
+        public static void ChangeStateOwners(FileInfo fi, Dictionary<string, CountryMergeHelper> tagsToMerge)
+        {
+            string keyphrase = "owner = ";
+            string file = File.ReadAllText(fi.FullName, Encoding.UTF8);
+            string newText = "";
+            bool firstRun = true;
+            Console.WriteLine("changing state owner for stateId" + fi.Name);
+            foreach (CountryMergeHelper cmh in tagsToMerge.Values)
+            {
+                if (firstRun)
+                {
+                    newText = file.Replace(keyphrase + cmh.tagToGetRidOf.ToUpperInvariant(), keyphrase + cmh.tagToMergeTo.ToUpperInvariant());
+                    firstRun = false;
+                }
+                else
+                {
+                    newText = newText.Replace(keyphrase + cmh.tagToGetRidOf.ToUpperInvariant(), keyphrase + cmh.tagToMergeTo.ToUpperInvariant());
+                }
+            }
+            if(String.IsNullOrWhiteSpace(newText))
+            {
+                return;
+            }
+            File.WriteAllText(fi.FullName, newText);
+        }
+
         //first level folders
         public static List<string> LevelOne
         {
@@ -246,6 +326,15 @@ namespace TagConverter
         {
             if (Directory.Exists(directory))
             {
+                DirectoryInfo di = new DirectoryInfo(directory);
+                foreach(DirectoryInfo subdir in di.GetDirectories())
+                {
+                    ClearDirectory(subdir.FullName);
+                }
+                foreach(FileInfo fi in di.GetFiles())
+                {
+                    fi.Delete();
+                }
                 Directory.Delete(directory);
             }
         }

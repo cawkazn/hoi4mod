@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㤰਍渉浡㵥∠呓呁彅〳∹਍洉湡潰敷⁲‽㈵㈱㈱਍਍爉獥畯捲獥笽਍उ畲扢牥㴠〠਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䘠䅒਍उ楶瑣牯役潰湩獴㴠笠ㄠ㠲㈱㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽剆ുऊൽഊऊ牰癯湩散㵳ൻऊ㐉㤹‵〱㜷‵㈱㔷‷㈱ㄸ′਍紉਍ൽ
+state={
+	id=309
+	name= "STATE_309"
+	manpower = 521212
+
+	resources={
+		rubber = 0
+	}
+	state_category = rural
+
+	history={
+		owner = FRA
+		victory_points = { 12812 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		4995 10775 12757 12812 
+	}
+}

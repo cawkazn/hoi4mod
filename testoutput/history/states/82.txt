@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㠽ലऊ慮敭‽匢䅔䕔㡟∲਍洉湡潰敷⁲‽㌳㔹㘴਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽䡃൉ऊ瘉捩潴祲灟楯瑮⁳‽⁻〱㘰′″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ〱㘰′‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䌠䥈਍紉਍਍瀉潲楶据獥笽਍उ〱㘰′਍紉਍ൽ
+state={
+	id=82
+	name= "STATE_82"
+	manpower = 339546
+
+	state_category = pastoral
+
+	history={
+		owner = CHI
+		victory_points = { 10062 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10062 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		10062 
+	}
+}

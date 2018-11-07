@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽਍渉浡㵥∠呓呁彅∳਍洉湡潰敷⁲‽㤱㘷㘴਍਍爉獥畯捲獥笽਍उ楯⁬‽ശऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽剁േऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄸ㜸㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽剁േऊൽഊऊ牰癯湩散㵳ൻऊ㠉㠱‷㈸㠳ㄠ〱㜰ㄠ㤲㐶ഠऊൽ紊਍
+state={
+	id=3
+	name= "STATE_3"
+	manpower = 197646
+
+	resources={
+		oil = 6
+	}
+	state_category = rural
+
+	history={
+		owner = ARG
+		victory_points = { 8187 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		8187 8238 11007 12964 
+	}
+}

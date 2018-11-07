@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㠽਍渉浡㵥∠呓呁彅∸਍洉湡潰敷⁲‽㐲㘲㐱਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ㄲ਍उ楯⁬‽ഴऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䄠䝒਍उ楶瑣牯役潰湩獴㴠笠㔠㠱‴″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䄠䝒਍紉਍਍瀉潲楶据獥笽਍उㄵ㈵㔠㠱‴㈵㤱㜠㔵‰㈸㠰ㄠ㤰㔷ㄠ㤰㔸ㄠ㤲㈴ㄠ㤲〷ഠऊൽ紊਍
+state={
+	id=8
+	name= "STATE_8"
+	manpower = 242614
+
+	resources={
+		aluminium = 21
+		oil = 4
+	}
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		victory_points = { 5184 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		5152 5184 5219 7550 8208 10975 10985 12942 12970 
+	}
+}

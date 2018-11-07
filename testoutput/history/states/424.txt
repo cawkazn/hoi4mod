@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩㐽㐲਍渉浡㵥∠呓呁彅㈴∴਍洉湡潰敷⁲‽〷㌴㈵਍਍猉慴整损瑡来牯⁹‽慬杲彥潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽㑘ഷऊ瘉捩潴祲灟楯瑮⁳‽⁻㜱㐠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㘠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠ㄠ਍उ愉物扟獡⁥‽റऊ紉਍उ摡彤潣敲潟⁦‽㑘ഷऊൽഊऊ牰癯湩散㵳ൻऊㄉ‷㐲″㜲‹㠳‸㌳ㄸ㌠㘴‰㔳㈳㘠㔵‸㔹㈳ㄠ㈱㈳ㄠ㔱㠵ഠऊൽ紊਍
+state={
+	id=424
+	name= "STATE_424"
+	manpower = 704352
+
+	state_category = large_town
+
+	history={
+		owner = X47
+		victory_points = { 17 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		17 243 279 388 3381 3460 3532 6558 9532 11232 11558 
+	}
+}

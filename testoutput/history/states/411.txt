@@ -1,1 +1,35 @@
-瑳瑡㵥ൻऊ摩㐽ㄱ਍渉浡㵥∠呓呁彅ㄴ∱਍洉湡潰敷⁲‽㐶㤹㈳਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽രऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽佐൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㈵〱ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠ㄠ਍उ㈉㤱‶‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㈵〱㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ㠉㠱″‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠传䅍਍紉਍਍瀉潲楶据獥笽਍उㄲ㘹㔠ㄲ‰ㄸ㌸ഠऊൽ紊਍
+state={
+	id=411
+	name= "STATE_411"
+	manpower = 649932
+
+	resources={
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = { 5210 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			2196 = {
+				naval_base = 6
+			}
+			5210 = {
+				naval_base = 6
+			}
+			8183 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = OMA
+	}
+
+	provinces={
+		2196 5210 8183 
+	}
+}

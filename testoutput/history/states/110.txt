@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩ㄽ〱਍渉浡㵥∠呓呁彅ㄱ∰਍洉湡潰敷⁲‽㤷〷㘷਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽രऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧瑟睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䌠䱏਍उ楶瑣牯役潰湩獴㴠笠ㄠ〳㌸㐠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠㈠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽佃ൌऊൽഊऊ牰癯湩散㵳ൻऊㄉ〳㌸ഠऊൽ紊਍
+state={
+	id=110
+	name= "STATE_110"
+	manpower = 797076
+
+	resources={
+		aluminium = 0
+	}
+	state_category = large_town
+
+	history={
+		owner = COL
+		victory_points = { 13083 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 0
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		13083 
+	}
+}

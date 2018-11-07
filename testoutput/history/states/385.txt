@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㌽㔸਍渉浡㵥∠呓呁彅㠳∵਍洉湡潰敷⁲‽㈱㠷〸സഊऊ敲潳牵散㵳ൻऊ猉整汥㴠ㄠ਍紉਍猉慴整损瑡来牯⁹‽慬杲彥潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽㑘വऊ瘉捩潴祲灟楯瑮⁳‽⁻〱〹‵‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠唠〸਍उ摡彤潣敲潟⁦‽㑘വऊൽഊऊ牰癯湩散㵳ൻऊ㈉㐰‱〲㐸㜠㜲″㌷㘱㠠〰‵〱㈸‱〱〹‵㈱㔷‴㈱㠸‴਍紉਍ൽ
+state={
+	id=385
+	name= "STATE_385"
+	manpower = 1278808
+
+	resources={
+		steel = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = X45
+		victory_points = { 10905 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = U80
+		add_core_of = X45
+	}
+
+	provinces={
+		2041 2084 7273 7316 8005 10821 10905 12754 12884 
+	}
+}

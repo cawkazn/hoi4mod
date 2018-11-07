@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㈽㠹਍渉浡㵥∠呓呁彅㤲∸਍洉湡潰敷⁲‽㌳㜲㠷਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽റऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ऊ浩慰獳扡敬㴠礠獥਍਍栉獩潴祲笽਍उ睯敮⁲‽剆ുऊ瘉捩潴祲灟楯瑮⁳‽⁻〱〱‴″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䘠䅒਍紉਍਍瀉潲楶据獥笽਍उ〱㜵ㄠ㐱‰㤱㐹㐠㤱‱㤷㔸ㄠ㄰㐰ㄠ㜰㐵ㄠ㜰㔸ㄠ㠲㘶ഠऊൽ紊਍
+state={
+	id=298
+	name= "STATE_298"
+	manpower = 332778
+
+	resources={
+		steel = 1
+	}
+	state_category = pastoral
+	impassable = yes
+
+	history={
+		owner = FRA
+		victory_points = { 10104 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		1057 1140 1994 4191 7985 10104 10754 10785 12866 
+	}
+}

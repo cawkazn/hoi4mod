@@ -1,1 +1,25 @@
-瑳瑡㵥ൻऊ摩㌽㠹਍渉浡㵥∠呓呁彅㤳∸਍洉湡潰敷⁲‽ㄳ㘸㐷਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽佐൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㌷ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उㄉ㜲″‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠〠਍उൽऊൽഊऊ牰癯湩散㵳ൻऊㄉ㜲″਍紉਍ൽ
+state={
+	id=398
+	name= "STATE_398"
+	manpower = 318674
+
+	state_category = pastoral
+
+	history={
+		owner = POR
+		victory_points = { 1273 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1273 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1273 
+	}
+}

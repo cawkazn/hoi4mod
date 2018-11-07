@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽ഷऊ慮敭‽匢䅔䕔㍟∷਍洉湡潰敷⁲‽㤷㤳㠳਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ശऊൽऊ瑳瑡彥慣整潧祲㴠挠瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㈰਍उ楶瑣牯役潰湩獴㴠笠㘠㐵′〱素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽ഴऊउ牡獭晟捡潴祲㴠ㄠ਍उ愉物扟獡⁥‽ശऊ紉਍उ摡彤潣敲潟⁦‽じലऊൽഊऊ牰癯湩散㵳ൻऊ㌉㌵‰㔳㐷㌠㜶‹㘳㈹㘠㐵′㔶㠶㘠㠵‱㜶㈱㘠㌹‴ㄱ㐶‰਍紉਍ൽ
+state={
+	id=37
+	name= "STATE_37"
+	manpower = 793938
+
+	resources={
+		aluminium = 6
+	}
+	state_category = city
+
+	history={
+		owner = BAD
+		victory_points = { 6542 10 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = BAD
+	}
+
+	provinces={
+		3530 3574 3679 3692 6542 6568 6581 6712 6934 11640 
+	}
+}

@@ -1,1 +1,38 @@
-瑳瑡㵥ൻऊ摩㌽㠷਍渉浡㵥∠呓呁彅㜳∸਍洉湡潰敷⁲‽ㄶ㔳㈱਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽രऊ漉汩㴠㐠਍उ畲扢牥㴠㐠ഹऊ猉整汥㴠〠਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䠠䱏਍उ楶瑣牯役潰湩獴㴠笠㜠㔶‸‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ㘷㠵㴠笠਍उउ慮慶彬慢敳㴠㠠਍उ紉਍उㄉ㔰㈲㴠笠਍उउ慮慶彬慢敳㴠㠠਍उ紉਍उㄉ㐲㠸㴠笠਍उउ慮慶彬慢敳㴠㠠਍उ紉਍उ愉物扟獡⁥‽വऊ紉਍उ摡彤潣敲潟⁦‽じറऊൽഊऊ牰癯湩散㵳ൻऊㄉ㘴‰㘱㠴㐠㐴‶㘴㈵㜠㔶‸㘷㌷㠠㘳‰〱〵‹〱㈵′㈱㠴‸਍紉਍ൽ
+state={
+	id=378
+	name= "STATE_378"
+	manpower = 613512
+
+	resources={
+		aluminium = 0
+		oil = 4
+		rubber = 49
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = HOL
+		victory_points = { 7658 6 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			7658 = {
+				naval_base = 8
+			}
+			10522 = {
+				naval_base = 8
+			}
+			12488 = {
+				naval_base = 8
+			}
+			air_base = 5
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		1460 1648 4446 4652 7658 7673 8360 10509 10522 12488 
+	}
+}

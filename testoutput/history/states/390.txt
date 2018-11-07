@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩㌽〹਍渉浡㵥∠呓呁彅㤳∰਍洉湡潰敷⁲‽㌱㤶㠰സഊऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠倠啒਍उ楶瑣牯役潰湩獴㴠笠㠠ㄲ″‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽സऊउ湩畤瑳楲污损浯汰硥㴠㜠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠倠啒਍紉਍਍瀉潲楶据獥笽਍उ㈸㌱ㄠ㤰〷ഠऊൽ紊਍
+state={
+	id=390
+	name= "STATE_390"
+	manpower = 1369088
+
+	state_category = large_city
+
+	history={
+		owner = PRU
+		victory_points = { 8213 6 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 0
+			air_base = 2
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		8213 10970 
+	}
+}

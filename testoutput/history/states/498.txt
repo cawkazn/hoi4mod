@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㐽㠹਍渉浡㵥∠呓呁彅㤴∸਍洉湡潰敷⁲‽ㄹ〲㠶਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽㠵਍紉਍猉慴整损瑡来牯⁹‽慬杲彥潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽㑘ഹऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄵ‴‹ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㘠਍उൽऊ愉摤损牯彥景㴠堠㤴਍紉਍਍瀉潲楶据獥笽਍उㄵ‴㜵″㔳㔳㘠㔵‹㐹ㄴ㤠㜴‱ㄱ㠴‱਍紉਍ൽ
+state={
+	id=498
+	name= "STATE_498"
+	manpower = 912068
+
+	resources={
+		steel = 58
+	}
+	state_category = large_town
+
+	history={
+		owner = X49
+		victory_points = { 514 9 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = X49
+	}
+
+	provinces={
+		514 573 3535 6559 9441 9471 11481 
+	}
+}

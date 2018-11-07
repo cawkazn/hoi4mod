@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽〳਍渉浡㵥∠呓呁彅㌳∰਍洉湡潰敷⁲‽㠶〴〳਍਍爉獥畯捲獥笽਍उ畴杮瑳湥㴠㈠਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㈲਍उ楶瑣牯役潰湩獴㴠笠ㄠ㜲㌴㠠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㌠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽വऊ紉਍उ摡彤潣敲潟⁦‽㉘ലऊൽഊऊ牰癯湩散㵳ൻऊ㐉〱‶〸㘷ㄠ〲〸ㄠ㜲㌴ഠऊൽ紊਍
+state={
+	id=330
+	name= "STATE_330"
+	manpower = 684030
+
+	resources={
+		tungsten = 2
+	}
+	state_category = rural
+
+	history={
+		owner = X22
+		victory_points = { 12743 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X22
+	}
+
+	provinces={
+		4106 8076 12080 12743 
+	}
+}

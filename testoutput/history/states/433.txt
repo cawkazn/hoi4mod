@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㐽㌳਍渉浡㵥∠呓呁彅㌴∳਍洉湡潰敷⁲‽㌱㘵㐸ഴഊऊ敲潳牵散㵳ൻऊ猉整汥㴠㈠രऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧瑟睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠噏਍उ楶瑣牯役潰湩獴㴠笠㐠㌹㐠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽ളऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽佐ൌऊ愉摤损牯彥景㴠匠噏਍紉਍਍瀉潲楶据獥笽਍उ㤴″㐵‸㘵′㠵‴㐳㠵㌠㠴′㐳㜹㌠㠵‶㐶㄰㘠ㄴ‶㐹㤳㤠〵‸㔹㘴ㄠ㐱㠲ㄠ㐱〳ㄠ㔱㔱ㄠ㔱㈳ഠऊൽ紊਍
+state={
+	id=433
+	name= "STATE_433"
+	manpower = 1356844
+
+	resources={
+		steel = 20
+	}
+	state_category = large_town
+
+	history={
+		owner = SOV
+		victory_points = { 493 4 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = POL
+		add_core_of = SOV
+	}
+
+	provinces={
+		493 548 562 584 3458 3482 3497 3586 6401 6416 9439 9508 9546 11428 11430 11515 11532 
+	}
+}

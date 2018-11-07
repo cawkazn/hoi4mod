@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㘽㌵਍渉浡㵥∠呓呁彅㔶∳਍洉湡潰敷⁲‽ㄱㄲ㌵ലഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠ㄠശऊ漉汩㴠ㄠരऊ猉整汥㴠㐠രऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠唠䅓਍उ楶瑣牯役潰湩獴㴠笠㠠㌵㘠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽ലऊ紉਍उ摡彤潣敲潟⁦‽䕍൘ऊ愉摤损牯彥景㴠唠䅓਍紉਍਍瀉潲楶据獥笽਍उ㔸‰㔸″㜱㌹㌠㌸‴㜴㘹㘠㤸‷㜷㜴㜠㈸‱㤷〲㠠ㄱ‵〱㜵″〱㠷″ㄱㄸ‴㈱㘷‵਍紉਍ൽ
+state={
+	id=653
+	name= "STATE_653"
+	manpower = 1121532
+
+	resources={
+		aluminium = 16
+		oil = 10
+		steel = 40
+	}
+	state_category = large_city
+
+	history={
+		owner = USA
+		victory_points = { 853 6 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 2
+		}
+		add_core_of = MEX
+		add_core_of = USA
+	}
+
+	provinces={
+		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 10783 11814 12765 
+	}
+}

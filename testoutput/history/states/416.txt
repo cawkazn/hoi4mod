@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㐽㘱਍渉浡㵥∠呓呁彅ㄴ∶਍洉湡潰敷⁲‽㐹㌸㈸਍਍爉獥畯捲獥笽਍उ档潲業浵㴠㈠਍उ楯⁬‽രऊ猉整汥㴠㈠ഹऊ琉湵獧整⁮‽ലऊൽऊ瑳瑡彥慣整潧祲㴠挠瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㜴਍उ楶瑣牯役潰湩獴㴠笠㌠㈵′‵ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠㌠਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠堠㜴਍紉਍਍瀉潲楶据獥笽਍उ㈴‵㌵‸㔳㈲㌠㘵‱㐶ㄴ㘠㠴‷㔶㄰㘠㈵‴㔶㈸㤠㌲‸㐹㘵ㄠ㌱㤵ㄠ㔱㔴ഠऊൽ紊਍
+state={
+	id=416
+	name= "STATE_416"
+	manpower = 948382
+
+	resources={
+		chromium = 2
+		oil = 0
+		steel = 29
+		tungsten = 2
+	}
+	state_category = city
+
+	history={
+		owner = X47
+		victory_points = { 3522 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		425 538 3522 3561 6441 6487 6501 6524 6582 9238 9456 11359 11545 
+	}
+}

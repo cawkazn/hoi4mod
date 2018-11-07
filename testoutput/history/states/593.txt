@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㔽㌹਍渉浡㵥∠呓呁彅㤵∳਍洉湡潰敷⁲‽㔴ㄹ㈷਍਍爉獥畯捲獥笽਍उ楯⁬‽㐱਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠吠剕਍उ楶瑣牯役潰湩獴㴠笠㐠㔹‱‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䤠兒਍उ摡彤潣敲潟⁦‽啔൒ऊൽഊऊ牰癯湩散㵳ൻऊㄉ㌶‱〲㜹㌠㤷‵㤴ㄵ㜠㤹‴〸㄰ㄠ㜰㐴ㄠ㠰㘷ㄠ〲㘴ㄠ㌲㈷ㄠ㐲㌱ㄠ㠲㤳ㄠ㠲㤷ഠऊൽ紊਍
+state={
+	id=593
+	name= "STATE_593"
+	manpower = 459172
+
+	resources={
+		oil = 14
+	}
+	state_category = rural
+
+	history={
+		owner = TUR
+		victory_points = { 4951 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = IRQ
+		add_core_of = TUR
+	}
+
+	provinces={
+		1631 2097 3795 4951 7994 8001 10744 10876 12046 12372 12413 12839 12879 
+	}
+}

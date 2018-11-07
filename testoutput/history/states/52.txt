@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㔽ലऊ慮敭‽匢䅔䕔㕟∲਍洉湡潰敷⁲‽㌱㘳㘶਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽വऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽剂ുऊ瘉捩潴祲灟楯瑮⁳‽⁻〵㌸㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽佂ൌऊ愉摤损牯彥景㴠䈠䅒਍紉਍਍瀉潲楶据獥笽਍उ㤱㤷㈠㤱‸〵㌸㔠ㄲ‴㈵㘱㔠㌲′ㄸ㔸㠠㔲‴〱㘹‰㈱ㄹ‹㈱㘹‵਍紉਍ൽ
+state={
+	id=52
+	name= "STATE_52"
+	manpower = 133666
+
+	resources={
+		aluminium = 5
+	}
+	state_category = rural
+
+	history={
+		owner = BRA
+		victory_points = { 5083 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = BOL
+		add_core_of = BRA
+	}
+
+	provinces={
+		1979 2198 5083 5214 5216 5232 8185 8254 10960 12919 12965 
+	}
+}

@@ -1,1 +1,36 @@
-瑳瑡㵥ൻऊ摩㘽ളऊ慮敭‽匢䅔䕔㙟∳਍洉湡潰敷⁲‽〴㌹㐱਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽ㄱ਍उ畴杮瑳湥㴠㈠਍紉਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽剂ുऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄲ㈸ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उ㈉ㄲ‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउㄵㄳ㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उㄉ〳㘸㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽剐ൕऊൽഊऊ牰癯湩散㵳ൻऊ㈉㠱′㈲〱㔠㌱‱㈵㈰ㄠ㤰〴ㄠ〳㘸ഠऊൽ紊਍
+state={
+	id=63
+	name= "STATE_63"
+	manpower = 409314
+
+	resources={
+		steel = 11
+		tungsten = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = BRA
+		victory_points = { 2182 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			2210 = {
+				naval_base = 4
+			}
+			5131 = {
+				naval_base = 4
+			}
+			13086 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2182 2210 5131 5202 10940 13086 
+	}
+}

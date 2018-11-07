@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㈽ലऊ慮敭‽匢䅔䕔㉟∲਍洉湡潰敷⁲‽㘱ㄷ㌲ശഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠ㄠ㘳਍उ楯⁬‽രऊ猉整汥㴠ㄠലऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䄠单਍उ楶瑣牯役潰湩獴㴠笠㤠㘶‰‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠㐠਍उ愉浲彳慦瑣牯⁹‽ലऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䄠单਍紉਍਍瀉潲楶据獥笽਍उ㠶‴〷‱ㄷ‶㘳㌸㌠ㄷ″㜳ㄳ㘠㜶‰㜶〰㘠〷″㜶㘱㘠㔷‱㘹〶㤠㤶‰ㄱ㈵‰ㄱ㈶‵਍紉਍ൽ
+state={
+	id=22
+	name= "STATE_22"
+	manpower = 1671236
+
+	resources={
+		aluminium = 136
+		oil = 0
+		steel = 12
+	}
+	state_category = large_city
+
+	history={
+		owner = AUS
+		victory_points = { 9660 6 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		684 701 716 3683 3713 3731 6670 6700 6703 6716 6751 9660 9690 11520 11625 
+	}
+}

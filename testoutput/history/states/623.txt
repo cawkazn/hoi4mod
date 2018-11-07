@@ -1,1 +1,40 @@
-瑳瑡㵥ൻऊ摩㘽㌲਍渉浡㵥∠呓呁彅㈶∳਍洉湡潰敷⁲‽ㄳ㌶〷ഴഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㌠਍उ瑳敥⁬‽സऊൽऊ瑳瑡彥慣整潧祲㴠洠来污灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽单ുऊ瘉捩潴祲灟楯瑮⁳‽⁻㜶㈳㤠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㠠਍उ椉摮獵牴慩彬潣灭敬⁸‽ളऊउ牡獭晟捡潴祲㴠ㄠ਍उ搉捯祫牡⁤‽ലऊउ〹‵‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㜶㈳㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ㘉〹‹‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㠹㈳㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ愉物扟獡⁥‽ളऊ紉਍उ摡彤潣敲潟⁦‽单ുऊൽഊऊ牰癯湩散㵳ൻऊ㜉㔱㜠㠱㤠㔰㤠㠰㌠ㄷ‰㤳㘰㘠㌷′㤶㤰㤠㌸′㠹㜴㤠㔸‰ㄱ㌸‰਍紉਍ൽ
+state={
+	id=623
+	name= "STATE_623"
+	manpower = 3163704
+
+	resources={
+		aluminium = 3
+		steel = 8
+	}
+	state_category = megalopolis
+
+	history={
+		owner = USA
+		victory_points = { 6732 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
+			905 = {
+				naval_base = 6
+			}
+			6732 = {
+				naval_base = 6
+			}
+			6909 = {
+				naval_base = 6
+			}
+			9832 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+	}
+}

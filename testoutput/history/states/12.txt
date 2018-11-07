@@ -1,1 +1,36 @@
-瑳瑡㵥ൻऊ摩ㄽലऊ慮敭‽匢䅔䕔ㅟ∲਍洉湡潰敷⁲‽㤲㈶㘲਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽〱਍उ瑳敥⁬‽ഴऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䄠䝒਍उ楶瑣牯役潰湩獴㴠笠ㄠ㤲㐵ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㈉㘱‱‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㈵㄰㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㤲㐵㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䡃ൌऊൽഊऊ牰癯湩散㵳ൻऊ㈉㘱‱ㄵ㠱㔠㔱‹ㄵ㤶㔠〲‱㈵㤰㔠ㄲ‵ㄸ㠹㠠ㄲ‸〱㘹‱㈱㔹‴਍紉਍ൽ
+state={
+	id=12
+	name= "STATE_12"
+	manpower = 296226
+
+	resources={
+		aluminium = 10
+		steel = 4
+	}
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		victory_points = { 12954 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			2161 = {
+				naval_base = 6
+			}
+			5201 = {
+				naval_base = 6
+			}
+			12954 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = CHL
+	}
+
+	provinces={
+		2161 5118 5159 5169 5201 5209 5215 8198 8218 10961 12954 
+	}
+}

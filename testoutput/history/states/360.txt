@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩㌽〶਍渉浡㵥∠呓呁彅㘳∰਍洉湡潰敷⁲‽㈳㈸㈹ലഊऊ瑳瑡彥慣整潧祲㴠洠来污灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽䕍൘ऊ瘉捩潴祲灟楯瑮⁳‽⁻㤱㔶㈠″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽സऊउ湩畤瑳楲污损浯汰硥㴠㠠਍उ愉浲彳慦瑣牯⁹‽റऊउ潤正慹摲㴠㈠਍उㄉ㠰㤸㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उㄉ㠲〱㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ愉物扟獡⁥‽〱਍उൽऊ愉摤损牯彥景㴠䴠塅਍紉਍਍瀉潲楶据獥笽਍उ㤱㔶㜠ㄹ″〸㤸ㄠ㜰㈳ㄠ㜰㌷ㄠ㠰㤸ㄠ㠲〱ഠऊൽ紊਍
+state={
+	id=360
+	name= "STATE_360"
+	manpower = 3282922
+
+	state_category = megalopolis
+
+	history={
+		owner = MEX
+		victory_points = { 1965 23 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 1
+			dockyard = 2
+			10889 = {
+				naval_base = 4
+			}
+			12810 = {
+				naval_base = 4
+			}
+			air_base = 10
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1965 7913 8089 10732 10773 10889 12810 
+	}
+}

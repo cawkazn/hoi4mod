@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㔽਍渉浡㵥∠呓呁彅∵਍洉湡潰敷⁲‽㈴㐰㐰਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ഴऊ猉整汥㴠㐠਍उ畴杮瑳湥㴠㈠ലऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䄠䝒਍उ楶瑣牯役潰湩獴㴠笠㈠〲‸″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䄠䝒਍紉਍਍瀉潲楶据獥笽਍उㄲ㘰㈠〲‸ㄵ㌴㠠㔲‵〱㠹‶਍紉਍ൽ
+state={
+	id=5
+	name= "STATE_5"
+	manpower = 420404
+
+	resources={
+		aluminium = 4
+		steel = 4
+		tungsten = 22
+	}
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		victory_points = { 2208 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		2106 2208 5143 8255 10986 
+	}
+}

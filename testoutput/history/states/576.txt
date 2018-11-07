@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㔽㘷਍渉浡㵥∠呓呁彅㜵∶਍洉湡潰敷⁲‽ㄴ㐹〲਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽㠴਍उ档潲業浵㴠ㄠ㈰਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠吠剕਍उ楶瑣牯役潰湩獴㴠笠㌠㠸′″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠匠剅਍उ摡彤潣敲潟⁦‽啔൒ऊൽഊऊ牰癯湩散㵳ൻऊ㠉㌳㠠㜶㤠㜰㤠㐷㌠㌸″㠳㔶㌠㠸′㠶㘸ㄠ㠱㈳ㄠ㠱㘵ഠऊൽ紊਍
+state={
+	id=576
+	name= "STATE_576"
+	manpower = 419420
+
+	resources={
+		aluminium = 48
+		chromium = 102
+	}
+	state_category = rural
+
+	history={
+		owner = TUR
+		victory_points = { 3882 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = SER
+		add_core_of = TUR
+	}
+
+	provinces={
+		833 867 907 974 3833 3865 3882 6886 11832 11856 
+	}
+}

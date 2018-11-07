@@ -1,1 +1,35 @@
-瑳瑡㵥ൻऊ摩ㄽ㌸਍渉浡㵥∠呓呁彅㠱∳਍洉湡潰敷⁲‽〶㠸㠰਍਍爉獥畯捲獥笽਍उ畲扢牥㴠㈠਍उ瑳敥⁬‽ലऊ琉湵獧整⁮‽ളऊൽऊ瑳瑡彥慣整潧祲㴠琠睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠㜠㔲‴‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ〱㈲″‽ൻऊउ渉癡污扟獡⁥‽ളऊउൽऊउ㈱㤰‰‽ൻऊउ渉癡污扟獡⁥‽റऊउൽऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠䈠剕਍उ摡彤潣敲潟⁦‽久േऊൽഊऊ牰癯湩散㵳ൻऊㄉ㄰‴ㄱ㈴㌠㔶‱ㄴ㜴㜠㈱′㈷㐵㜠㠳′〱㠱′〱㈲″㈱㤰‰਍紉਍ൽ
+state={
+	id=183
+	name= "STATE_183"
+	manpower = 608808
+
+	resources={
+		rubber = 2
+		steel = 2
+		tungsten = 3
+	}
+	state_category = town
+
+	history={
+		owner = ENG
+		victory_points = { 7254 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			10223 = {
+				naval_base = 3
+			}
+			12090 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = BUR
+		add_core_of = ENG
+	}
+
+	provinces={
+		1014 1142 3651 4147 7122 7254 7382 10182 10223 12090 
+	}
+}

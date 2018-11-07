@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩ㄽ㘱਍渉浡㵥∠呓呁彅ㄱ∶਍洉湡潰敷⁲‽㜲ㄸ㔲ലഊऊ瑳瑡彥慣整潧祲㴠洠来污灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽䍅ൕऊ瘉捩潴祲灟楯瑮⁳‽⁻〱㐹′‹ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠㘠਍उ愉浲彳慦瑣牯⁹‽ലऊउ楡彲慢敳㴠㐠਍उൽऊ愉摤损牯彥景㴠䔠啃਍紉਍਍瀉潲楶据獥笽਍उㄸ㤴ㄠ㤰㈴ㄠ㠲㤶ഠऊൽ紊਍
+state={
+	id=116
+	name= "STATE_116"
+	manpower = 2781252
+
+	state_category = megalopolis
+
+	history={
+		owner = ECU
+		victory_points = { 10942 9 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = ECU
+	}
+
+	provinces={
+		8149 10942 12869 
+	}
+}

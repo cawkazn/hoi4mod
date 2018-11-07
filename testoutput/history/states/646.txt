@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㘽㘴਍渉浡㵥∠呓呁彅㐶∶਍洉湡潰敷⁲‽㠱㈷ശഊऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽单ുऊ瘉捩潴祲灟楯瑮⁳‽⁻㈷〹ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㈠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㜉㤲‰‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㌱㔰‶‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䘠䅒਍紉਍਍瀉潲楶据獥笽਍उ㈷〹ㄠ〳㐵ㄠ〳㔵ㄠ〳㘵ㄠ〳㜵ഠऊൽ紊਍
+state={
+	id=646
+	name= "STATE_646"
+	manpower = 18726
+
+	state_category = rural
+
+	history={
+		owner = USA
+		victory_points = { 7290 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			7290 = {
+				naval_base = 6
+			}
+			13056 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		7290 13054 13055 13056 13057 
+	}
+}

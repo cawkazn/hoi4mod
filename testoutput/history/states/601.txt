@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㘽㄰਍渉浡㵥∠呓呁彅〶∱਍洉湡潰敷⁲‽〶ㄳ㈵਍਍猉慴整损瑡来牯⁹‽慬杲彥潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽㕘ഴऊ瘉捩潴祲灟楯瑮⁳‽⁻㤹㜰㤠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠ㄠ਍उ㘉㜸‵‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउㄱ㌸″‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㐵਍紉਍਍瀉潲楶据獥笽਍उㄹ‰㘱㘱㘠㜸‵㜹〵㤠㜸‹㤹㜰ㄠ㠱㌳ㄠ㠱㤸ഠऊൽ紊਍
+state={
+	id=601
+	name= "STATE_601"
+	manpower = 603152
+
+	state_category = large_town
+
+	history={
+		owner = X54
+		victory_points = { 9907 9 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			6875 = {
+				naval_base = 4
+			}
+			11833 = {
+				naval_base = 4
+			}
+			air_base = 5
+		}
+		add_core_of = X54
+	}
+
+	provinces={
+		910 1616 6875 9750 9879 9907 11833 11889 
+	}
+}

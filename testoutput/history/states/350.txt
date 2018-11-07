@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽〵਍渉浡㵥∠呓呁彅㔳∰਍洉湡潰敷⁲‽㈲ㄳസഊऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽㍘റऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㌳‱‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽റऊउㄱ㌳‱‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠ㄳ਍紉਍਍瀉潲楶据獥笽਍उㄱ㌳‱਍紉਍ൽ
+state={
+	id=350
+	name= "STATE_350"
+	manpower = 22318
+
+	state_category = rural
+
+	history={
+		owner = X31
+		victory_points = { 11331 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			11331 = {
+				naval_base = 2
+			}
+			air_base = 5
+		}
+		add_core_of = X31
+	}
+
+	provinces={
+		11331 
+	}
+}

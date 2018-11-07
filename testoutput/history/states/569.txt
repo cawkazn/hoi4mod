@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㔽㤶਍渉浡㵥∠呓呁彅㘵∹਍洉湡潰敷⁲‽㜸㔰㐸਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ㄲ਍紉਍猉慴整损瑡来牯⁹‽慬杲彥潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽坓൉ऊ瘉捩潴祲灟楯瑮⁳‽⁻㘹〲㤠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠ㄠ਍उ愉物扟獡⁥‽വऊ紉਍उ摡彤潣敲潟⁦‽坓൉ऊൽഊऊ牰癯湩散㵳ൻऊ㌉ㄶ′㘶㘶㘠㠶″㔹㜸㤠ㄶ‸㘹〲㤠㈶′㘹㠳ㄠ㔱〹ഠऊൽ紊਍
+state={
+	id=569
+	name= "STATE_569"
+	manpower = 870584
+
+	resources={
+		aluminium = 21
+	}
+	state_category = large_town
+
+	history={
+		owner = SWI
+		victory_points = { 9620 9 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		3612 6666 6683 9587 9618 9620 9622 9638 11590 
+	}
+}

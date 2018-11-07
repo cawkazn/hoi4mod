@@ -1,1 +1,24 @@
-瑳瑡㵥ൻऊ摩㔽㐰਍渉浡㵥∠呓呁彅〵∴਍洉湡潰敷⁲‽㠸㐹㘰਍਍猉慴整损瑡来牯⁹‽楣祴਍਍栉獩潴祲笽਍उ睯敮⁲‽䍓ുऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㘵′‵ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠㔠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䠠䱏਍उ摡彤潣敲潟⁦‽䍓ുऊൽഊऊ牰癯湩散㵳ൻऊ㌉㘲′㐶㘹㘠〵‰㌹㌶ㄠ㐱㘵ㄠ㔱㈶ഠऊൽ紊਍
+state={
+	id=504
+	name= "STATE_504"
+	manpower = 889406
+
+	state_category = city
+
+	history={
+		owner = SCA
+		victory_points = { 11562 5 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 0
+			air_base = 2
+		}
+		add_core_of = HOL
+		add_core_of = SCA
+	}
+
+	provinces={
+		3262 6496 6500 9363 11456 11562 
+	}
+}

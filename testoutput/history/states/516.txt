@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㔽㘱਍渉浡㵥∠呓呁彅ㄵ∶਍洉湡潰敷⁲‽㈲㠴㘷਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽രऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽䍓ുऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㤱‴″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠丠䝉਍उ摡彤潣敲潟⁦‽䍓ുऊൽഊऊ牰癯湩散㵳ൻऊㄉㄱ㐹ഠऊൽ紊਍
+state={
+	id=516
+	name= "STATE_516"
+	manpower = 224876
+
+	resources={
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = SCA
+		victory_points = { 11194 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = NIG
+		add_core_of = SCA
+	}
+
+	provinces={
+		11194 
+	}
+}

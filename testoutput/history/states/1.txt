@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩ㄽ਍渉浡㵥∠呓呁彅∱਍洉湡潰敷⁲‽㔷㌳ഴഊऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽じരऊ瘉捩潴祲灟楯瑮⁳‽⁻㔹〶㠠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽വऊ紉਍उ摡彤潣敲潟⁦‽じരऊൽഊऊ牰癯湩散㵳ൻऊ㤉㘵‰਍紉਍ൽ
+state={
+	id=1
+	name= "STATE_1"
+	manpower = 75334
+
+	state_category = rural
+
+	history={
+		owner = X00
+		victory_points = { 9560 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X00
+	}
+
+	provinces={
+		9560 
+	}
+}

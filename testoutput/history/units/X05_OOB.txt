@@ -190,8 +190,8 @@ division_template = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
-			creator = "X58"
+			type = infantry_equipment_1
+			creator = "X05"
 		}
 		requested_factories = 5
 		progress = 0.88
@@ -200,7 +200,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "X58"
+			creator = "X05"
 		}
 		requested_factories = 2
 		progress = 0.88
@@ -208,8 +208,8 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = fighter_equipment_0
-			creator = "X58"
+			type = fighter_equipment_1
+			creator = "X05"
 		}
 		requested_factories = 5
 		progress = 0.88
@@ -218,7 +218,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = destroyer_2
-			creator = "X58"
+			creator = "X05"
 		}
 		requested_factories = 3
 		progress = 0.25
@@ -227,7 +227,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = battleship_2
-			creator = "X58"
+			creator = "X05"
 		}
 		requested_factories = 8
 		progress = 0.25
@@ -236,7 +236,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = convoy_1
-			creator = "X58"
+			creator = "X05"
 		}
 		requested_factories = 10
 		progress = 0.50
@@ -244,4 +244,11 @@ instant_effect = {
 	}
 }
 units = {
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 692
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
 }

@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩㐽㔶਍渉浡㵥∠呓呁彅㘴∵਍洉湡潰敷⁲‽㐸㠰〵਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠噏਍उ楶瑣牯役潰湩獴㴠笠ㄠ㐷‵″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠匠噏਍紉਍਍瀉潲楶据獥笽਍उ㜱㈲ㄠ㐷‵㠲㌵㈠㜸‷ㄳ㐸㜠ㄸ‷〱㠵‹਍紉਍ൽ
+state={
+	id=465
+	name= "STATE_465"
+	manpower = 840850
+
+	state_category = rural
+
+	history={
+		owner = SOV
+		victory_points = { 1745 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1722 1745 2853 2877 3184 7817 10589 
+	}
+}

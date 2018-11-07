@@ -1,1 +1,31 @@
-瑳瑡㵥ൻऊ摩㔽㐷਍渉浡㵥∠呓呁彅㜵∴਍洉湡潰敷⁲‽〲㤷㘸਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽〵਍उ档潲業浵㴠ㄠശऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽啔൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㠹㤰㠠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㤉〸‹‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䴠呎਍उ摡彤潣敲潟⁦‽啔൒ऊൽഊऊ牰癯湩散㵳ൻऊ㤉㜳㌠㈹′㤶㌱㤠〸‹ㄱ㔸‸਍紉਍ൽ
+state={
+	id=574
+	name= "STATE_574"
+	manpower = 207986
+
+	resources={
+		aluminium = 50
+		chromium = 16
+	}
+	state_category = rural
+
+	history={
+		owner = TUR
+		victory_points = { 9809 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			9809 = {
+				naval_base = 4
+			}
+			air_base = 5
+		}
+		add_core_of = MNT
+		add_core_of = TUR
+	}
+
+	provinces={
+		937 3922 6913 9809 11858 
+	}
+}

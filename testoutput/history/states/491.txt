@@ -1,1 +1,36 @@
-瑳瑡㵥ൻऊ摩㐽ㄹ਍渉浡㵥∠呓呁彅㤴∱਍洉湡潰敷⁲‽㐴㤶㈱਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽体ൖऊ瘉捩潴祲灟楯瑮⁳‽⁻㌱㐰‷″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ㌱㐰‷‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ㌱㐰‸‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㌱㔰′‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ㌱㠰‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠匠噏਍उ摡彤潣敲潟⁦‽单ുऊൽഊऊ牰癯湩散㵳ൻऊㄉ〳㜴ㄠ〳㠴ㄠ〳㈵ㄠ〳〸ഠऊൽ紊਍
+state={
+	id=491
+	name= "STATE_491"
+	manpower = 446912
+
+	state_category = pastoral
+
+	history={
+		owner = SOV
+		victory_points = { 13047 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13047 = {
+				naval_base = 2
+			}
+			13048 = {
+				naval_base = 4
+			}
+			13052 = {
+				naval_base = 2
+			}
+			13080 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = SOV
+		add_core_of = USA
+	}
+
+	provinces={
+		13047 13048 13052 13080 
+	}
+}

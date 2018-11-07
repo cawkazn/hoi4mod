@@ -1,1 +1,40 @@
-瑳瑡㵥ൻऊ摩㔽ㄸ਍渉浡㵥∠呓呁彅㠵∱਍洉湡潰敷⁲‽〵㘶〵਍਍爉獥畯捲獥笽਍उ档潲業浵㴠㠠ഴऊ猉整汥㴠㈠രऊൽऊ瑳瑡彥慣整潧祲㴠琠睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠吠剕਍उ楶瑣牯役潰湩獴㴠笠㤠㌸″‹ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ潤正慹摲㴠ㄠ਍उ㠉㤴㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ㤉㈲㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ㤉㌸″‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउㄱ㈸‹‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠吠剕਍紉਍਍瀉潲楶据獥笽਍उ㐸‹㈹′㠳㤷㌠㤸″㠶㔹㤠㌸″ㄱ㈸‹ㄱ㐸′਍紉਍ൽ
+state={
+	id=581
+	name= "STATE_581"
+	manpower = 506650
+
+	resources={
+		chromium = 84
+		steel = 20
+	}
+	state_category = town
+
+	history={
+		owner = TUR
+		victory_points = { 9833 9 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			849 = {
+				naval_base = 4
+			}
+			922 = {
+				naval_base = 4
+			}
+			9833 = {
+				naval_base = 4
+			}
+			11829 = {
+				naval_base = 4
+			}
+			air_base = 5
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		849 922 3879 3893 6895 9833 11829 11842 
+	}
+}

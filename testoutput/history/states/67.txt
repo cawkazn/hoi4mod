@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㘽ഷऊ慮敭‽匢䅔䕔㙟∷਍洉湡潰敷⁲‽㔲㈸㘱਍਍爉獥畯捲獥笽਍उ档潲業浵㴠㘠਍उ楯⁬‽ളऊ猉整汥㴠㌠਍उ畴杮瑳湥㴠㔠਍紉਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽婕ൂऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㜸‷″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠唠䉚਍紉਍਍瀉潲楶据獥笽਍उ㐷㠴㜠㠵‴㤷㐸ㄠ㠰㈵ㄠ㈲㠴ㄠ㠲㜷ഠऊൽ紊਍
+state={
+	id=67
+	name= "STATE_67"
+	manpower = 258216
+
+	resources={
+		chromium = 6
+		oil = 3
+		steel = 3
+		tungsten = 5
+	}
+	state_category = pastoral
+
+	history={
+		owner = UZB
+		victory_points = { 12877 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = UZB
+	}
+
+	provinces={
+		7448 7584 7984 10852 12248 12877 
+	}
+}

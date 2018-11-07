@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㘽〶਍渉浡㵥∠呓呁彅㘶∰਍洉湡潰敷⁲‽㜱㤴㠹਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ശऊ按牨浯畩⁭‽㠳਍उ瑳敥⁬‽ലऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽㕘ഹऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄸ㠷㠠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㌠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽വऊ紉਍उ摡彤潣敲潟⁦‽㕘ഹऊൽഊऊ牰癯湩散㵳ൻऊㄉ㘴‸㐱㐹㠠㜱‸਍紉਍ൽ
+state={
+	id=660
+	name= "STATE_660"
+	manpower = 174998
+
+	resources={
+		aluminium = 6
+		chromium = 38
+		steel = 2
+	}
+	state_category = rural
+
+	history={
+		owner = X59
+		victory_points = { 8178 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X59
+	}
+
+	provinces={
+		1468 1494 8178 
+	}
+}

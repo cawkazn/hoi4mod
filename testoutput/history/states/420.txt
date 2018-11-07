@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㐽〲਍渉浡㵥∠呓呁彅㈴∰਍洉湡潰敷⁲‽㠱㜵㐰਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ലऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽㑘ഷऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄵ‹″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠堠㜴਍紉਍਍瀉潲楶据獥笽਍उㄵ‹㤶‴਍紉਍ൽ
+state={
+	id=420
+	name= "STATE_420"
+	manpower = 185704
+
+	resources={
+		aluminium = 2
+	}
+	state_category = rural
+
+	history={
+		owner = X47
+		victory_points = { 519 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		519 694 
+	}
+}
