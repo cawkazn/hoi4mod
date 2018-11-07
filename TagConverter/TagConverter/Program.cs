@@ -88,6 +88,8 @@ namespace TagConverter
                         break;
                     }
                     break;
+                //case "2":
+                //    break;
                 case "2":
                     bool countryEdited = false;
                     if (directoryInfo.Name == "countries")
@@ -103,6 +105,7 @@ namespace TagConverter
                                 if (fileName.Length > 3)
                                 {
                                     string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
+                                    ProcessCountry(fi, tag, newTag);
                                     File.Delete(newFileName);
                                     File.Move(fi.FullName, newFileName);
                                     countryEdited = true;
