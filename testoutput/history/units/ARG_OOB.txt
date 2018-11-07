@@ -1,0 +1,663 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Armored Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Assault Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		light_armor = { x = 4 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Assault Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ARG"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ARG"
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "ARG"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ARG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ARG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "ARG"
+		}
+		requested_factories = 10
+		progress = 0.50
+		amount = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Infantry Brigade"
+		location = 12364
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 12364
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 12364
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 1639
+		location = 1639
+		ship = {
+			name = "2nd Punta Arenas Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "3rd Rawson Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "3rd Osorno Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "2nd Puerto Aisen Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "4th Rawson Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "3rd Puerto Aisen Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "5th Osorno Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA San Juan"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA San Luis"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA Santa Cruz"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st Parana Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA Tucumán"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st Viedma Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA Catamarca"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA Pilcomayo"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "5th Rawson Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA Rosario"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st Puerto Deseado Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st Buenos Aires Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "2nd Rio Grande Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "6th Osorno Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "ARA La Plata"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st La Plata Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st Bahia Blanca Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "2nd Parana Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "1st Carmen Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "2nd Viedma Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "5th Valdivia Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "4th Puerto Aisen Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "6th Rawson Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "2nd Puerto Deseado Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "5th Rio Gallegos Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "3rd Rio Grande Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "7th Osorno Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "2nd Buenos Aires Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "3rd Temuco Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "4th Punta Arenas Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "4th Temuco Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+		ship = {
+			name = "8th Osorno Commerce Raider"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = ARG
+				}
+			}
+		}
+	}
+}

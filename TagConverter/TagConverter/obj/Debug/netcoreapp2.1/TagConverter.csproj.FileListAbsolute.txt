@@ -15,3 +15,8 @@ C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConve
 C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.AssemblyInfo.cs
 C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.dll
 C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.pdb
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.deps.json
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.runtimeconfig.json
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.runtimeconfig.dev.json
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.dll
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\bin\Debug\netcoreapp2.1\TagConverter.pdb
