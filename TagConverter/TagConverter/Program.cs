@@ -144,9 +144,9 @@ namespace TagConverter
                                     if (fileName.Length > 3)
                                     {
                                         string newFileName = directoryInfo.FullName + "\\" + newTag + fileName.Substring(3);
-                                        File.Delete(newFileName);
-                                        File.Move(fi.FullName, newFileName);
                                         ProcessCountry(fi, tag, newTag);
+                                        File.Delete(newFileName);
+                                        File.Move(fi.FullName, newFileName);                                        
                                     }
                                 }
                             }
