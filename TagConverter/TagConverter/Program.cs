@@ -19,14 +19,23 @@ namespace TagConverter
             ////AUTOMATE THIS TO A LIST
             //Console.WriteLine("Give me a directory");
             //string directory = Console.ReadLine();
-            int level = 0;
+            int level;
             string tag = "X05";
             string newTag = "BAV";
-            string directory = "C:\\myprojects\\hoi4mod\\test";
+            string baseDirectory = "C:\\myprojects\\hoi4mod\\test";
+            string outputDirectory = "C:\\myprojects\\hoi4mod\\testoutput";
 
-            SlamItOut(tag, directory, level, newTag);
+            ClearDirectory(outputDirectory);
+            Copy(baseDirectory, outputDirectory);
 
-            Console.WriteLine("hello");
+            List<TagHelper> tagsToChange = new List<TagHelper>();
+            tagsToChange.Add(new TagHelper("X05", "BAV"));
+            foreach (TagHelper th in tagsToChange)
+            {
+                level = 0;
+                SlamItOut(th.oldTag, outputDirectory, level, th.newTag);
+                Console.WriteLine("finished tag " + th.oldTag + " to " + th.newTag);
+            }
             Console.ReadLine();
         }
 
@@ -182,10 +191,7 @@ namespace TagConverter
                             Console.WriteLine("CAN't FIND THA FUCKIN " + fi.FullName + "FILE");
                             //NEW COUNTRY;
                         }
-                    }
-
-
-                    
+                    }                  
                     break;
             }
         }
@@ -233,6 +239,42 @@ namespace TagConverter
                 {
                     "common"
                 };
+            }
+        }
+
+        public static void ClearDirectory(string directory)
+        {
+            if (Directory.Exists(directory))
+            {
+                Directory.Delete(directory);
+            }
+        }
+
+        public static void Copy(string sourceDirectory, string targetDirectory)
+        {
+            DirectoryInfo diSource = new DirectoryInfo(sourceDirectory);
+            DirectoryInfo diTarget = new DirectoryInfo(targetDirectory);
+
+            CopyAll(diSource, diTarget);
+        }
+
+        public static void CopyAll(DirectoryInfo source, DirectoryInfo target)
+        {
+            Directory.CreateDirectory(target.FullName);
+
+            // Copy each file into the new directory.
+            foreach (FileInfo fi in source.GetFiles())
+            {
+                Console.WriteLine(@"Copying {0}\{1}", target.FullName, fi.Name);
+                fi.CopyTo(Path.Combine(target.FullName, fi.Name), true);
+            }
+
+            // Copy each subdirectory using recursion.
+            foreach (DirectoryInfo diSourceSubDir in source.GetDirectories())
+            {
+                DirectoryInfo nextTargetSubDir =
+                    target.CreateSubdirectory(diSourceSubDir.Name);
+                CopyAll(diSourceSubDir, nextTargetSubDir);
             }
         }
     }
