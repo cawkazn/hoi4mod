@@ -34,8 +34,9 @@ namespace TagConverter
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(directory);
 
-            if (directoryInfo.Name == "common")
+            if (IgnoredDirectories.Contains(directoryInfo.Name))
             {
+                return;
             }
             else
             {
@@ -57,20 +58,17 @@ namespace TagConverter
                         }
                     }
                 }
-                else
-                {
-                    FileInfo[] filesRaw = directoryInfo.GetFiles();
-                    List<FileInfo> files = new List<FileInfo>();
+                FileInfo[] filesRaw = directoryInfo.GetFiles();
+                List<FileInfo> files = new List<FileInfo>();
 
-                    for (int i = 0; i < filesRaw.Length; i++)
-                    {
-                        files.Add(filesRaw[i]);
-                    }
-                    foreach (FileInfo fi in files)
-                    {
-                        ProcessFile(fi, level, directoryInfo, tag, newTag);
-                    }
+                for (int i = 0; i < filesRaw.Length; i++)
+                {
+                    files.Add(filesRaw[i]);
                 }
+                foreach (FileInfo fi in files)
+                {
+                    ProcessFile(fi, level, directoryInfo, tag, newTag);
+                }       
             }
         }
 
@@ -222,6 +220,16 @@ namespace TagConverter
                     "flags"
                 };
             }
+        }
+
+        public static List<string> IgnoredDirectories
+        {
+            get
+            {
+                return new List<string>()
+                {
+                    "common"
+                };
         }
     }
 }

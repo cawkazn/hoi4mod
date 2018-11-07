@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jobber 2k17\\source\\repos\\TagConverter\\TagConverter\\TagConverter.csproj",
+      "projectUniqueName": "C:\\MyProjects\\hoi4mod\\TagConverter\\TagConverter\\TagConverter.csproj",
       "projectName": "TagConverter",
-      "projectPath": "C:\\Users\\Jobber 2k17\\source\\repos\\TagConverter\\TagConverter\\TagConverter.csproj",
+      "projectPath": "C:\\MyProjects\\hoi4mod\\TagConverter\\TagConverter\\TagConverter.csproj",
       "packagesPath": "C:\\Users\\Jobber 2k17\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jobber 2k17\\source\\repos\\TagConverter\\TagConverter\\obj\\",
+      "outputPath": "C:\\MyProjects\\hoi4mod\\TagConverter\\TagConverter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
