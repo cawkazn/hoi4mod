@@ -9,3 +9,9 @@ C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp
 C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.AssemblyInfo.cs
 C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.dll
 C:\Users\Jobber 2k17\source\repos\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.pdb
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.csprojAssemblyReference.cache
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.csproj.CoreCompileInputs.cache
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.AssemblyInfoInputs.cache
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.AssemblyInfo.cs
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.dll
+C:\MyProjects\hoi4mod\TagConverter\TagConverter\obj\Debug\netcoreapp2.1\TagConverter.pdb
