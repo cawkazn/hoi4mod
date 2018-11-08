@@ -92,6 +92,13 @@ namespace TagConverter
                         {
                             break;
                         }
+                        if(directoryInfo.Name == "events")
+                        {
+                            if(fi.Name == "ElectionEvents")
+                            {
+                                
+                            }
+                        }
                         break;
                     //case "2":
                     //    break;
@@ -221,11 +228,11 @@ namespace TagConverter
         }
     
 
-        public static void ProcessCountry(FileInfo fi, string tag, string newTag)
+        public static void ProcessCountry(FileInfo fi, string tag, string newTag, string prefix, string suffix)
         {
             Console.WriteLine("changing country tags for " + fi.Name);
             string file = File.ReadAllText(fi.FullName, Encoding.UTF8);
-            string newText = file.Replace(tag.ToUpperInvariant(), newTag.ToUpperInvariant());
+            string newText = file.Replace(prefix + tag.ToUpperInvariant() + suffix, prefix + newTag.ToUpperInvariant() + suffix);
             File.WriteAllText(fi.FullName, newText);
         }
 
