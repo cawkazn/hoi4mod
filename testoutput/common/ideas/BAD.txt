@@ -1,8 +1,8 @@
 ideas = {
 	political_advisor = {
-		X58_absolutist_advisor = {
+		BAD_absolutist_advisor = {
 			allowed = {
-				original_tag = "X58"
+				original_tag = "BAD"
 			}
 			traits = { absolutist_minister }
 			picture = triumphant_will
@@ -15,9 +15,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		X58_democratic_advisor = {
+		BAD_democratic_advisor = {
 			allowed = {
-				original_tag = "X58"
+				original_tag = "BAD"
 			}
 			traits = { democratic_minister }
 			do_effect = {
@@ -29,9 +29,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		X58_neutrality_advisor = {
+		BAD_neutrality_advisor = {
 			allowed = {
-				original_tag = "X58"
+				original_tag = "BAD"
 			}
 			traits = { neutrality_minister }
 			picture = neutral_foreign_policy
@@ -48,11 +48,11 @@ ideas = {
 	tank_manufacturer = { 
 		designer = yes
 		
-		X58_tank_manufacturer = {
+		BAD_tank_manufacturer = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -67,11 +67,11 @@ ideas = {
 	}
 	naval_manufacturer = { 
 		designer = yes
-		X58_naval_manufacturer = {
+		BAD_naval_manufacturer = {
 			
 			picture = generic_naval_manufacturer_1
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -86,11 +86,11 @@ ideas = {
 	}
 	aircraft_manufacturer = { 
 		designer = yes
-		X58_light_aircraft_manufacturer = {
+		BAD_light_aircraft_manufacturer = {
 			
 			picture = generic_air_manufacturer_1
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -103,11 +103,11 @@ ideas = {
 			traits = { light_aircraft_manufacturer }
 		}
 		
-		X58_medium_aircraft_manufacturer = {
+		BAD_medium_aircraft_manufacturer = {
 			
 			picture = generic_air_manufacturer_3
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -120,11 +120,11 @@ ideas = {
 			traits = { medium_aircraft_manufacturer }
 		}
 		
-		X58_heavy_aircraft_manufacturer = {
+		BAD_heavy_aircraft_manufacturer = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -137,11 +137,11 @@ ideas = {
 			traits = { heavy_aircraft_manufacturer }
 		}
 		
-		X58_naval_aircraft_manufacturer = {
+		BAD_naval_aircraft_manufacturer = {
 			
 			picture = generic_naval_manufacturer_2
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -155,11 +155,11 @@ ideas = {
 		}
 	}
 	industrial_concern = {
-		X58_industrial_concern = {
+		BAD_industrial_concern = {
 			
 			picture = generic_industrial_concern_1
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -171,11 +171,11 @@ ideas = {
 			
 			traits = { industrial_concern }
 		}
-		X58_electronics_concern = {
+		BAD_electronics_concern = {
 			
 			picture = generic_electronics_concern_1
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -190,11 +190,11 @@ ideas = {
 	}
 	materiel_manufacturer = {
 		designer = yes
-		X58_motorized_equipment_manufacturer = {
+		BAD_motorized_equipment_manufacturer = {
 			
 			picture = generic_motorized_equipment_manufacturer_3
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -207,11 +207,11 @@ ideas = {
 			traits = { motorized_equipment_manufacturer }
 		}
 		
-		X58_infantry_equipment_manufacturer = {
+		BAD_infantry_equipment_manufacturer = {
 			
 			picture = generic_infantry_equipment_manufacturer_2
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150
@@ -224,11 +224,11 @@ ideas = {
 			traits = { infantry_equipment_manufacturer }
 		}
 		
-		X58_artillery_manufacturer = {
+		BAD_artillery_manufacturer = {
 			
 			picture = generic_artillery_manufacturer_2
 			allowed = {
-				original_tag = X58
+				original_tag = BAD
 			}
 			
 			cost = 150

@@ -1,4 +1,4 @@
-﻿AFG = {
+AFG = {
 	male = {
 		names = {
 			"Abdallah" "Abd al-Rahman" "Abd al-Quddus" "Afzal" "Ahmad" "Akbar" "Akram" "Ayyub" "Fath" "Firuz al-Din"
@@ -1687,7 +1687,7 @@ X01 = {
 	callsigns = {
 	}
 }
-X02 = {
+BAD = {
 	male = {
 		names = {
 			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"
@@ -3055,7 +3055,7 @@ X57 = {
 	callsigns = {
 	}
 }
-X58 = {
+WUR = {
 	male = {
 		names = {
 			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"

@@ -1,4 +1,4 @@
-﻿AFG = {
+AFG = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4128,7 +4128,7 @@ X01 = {
 
 }
 
-X02 = {
+BAD = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7432,7 +7432,7 @@ X57 = {
 
 }
 
-X58 = {
+WUR = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }

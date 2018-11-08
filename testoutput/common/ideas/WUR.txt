@@ -1,8 +1,8 @@
 ideas = {
 	political_advisor = {
-		X02_absolutist_advisor = {
+		WUR_absolutist_advisor = {
 			allowed = {
-				original_tag = "X02"
+				original_tag = "WUR"
 			}
 			traits = { absolutist_minister }
 			picture = triumphant_will
@@ -15,9 +15,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		X02_democratic_advisor = {
+		WUR_democratic_advisor = {
 			allowed = {
-				original_tag = "X02"
+				original_tag = "WUR"
 			}
 			traits = { democratic_minister }
 			do_effect = {
@@ -29,9 +29,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		X02_neutrality_advisor = {
+		WUR_neutrality_advisor = {
 			allowed = {
-				original_tag = "X02"
+				original_tag = "WUR"
 			}
 			traits = { neutrality_minister }
 			picture = neutral_foreign_policy
@@ -48,11 +48,11 @@ ideas = {
 	tank_manufacturer = { 
 		designer = yes
 		
-		X02_tank_manufacturer = {
+		WUR_tank_manufacturer = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -67,11 +67,11 @@ ideas = {
 	}
 	naval_manufacturer = { 
 		designer = yes
-		X02_naval_manufacturer = {
+		WUR_naval_manufacturer = {
 			
 			picture = generic_naval_manufacturer_1
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -86,11 +86,11 @@ ideas = {
 	}
 	aircraft_manufacturer = { 
 		designer = yes
-		X02_light_aircraft_manufacturer = {
+		WUR_light_aircraft_manufacturer = {
 			
 			picture = generic_air_manufacturer_1
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -103,11 +103,11 @@ ideas = {
 			traits = { light_aircraft_manufacturer }
 		}
 		
-		X02_medium_aircraft_manufacturer = {
+		WUR_medium_aircraft_manufacturer = {
 			
 			picture = generic_air_manufacturer_3
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -120,11 +120,11 @@ ideas = {
 			traits = { medium_aircraft_manufacturer }
 		}
 		
-		X02_heavy_aircraft_manufacturer = {
+		WUR_heavy_aircraft_manufacturer = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -137,11 +137,11 @@ ideas = {
 			traits = { heavy_aircraft_manufacturer }
 		}
 		
-		X02_naval_aircraft_manufacturer = {
+		WUR_naval_aircraft_manufacturer = {
 			
 			picture = generic_naval_manufacturer_2
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -155,11 +155,11 @@ ideas = {
 		}
 	}
 	industrial_concern = {
-		X02_industrial_concern = {
+		WUR_industrial_concern = {
 			
 			picture = generic_industrial_concern_1
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -171,11 +171,11 @@ ideas = {
 			
 			traits = { industrial_concern }
 		}
-		X02_electronics_concern = {
+		WUR_electronics_concern = {
 			
 			picture = generic_electronics_concern_1
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -190,11 +190,11 @@ ideas = {
 	}
 	materiel_manufacturer = {
 		designer = yes
-		X02_motorized_equipment_manufacturer = {
+		WUR_motorized_equipment_manufacturer = {
 			
 			picture = generic_motorized_equipment_manufacturer_3
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -207,11 +207,11 @@ ideas = {
 			traits = { motorized_equipment_manufacturer }
 		}
 		
-		X02_infantry_equipment_manufacturer = {
+		WUR_infantry_equipment_manufacturer = {
 			
 			picture = generic_infantry_equipment_manufacturer_2
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
@@ -224,11 +224,11 @@ ideas = {
 			traits = { infantry_equipment_manufacturer }
 		}
 		
-		X02_artillery_manufacturer = {
+		WUR_artillery_manufacturer = {
 			
 			picture = generic_artillery_manufacturer_2
 			allowed = {
-				original_tag = X02
+				original_tag = WUR
 			}
 			
 			cost = 150
