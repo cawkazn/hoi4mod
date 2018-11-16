@@ -1,4 +1,4 @@
-capital = 40
+ï»¿capital = 40
 set_research_slots = 3
 
 oob = "X05_OOB"
@@ -116,7 +116,7 @@ add_opinion_modifier = { target = VAT modifier = positive_135 }
 add_opinion_modifier = { target = VEN modifier = positive_20 }
 add_opinion_modifier = { target = VIN modifier = negative_100 }
 add_opinion_modifier = { target = X00 modifier = positive_135 }
-add_opinion_modifier = { target = BAD modifier = positive_159 }
+add_opinion_modifier = { target = X02 modifier = positive_159 }
 add_opinion_modifier = { target = X04 modifier = positive_0 }
 add_opinion_modifier = { target = X07 modifier = positive_0 }
 add_opinion_modifier = { target = X08 modifier = positive_0 }
@@ -156,7 +156,7 @@ add_opinion_modifier = { target = X53 modifier = positive_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_15 }
 add_opinion_modifier = { target = X56 modifier = positive_134 }
-add_opinion_modifier = { target = WUR modifier = positive_108 }
+add_opinion_modifier = { target = X58 modifier = positive_108 }
 add_opinion_modifier = { target = X59 modifier = positive_0 }
 
 
@@ -288,7 +288,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hermann von Schï¿½nburg"
+	name = "Hermann von Schönburg"
 	picture = ""
 	traits = { }
 	skill = 1

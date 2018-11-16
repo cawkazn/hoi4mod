@@ -3538,7 +3538,7 @@ TUR = {
 
 }
 
-U78 = {
+USC = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -3597,7 +3597,7 @@ U78 = {
 
 }
 
-U80 = {
+KAS = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4010,7 +4010,7 @@ VIN = {
 
 }
 
-X00 = {
+ANH = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4069,7 +4069,7 @@ X00 = {
 
 }
 
-X01 = {
+ATJ = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4187,7 +4187,7 @@ BAD = {
 
 }
 
-X03 = {
+BAL = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4246,7 +4246,7 @@ X03 = {
 
 }
 
-X04 = {
+BST = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4305,7 +4305,7 @@ X04 = {
 
 }
 
-X05 = {
+BAV = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4364,7 +4364,7 @@ X05 = {
 
 }
 
-X06 = {
+BER = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4423,7 +4423,7 @@ X06 = {
 
 }
 
-X07 = {
+BHO = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4482,7 +4482,7 @@ X07 = {
 
 }
 
-X08 = {
+BIK = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4541,7 +4541,7 @@ X08 = {
 
 }
 
-X09 = {
+BRN = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4600,7 +4600,7 @@ X09 = {
 
 }
 
-X10 = {
+BRE = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4659,7 +4659,7 @@ X10 = {
 
 }
 
-X11 = {
+BUN = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4718,7 +4718,7 @@ X11 = {
 
 }
 
-X12 = {
+SCG = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4777,7 +4777,7 @@ X12 = {
 
 }
 
-X13 = {
+FAM = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4836,7 +4836,7 @@ X13 = {
 
 }
 
-X14 = {
+GWA = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4895,7 +4895,7 @@ X14 = {
 
 }
 
-X15 = {
+HAM = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -4954,7 +4954,7 @@ X15 = {
 
 }
 
-X16 = {
+HAN = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5013,7 +5013,7 @@ X16 = {
 
 }
 
-X17 = {
+HED = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5072,7 +5072,7 @@ X17 = {
 
 }
 
-X18 = {
+HEK = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5131,7 +5131,7 @@ X18 = {
 
 }
 
-X19 = {
+HES = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5190,7 +5190,7 @@ X19 = {
 
 }
 
-X20 = {
+SCH = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5249,7 +5249,7 @@ X20 = {
 
 }
 
-X21 = {
+HYD = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5308,7 +5308,7 @@ X21 = {
 
 }
 
-X22 = {
+IND = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5367,7 +5367,7 @@ X22 = {
 
 }
 
-X23 = {
+JPR = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5426,7 +5426,7 @@ X23 = {
 
 }
 
-X24 = {
+JSL = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5485,7 +5485,7 @@ X24 = {
 
 }
 
-X25 = {
+JOD = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5544,7 +5544,7 @@ X25 = {
 
 }
 
-X26 = {
+JOH = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5603,7 +5603,7 @@ X26 = {
 
 }
 
-X27 = {
+KAL = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5662,7 +5662,7 @@ X27 = {
 
 }
 
-X28 = {
+KRA = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5721,7 +5721,7 @@ X28 = {
 
 }
 
-X29 = {
+KUT = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5780,7 +5780,7 @@ X29 = {
 
 }
 
-X30 = {
+LIP = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5839,7 +5839,7 @@ X30 = {
 
 }
 
-X31 = {
+LUB = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5898,7 +5898,7 @@ X31 = {
 
 }
 
-X32 = {
+LUC = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -5957,7 +5957,7 @@ X32 = {
 
 }
 
-X33 = {
+MAK = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6016,7 +6016,7 @@ X33 = {
 
 }
 
-X34 = {
+MEC = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6075,7 +6075,7 @@ X34 = {
 
 }
 
-X35 = {
+SXM = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6134,7 +6134,7 @@ X35 = {
 
 }
 
-X36 = {
+MEW = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6193,7 +6193,7 @@ X36 = {
 
 }
 
-X37 = {
+MOD = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6252,7 +6252,7 @@ X37 = {
 
 }
 
-X38 = {
+MYS = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6311,7 +6311,7 @@ X38 = {
 
 }
 
-X39 = {
+NAG = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6370,7 +6370,7 @@ X39 = {
 
 }
 
-X40 = {
+NAS = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6429,7 +6429,7 @@ X40 = {
 
 }
 
-X41 = {
+NEJ = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6488,7 +6488,7 @@ X41 = {
 
 }
 
-X42 = {
+OLD = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6547,7 +6547,7 @@ X42 = {
 
 }
 
-X43 = {
+ORA = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6606,7 +6606,7 @@ X43 = {
 
 }
 
-X44 = {
+ORI = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6665,7 +6665,7 @@ X44 = {
 
 }
 
-X45 = {
+PJB = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6724,7 +6724,7 @@ X45 = {
 
 }
 
-X46 = {
+PRM = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6783,7 +6783,7 @@ X46 = {
 
 }
 
-X47 = {
+PSA = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6842,7 +6842,7 @@ X47 = {
 
 }
 
-X48 = {
+SPD = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6901,7 +6901,7 @@ X48 = {
 
 }
 
-X49 = {
+SAX = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -6960,7 +6960,7 @@ X49 = {
 
 }
 
-X50 = {
+SIC = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7019,7 +7019,7 @@ X50 = {
 
 }
 
-X51 = {
+SIK = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7078,7 +7078,7 @@ X51 = {
 
 }
 
-X52 = {
+SIN = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7137,7 +7137,7 @@ X52 = {
 
 }
 
-X53 = {
+TRA = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7196,7 +7196,7 @@ X53 = {
 
 }
 
-X54 = {
+TUS = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7255,7 +7255,7 @@ X54 = {
 
 }
 
-X55 = {
+WAL = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7314,7 +7314,7 @@ X55 = {
 
 }
 
-X56 = {
+SXW = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7373,7 +7373,7 @@ X56 = {
 
 }
 
-X57 = {
+WIC = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }
@@ -7491,7 +7491,7 @@ WUR = {
 
 }
 
-X59 = {
+ZUL = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarine" }

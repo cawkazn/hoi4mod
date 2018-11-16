@@ -1,4 +1,4 @@
-capital = 502
+ï»¿capital = 502
 set_research_slots = 4
 
 oob = "SCA_OOB"
@@ -137,7 +137,7 @@ add_opinion_modifier = { target = VAT modifier = positive_200 }
 add_opinion_modifier = { target = VEN modifier = negative_15 }
 add_opinion_modifier = { target = VIN modifier = negative_180 }
 add_opinion_modifier = { target = X00 modifier = positive_155 }
-add_opinion_modifier = { target = BAD modifier = positive_150 }
+add_opinion_modifier = { target = X02 modifier = positive_150 }
 add_opinion_modifier = { target = X04 modifier = positive_20 }
 add_opinion_modifier = { target = X05 modifier = positive_155 }
 add_opinion_modifier = { target = X07 modifier = positive_20 }
@@ -178,7 +178,7 @@ add_opinion_modifier = { target = X53 modifier = positive_20 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_15 }
 add_opinion_modifier = { target = X56 modifier = positive_200 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = positive_20 }
 
 
@@ -201,7 +201,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Christian Gï¿½ntelberg"
+	name = "Christian Güntelberg"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -344,7 +344,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vilhelm Gï¿½ntelberg"
+	name = "Vilhelm Güntelberg"
 	picture = ""
 	traits = { }
 	skill = 1

@@ -1,4 +1,4 @@
-capital = 392
+ï»¿capital = 392
 set_research_slots = 3
 
 oob = "PRU_OOB"
@@ -104,7 +104,7 @@ add_opinion_modifier = { target = VAT modifier = positive_20 }
 add_opinion_modifier = { target = VEN modifier = positive_200 }
 add_opinion_modifier = { target = VIN modifier = negative_200 }
 add_opinion_modifier = { target = X00 modifier = negative_15 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -145,7 +145,7 @@ add_opinion_modifier = { target = X53 modifier = negative_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_15 }
 add_opinion_modifier = { target = X56 modifier = negative_15 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -167,7 +167,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Sebastiï¿½n Grau"
+	name = "Sebastián Grau"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -244,7 +244,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Bartolomï¿½ Zapata"
+	name = "Bartolomé Zapata"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -299,7 +299,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Josï¿½ Miguel Montero"
+	name = "José Miguel Montero"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -321,7 +321,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Josï¿½ Bulnes"
+	name = "José Bulnes"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -343,7 +343,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nicolï¿½s Monje"
+	name = "Nicolás Monje"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -376,7 +376,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Sebastiï¿½n de Santa Cruz"
+	name = "Sebastián de Santa Cruz"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -431,7 +431,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Tomï¿½s Arteaga"
+	name = "Tomás Arteaga"
 	picture = ""
 	traits = { }
 	skill = 1

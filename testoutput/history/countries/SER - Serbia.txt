@@ -1,4 +1,4 @@
-capital = 528
+﻿capital = 528
 set_research_slots = 3
 
 oob = "SER_OOB"
@@ -93,7 +93,7 @@ add_opinion_modifier = { target = VAT modifier = negative_5 }
 add_opinion_modifier = { target = VEN modifier = negative_15 }
 add_opinion_modifier = { target = VIN modifier = positive_0 }
 add_opinion_modifier = { target = X00 modifier = positive_85 }
-add_opinion_modifier = { target = BAD modifier = negative_5 }
+add_opinion_modifier = { target = X02 modifier = negative_5 }
 add_opinion_modifier = { target = X04 modifier = positive_0 }
 add_opinion_modifier = { target = X05 modifier = positive_15 }
 add_opinion_modifier = { target = X07 modifier = positive_0 }
@@ -134,7 +134,7 @@ add_opinion_modifier = { target = X53 modifier = negative_15 }
 add_opinion_modifier = { target = X54 modifier = negative_5 }
 add_opinion_modifier = { target = X55 modifier = positive_48 }
 add_opinion_modifier = { target = X56 modifier = negative_5 }
-add_opinion_modifier = { target = WUR modifier = negative_5 }
+add_opinion_modifier = { target = X58 modifier = negative_5 }
 add_opinion_modifier = { target = X59 modifier = positive_0 }
 
 

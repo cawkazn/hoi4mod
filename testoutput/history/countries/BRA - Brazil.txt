@@ -1,4 +1,4 @@
-capital = 59
+ï»¿capital = 59
 set_research_slots = 3
 
 oob = "BRA_OOB"
@@ -95,7 +95,7 @@ add_opinion_modifier = { target = VAT modifier = positive_0 }
 add_opinion_modifier = { target = VEN modifier = positive_200 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
 add_opinion_modifier = { target = X00 modifier = negative_15 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -136,7 +136,7 @@ add_opinion_modifier = { target = X53 modifier = negative_15 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_15 }
 add_opinion_modifier = { target = X56 modifier = negative_15 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -158,7 +158,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Silviano Jordï¿½o"
+	name = "Silviano Jordão"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -169,7 +169,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Getï¿½lio Bittencourt"
+	name = "Getúlio Bittencourt"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -180,7 +180,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Joï¿½o de Orleans"
+	name = "João de Orleans"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -202,7 +202,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Paulo de Braganï¿½a"
+	name = "Paulo de Bragança"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -213,7 +213,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Joï¿½o Vargas"
+	name = "João Vargas"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -224,7 +224,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gastï¿½o de Souza Neto"
+	name = "Gastão de Souza Neto"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -246,7 +246,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Emï¿½lio de Barros"
+	name = "Emílio de Barros"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -257,7 +257,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jï¿½lio Constant"
+	name = "Júlio Constant"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -286,7 +286,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Vital Osï¿½rio"
+	name = "Vital Osório"
 	picture = ""
 	traits = { }
 	skill = 1

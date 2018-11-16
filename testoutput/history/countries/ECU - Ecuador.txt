@@ -1,4 +1,4 @@
-capital = 115
+ï»¿capital = 115
 set_research_slots = 3
 
 oob = "ECU_OOB"
@@ -100,7 +100,7 @@ add_opinion_modifier = { target = VAT modifier = positive_0 }
 add_opinion_modifier = { target = VEN modifier = positive_170 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
 add_opinion_modifier = { target = X00 modifier = negative_15 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -141,7 +141,7 @@ add_opinion_modifier = { target = X53 modifier = negative_15 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_15 }
 add_opinion_modifier = { target = X56 modifier = negative_15 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -185,7 +185,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tadeo Garcï¿½a"
+	name = "Tadeo García"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -196,7 +196,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Santos Falcï¿½n"
+	name = "Santos Falcón"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -218,7 +218,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Santos Manjarrï¿½s"
+	name = "Santos Manjarrés"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -240,7 +240,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Leï¿½n Nï¿½ï¿½ez"
+	name = "León Núñez"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -262,7 +262,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Josï¿½ Manuel Castro"
+	name = "José Manuel Castro"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -295,7 +295,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Leï¿½n Boyd"
+	name = "León Boyd"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -306,7 +306,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Domingo Caamaï¿½o"
+	name = "Domingo Caamaño"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -317,7 +317,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Guillermo Gonzï¿½lez"
+	name = "Guillermo González"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -361,7 +361,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gregorio Carreï¿½o"
+	name = "Gregorio Carreño"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -383,7 +383,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Josï¿½ Antonio de Veintemilla"
+	name = "José Antonio de Veintemilla"
 	picture = ""
 	traits = { }
 	skill = 1

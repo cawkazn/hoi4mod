@@ -1,4 +1,4 @@
-capital = 570
+ï»¿capital = 570
 set_research_slots = 2
 
 oob = "TIB_OOB"
@@ -89,7 +89,7 @@ add_opinion_modifier = { target = VAT modifier = positive_0 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = VIN modifier = positive_10 }
 add_opinion_modifier = { target = X00 modifier = positive_0 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_5 }
 add_opinion_modifier = { target = X05 modifier = positive_0 }
 add_opinion_modifier = { target = X07 modifier = negative_5 }
@@ -130,7 +130,7 @@ add_opinion_modifier = { target = X53 modifier = negative_10 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_0 }
 add_opinion_modifier = { target = X56 modifier = positive_0 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_20 }
 
 
@@ -186,7 +186,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gendï¿½n Wangyal"
+	name = "Gendün Wangyal"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -208,7 +208,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gendï¿½n Chï¿½phel"
+	name = "Gendün Chöphel"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -219,7 +219,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tsarong Chï¿½phel"
+	name = "Tsarong Chöphel"
 	picture = ""
 	traits = { }
 	skill = 1

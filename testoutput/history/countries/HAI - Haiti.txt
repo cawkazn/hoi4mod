@@ -1,4 +1,4 @@
-capital = 322
+ï»¿capital = 322
 set_research_slots = 3
 
 oob = "HAI_OOB"
@@ -90,7 +90,7 @@ add_opinion_modifier = { target = VAT modifier = positive_50 }
 add_opinion_modifier = { target = VEN modifier = positive_125 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
 add_opinion_modifier = { target = X00 modifier = negative_15 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -131,7 +131,7 @@ add_opinion_modifier = { target = X53 modifier = negative_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_15 }
 add_opinion_modifier = { target = X56 modifier = negative_15 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -252,7 +252,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Florvil Thï¿½odore"
+	name = "Florvil Théodore"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -263,7 +263,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Michel Lhï¿½risson"
+	name = "Michel Lhérisson"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -274,7 +274,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jonathas Richï¿½"
+	name = "Jonathas Riché"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -307,7 +307,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tandredï¿½ Sam"
+	name = "Tandredè Sam"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -318,7 +318,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dantï¿½s Dessalines"
+	name = "Dantès Dessalines"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -329,7 +329,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Franï¿½ois Price"
+	name = "François Price"
 	picture = ""
 	traits = { }
 	skill = 1

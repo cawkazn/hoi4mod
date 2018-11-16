@@ -1,4 +1,4 @@
-capital = 323
+ï»¿capital = 323
 set_research_slots = 3
 
 oob = "X15_OOB"
@@ -104,7 +104,7 @@ add_opinion_modifier = { target = VAT modifier = negative_5 }
 add_opinion_modifier = { target = VEN modifier = negative_15 }
 add_opinion_modifier = { target = VIN modifier = positive_0 }
 add_opinion_modifier = { target = X00 modifier = positive_60 }
-add_opinion_modifier = { target = BAD modifier = negative_80 }
+add_opinion_modifier = { target = X02 modifier = negative_80 }
 add_opinion_modifier = { target = X04 modifier = positive_0 }
 add_opinion_modifier = { target = X05 modifier = positive_130 }
 add_opinion_modifier = { target = X07 modifier = positive_0 }
@@ -144,7 +144,7 @@ add_opinion_modifier = { target = X53 modifier = positive_0 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_5 }
 add_opinion_modifier = { target = X56 modifier = positive_60 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = positive_0 }
 
 
@@ -221,7 +221,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jï¿½rgen von Waldeck und Pyrmont"
+	name = "Jürgen von Waldeck und Pyrmont"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -342,7 +342,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jï¿½rgen von Mecklenburg-Schwerin"
+	name = "Jürgen von Mecklenburg-Schwerin"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -386,7 +386,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rudolf von Bï¿½low"
+	name = "Rudolf von Bülow"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -408,7 +408,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jï¿½rgen von Hindenburg"
+	name = "Jürgen von Hindenburg"
 	picture = ""
 	traits = { }
 	skill = 1

@@ -1,4 +1,4 @@
-capital = 413
+ï»¿capital = 413
 set_research_slots = 3
 
 oob = "PAR_OOB"
@@ -82,7 +82,7 @@ add_opinion_modifier = { target = VAT modifier = positive_0 }
 add_opinion_modifier = { target = VEN modifier = positive_25 }
 add_opinion_modifier = { target = VIN modifier = positive_0 }
 add_opinion_modifier = { target = X00 modifier = positive_0 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = positive_0 }
 add_opinion_modifier = { target = X05 modifier = positive_0 }
 add_opinion_modifier = { target = X07 modifier = positive_0 }
@@ -123,7 +123,7 @@ add_opinion_modifier = { target = X53 modifier = positive_0 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_0 }
 add_opinion_modifier = { target = X56 modifier = positive_0 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = positive_0 }
 
 
@@ -145,7 +145,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Juan Ramï¿½n Rodrï¿½guez de Francia"
+	name = "Juan Ramón Rodríguez de Francia"
 	picture = ""
 	traits = { }
 	skill = 1

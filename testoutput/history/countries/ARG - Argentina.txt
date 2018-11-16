@@ -1,4 +1,4 @@
-capital = 2
+ï»¿capital = 2
 set_research_slots = 3
 
 oob = "ARG_OOB"
@@ -99,7 +99,7 @@ add_opinion_modifier = { target = VAT modifier = positive_0 }
 add_opinion_modifier = { target = VEN modifier = positive_25 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
 add_opinion_modifier = { target = X00 modifier = negative_15 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -140,7 +140,7 @@ add_opinion_modifier = { target = X53 modifier = negative_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_15 }
 add_opinion_modifier = { target = X56 modifier = negative_15 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -162,7 +162,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Juan Josï¿½ de Urquiza"
+	name = "Juan José de Urquiza"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -184,7 +184,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Patricio Rodrï¿½guez de Francia"
+	name = "Patricio Rodríguez de Francia"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -250,7 +250,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nicolï¿½s Berro"
+	name = "Nicolás Berro"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -272,7 +272,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Agustï¿½n Rodrï¿½guez de Francia"
+	name = "Agustín Rodríguez de Francia"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -305,7 +305,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Josï¿½ Balcarce"
+	name = "José Balcarce"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -316,7 +316,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Domingo Juï¿½rez"
+	name = "Domingo Juárez"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -327,7 +327,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Roque Rodrï¿½guez de Francia"
+	name = "Roque Rodríguez de Francia"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -338,7 +338,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Josï¿½ Latorre"
+	name = "José Latorre"
 	picture = ""
 	traits = { }
 	skill = 1

@@ -1,4 +1,4 @@
-capital = 47
+ï»¿capital = 47
 set_research_slots = 3
 
 oob = "BOL_OOB"
@@ -94,7 +94,7 @@ add_opinion_modifier = { target = VAT modifier = positive_0 }
 add_opinion_modifier = { target = VEN modifier = positive_25 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
 add_opinion_modifier = { target = X00 modifier = negative_15 }
-add_opinion_modifier = { target = BAD modifier = positive_0 }
+add_opinion_modifier = { target = X02 modifier = positive_0 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -135,7 +135,7 @@ add_opinion_modifier = { target = X53 modifier = negative_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = negative_15 }
 add_opinion_modifier = { target = X56 modifier = negative_15 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -157,7 +157,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Ladislao Santa Marï¿½a"
+	name = "Ladislao Santa María"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -168,7 +168,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nicolï¿½s Melgarejo"
+	name = "Nicolás Melgarejo"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -212,7 +212,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ramï¿½n Freire"
+	name = "Ramón Freire"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -245,7 +245,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ramï¿½n Lynch"
+	name = "Ramón Lynch"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -278,7 +278,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nicolï¿½s Melgarejo"
+	name = "Nicolás Melgarejo"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -311,7 +311,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ramï¿½n Lynch"
+	name = "Ramón Lynch"
 	picture = ""
 	traits = { }
 	skill = 1

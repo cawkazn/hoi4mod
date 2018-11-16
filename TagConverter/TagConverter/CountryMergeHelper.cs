@@ -6,19 +6,32 @@ namespace TagConverter
 {
     public class CountryMergeHelper
     {
-        public string tagToGetRidOf { get; set; }
-        public string tagToMergeTo { get; set; }
-        public int stateId { get; set; }
+        public string stateId { get; set; }               
+        public string countryFrom { get; set; }
+        public string countryTo { get; set; }
+        public string tagFrom { get; set; }
+        public string tagTo { get; set; }
+        public string addCore { get; set; }
+        public string retainCore { get; set; }
+        public string provinceOnly { get; set; }
+        public string provinceId { get; set; }
 
         public CountryMergeHelper()
         {
 
         }
 
-        public CountryMergeHelper(string tagToGetRidOf, string tagToMergeTo, int stateId)
+        public CountryMergeHelper(string stateId, string countryFrom, string countryTo, string tagFrom, string tagTo, string addCore, string retainCore, string provinceOnly, string provinceId)
         {
-            this.tagToGetRidOf = tagToGetRidOf;
-            this.tagToMergeTo = tagToMergeTo;
+            this.stateId = stateId;
+            this.countryFrom = countryFrom;
+            this.countryTo = countryTo;
+            this.tagFrom = tagFrom;
+            this.tagTo = tagTo;
+            this.addCore = addCore;
+            this.retainCore = retainCore;
+            this.provinceOnly = provinceOnly;
+            this.provinceId = provinceId;
             this.stateId = stateId;
         }
     }

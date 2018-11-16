@@ -1,4 +1,4 @@
-capital = 542
+ï»¿capital = 542
 set_research_slots = 3
 
 oob = "SPR_OOB"
@@ -90,7 +90,7 @@ add_opinion_modifier = { target = VAT modifier = positive_30 }
 add_opinion_modifier = { target = VEN modifier = positive_20 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
 add_opinion_modifier = { target = X00 modifier = positive_5 }
-add_opinion_modifier = { target = BAD modifier = positive_20 }
+add_opinion_modifier = { target = X02 modifier = positive_20 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_20 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -131,7 +131,7 @@ add_opinion_modifier = { target = X53 modifier = positive_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_5 }
 add_opinion_modifier = { target = X56 modifier = positive_5 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 
@@ -175,7 +175,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Josï¿½ Marï¿½a de Albornoz"
+	name = "José María de Albornoz"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -186,7 +186,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Antonio Marï¿½a Heredia"
+	name = "Antonio María Heredia"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -197,7 +197,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Valeriano Dï¿½az"
+	name = "Valeriano Díaz"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -219,7 +219,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Pablo Fernï¿½ndez"
+	name = "Pablo Fernández"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -230,7 +230,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Segismundo Hernï¿½ndez"
+	name = "Segismundo Hernández"
 	picture = ""
 	traits = { }
 	skill = 1

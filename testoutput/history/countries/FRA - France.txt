@@ -1,4 +1,4 @@
-capital = 246
+ï»¿capital = 246
 set_research_slots = 4
 
 oob = "FRA_OOB"
@@ -113,7 +113,7 @@ add_opinion_modifier = { target = VAT modifier = positive_200 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
 add_opinion_modifier = { target = VIN modifier = negative_200 }
 add_opinion_modifier = { target = X00 modifier = positive_200 }
-add_opinion_modifier = { target = BAD modifier = positive_125 }
+add_opinion_modifier = { target = X02 modifier = positive_125 }
 add_opinion_modifier = { target = X04 modifier = negative_10 }
 add_opinion_modifier = { target = X05 modifier = positive_200 }
 add_opinion_modifier = { target = X07 modifier = negative_10 }
@@ -154,7 +154,7 @@ add_opinion_modifier = { target = X53 modifier = positive_5 }
 add_opinion_modifier = { target = X54 modifier = positive_0 }
 add_opinion_modifier = { target = X55 modifier = positive_5 }
 add_opinion_modifier = { target = X56 modifier = positive_130 }
-add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
 add_opinion_modifier = { target = X59 modifier = negative_10 }
 
 create_faction = "Alliance of France"
@@ -187,7 +187,7 @@ create_country_leader = {
     }
 }
 create_corps_commander = {
-	name = "Thomas Franchet d'Espï¿½rey"
+	name = "Thomas Franchet d'Espèrey"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -209,7 +209,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Eugï¿½ne Foch"
+	name = "Eugène Foch"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -308,7 +308,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fï¿½lix Joffre"
+	name = "Félix Joffre"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -319,7 +319,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "ï¿½douard Bazaine"
+	name = "Édouard Bazaine"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -352,7 +352,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Frï¿½dï¿½ric Dupetit-Thouars"
+	name = "Frédéric Dupetit-Thouars"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -418,7 +418,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fï¿½licien Jaurï¿½s"
+	name = "Félicien Jaurès"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -429,7 +429,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Eugï¿½ne Pï¿½llissier"
+	name = "Eugène Péllissier"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -450,7 +450,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Frï¿½dï¿½ric Courbet"
+	name = "Frédéric Courbet"
 	picture = ""
 	traits = { }
 	skill = 1
