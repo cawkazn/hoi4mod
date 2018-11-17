@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㌵਍渉浡㵥∠呓呁彅㔳∳਍洉湡潰敷⁲‽㔳㈸〵਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㐳਍उ楶瑣牯役潰湩獴㴠笠㌠ㄲ㠠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠ㄠ਍उ㌉ㄲ㴠笠਍उउ慮慶彬慢敳㴠ㄠരऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㐳਍紉਍਍瀉潲楶据獥笽਍उ㘲‸㤲″㈳‱㈳㠵㤠㤲‴ㄱ㜲‶ㄱ〳‵਍紉਍ൽ
+state={
+	id=353
+	name= "STATE_353"
+	manpower = 358250
+
+	state_category = rural
+
+	history={
+		owner = MEC
+		victory_points = { 321 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			321 = {
+				naval_base = 10
+			}
+			air_base = 5
+		}
+		add_core_of = MEC
+	}
+
+	provinces={
+		268 293 321 3258 9294 11276 11305 
+	}
+}

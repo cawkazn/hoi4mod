@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩ㄽ㠳਍渉浡㵥∠呓呁彅㌱∸਍洉湡潰敷⁲‽㈴㈵㐳਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽䝅൙ऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㘷‶″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ〵㜴㴠笠਍उउ慮慶彬慢敳㴠㈠਍उ紉਍उ㠉㐰″‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䔠奇਍紉਍਍瀉潲楶据獥笽਍उ〵㜱㔠㐰‷〵ㄹ㠠㐰″㈱㈷″㈱㘷‶਍紉਍ൽ
+state={
+	id=138
+	name= "STATE_138"
+	manpower = 425234
+
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 12766 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			5047 = {
+				naval_base = 2
+			}
+			8043 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		5017 5047 5091 8043 12723 12766 
+	}
+}

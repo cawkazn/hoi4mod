@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㐹਍渉浡㵥∠呓呁彅㤳∴਍洉湡潰敷⁲‽㐴㌳㘲਍਍猉慴整损瑡来牯⁹‽潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽剐ൕऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱〸㐠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㘠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠〠਍उㄉ㠲‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠倠啒਍紉਍਍瀉潲楶据獥笽਍उ㈱〸ഠऊൽ紊਍
+state={
+	id=394
+	name= "STATE_394"
+	manpower = 443326
+
+	state_category = town
+
+	history={
+		owner = PRU
+		victory_points = { 1280 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			1280 = {
+				naval_base = 4
+			}
+			air_base = 1
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		1280 
+	}
+}

@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㐽ഷऊ慮敭‽匢䅔䕔㑟∷਍洉湡潰敷⁲‽㤷〹ലഊऊ敲潳牵散㵳ൻऊ漉汩㴠㈠਍उ瑳敥⁬‽റऊ琉湵獧整⁮‽㤲਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䈠䱏਍उ楶瑣牯役潰湩獴㴠笠㔠㜱‹‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䈠䱏਍紉਍਍瀉潲楶据獥笽਍उㄲ〶㔠㜱‹〱㈹‴〱㌹‸〱㠹‷㈱〹′㈱ㄹ‶㈱㌹‰㈱㜹″਍紉਍ൽ
+state={
+	id=47
+	name= "STATE_47"
+	manpower = 79902
+
+	resources={
+		oil = 2
+		steel = 1
+		tungsten = 29
+	}
+	state_category = rural
+
+	history={
+		owner = BOL
+		victory_points = { 5179 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2160 5179 10924 10938 10987 12902 12916 12930 12973 
+	}
+}

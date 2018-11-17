@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㔽㔶਍渉浡㵥∠呓呁彅㘵∵਍洉湡潰敷⁲‽ㄱ㔳㠹സഊऊ敲潳牵散㵳ൻऊ按牨浯畩⁭‽ളऊ漉汩㴠ㄠ਍उ瑳敥⁬‽ലऊ琉湵獧整⁮‽ഷऊൽऊ瑳瑡彥慣整潧祲㴠琠睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠剐਍उ楶瑣牯役潰湩獴㴠笠㈠㄰‷‱ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䄠䝆਍紉਍਍瀉潲楶据獥笽਍उ㤱㠴ㄠ㤹‵〲㜱㈠㘰′〲㠷㈠〱‱㠴㌹㐠㐹‹〵〲㔠㘰‴㤷㘱㠠㔰″〱㜴‶〱㤸‶㈱㠷‸㈱㜸‱਍紉਍ൽ
+state={
+	id=565
+	name= "STATE_565"
+	manpower = 1135988
+
+	resources={
+		chromium = 3
+		oil = 1
+		steel = 2
+		tungsten = 7
+	}
+	state_category = town
+
+	history={
+		owner = SPR
+		victory_points = { 2017 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = AFG
+	}
+
+	provinces={
+		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 7916 8053 10476 10896 12788 12871 
+	}
+}

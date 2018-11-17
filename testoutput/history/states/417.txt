@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㐽㜱਍渉浡㵥∠呓呁彅ㄴ∷਍洉湡潰敷⁲‽〱ㄲ㔴രഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠ㄠശऊ猉整汥㴠㜠ലऊൽऊ瑳瑡彥慣整潧祲㴠挠瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㜴਍उ楶瑣牯役潰湩獴㴠笠ㄠ㐱㔳㔠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㘠਍उ椉摮獵牴慩彬潣灭敬⁸‽ഴऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽ലऊ紉਍उ摡彤潣敲潟⁦‽㑘ഷऊൽഊऊ牰癯湩散㵳ൻऊ㌉㈴″㔳㜴㤠㜵‵ㄱ㌴‵ㄱ㜴‰ㄱ㤴‴ㄱ㌵‱਍紉਍ൽ
+state={
+	id=417
+	name= "STATE_417"
+	manpower = 1021450
+
+	resources={
+		aluminium = 16
+		steel = 72
+	}
+	state_category = city
+
+	history={
+		owner = PSA
+		victory_points = { 11435 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 2
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		3423 3547 9575 11435 11470 11494 11531 
+	}
+}

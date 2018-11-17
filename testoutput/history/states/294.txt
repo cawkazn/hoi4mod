@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㈽㐹਍渉浡㵥∠呓呁彅㤲∴਍洉湡潰敷⁲‽㌱㌸㔲ശഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㘠਍उ畲扢牥㴠ㄠ਍उ瑳敥⁬‽റऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧瑟睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䘠䅒਍उ楶瑣牯役潰湩獴㴠笠㠠㜰‱‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䘠䅒਍紉਍਍瀉潲楶据獥笽਍उ〲㄰㜠㔹‰㤷㌸㠠㜰‱〱㌸‶㈱㔸‱਍紉਍ൽ
+state={
+	id=294
+	name= "STATE_294"
+	manpower = 1383256
+
+	resources={
+		aluminium = 6
+		rubber = 1
+		steel = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = FRA
+		victory_points = { 8071 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12851 
+	}
+}

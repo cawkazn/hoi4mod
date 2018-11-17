@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩ㄽശऊ慮敭‽匢䅔䕔ㅟ∶਍洉湡潰敷⁲‽㜸㔹㐷਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽രऊ漉汩㴠ㄠ਍उ瑳敥⁬‽ഷऊ琉湵獧整⁮‽സऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧瑟睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䄠单਍उ楶瑣牯役潰湩獴㴠笠㤠㐶‸‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽ലऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䄠单਍紉਍਍瀉潲楶据獥笽਍उ㔶″㘶‸㘳㌷㌠㜶‴㘶㌷㘠㠶‷㘶ㄹ㤠㐶‶㘹㠴㤠㔶‰㘹㤷ㄠ㘱㈱ഠऊൽ紊਍
+state={
+	id=16
+	name= "STATE_16"
+	manpower = 879574
+
+	resources={
+		aluminium = 0
+		oil = 1
+		steel = 7
+		tungsten = 8
+	}
+	state_category = large_town
+
+	history={
+		owner = AUS
+		victory_points = { 9648 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		653 668 3673 3674 6673 6687 6691 9646 9648 9650 9679 11612 
+	}
+}

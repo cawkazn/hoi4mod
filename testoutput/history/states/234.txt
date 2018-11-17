@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㈽㐳਍渉浡㵥∠呓呁彅㌲∴਍洉湡潰敷⁲‽㌷ㄱ㈸਍਍爉獥畯捲獥笽਍उ畲扢牥㴠㔠਍उ畴杮瑳湥㴠㔠਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠㜠ㄷ‶‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ㜱ㄳ㈠㈰‴ㄴ㠲㜠ㄷ‶〸㘱㤠㠹‶㈱㜷‵਍紉਍ൽ
+state={
+	id=234
+	name= "STATE_234"
+	manpower = 731182
+
+	resources={
+		rubber = 5
+		tungsten = 5
+	}
+	state_category = rural
+
+	history={
+		owner = ENG
+		victory_points = { 7716 4 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1731 2024 4128 7716 8016 9986 12775 
+	}
+}

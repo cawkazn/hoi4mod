@@ -1,0 +1,1080 @@
+start_equipment_factor = 0
+division_template = {
+	name = "Armored Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Assault Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		light_armor = { x = 4 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Assault Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PSA"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "PSA"
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "PSA"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "PSA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "PSA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "PSA"
+		}
+		requested_factories = 10
+		progress = 0.50
+		amount = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 96
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 96
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 3288
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 3288
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 6521
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 6521
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 6521
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 11435
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 6521
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 3340
+		location = 3340
+		ship = {
+			name = "Derfflinger"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Derfflinger"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Goeben"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Helgoland"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "König"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Goeben"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Helgoland"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "König Albert"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Lützow"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Graudenz"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Greif"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Hela"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Stralsund"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Strassburg"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Stuttgart"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Thetis"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Undine"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Falke"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Frauenlob"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Gazelle"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Gefion"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Freya"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Friedrich Carl"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Danzig"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Elbing"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Geier"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Gneisenau"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Victoria Louise"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Vineta"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Wacht"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Wiesbaden"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "1st Kolberg Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "1st Stettin Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "1st Swinemunde Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "1st Stralsund Cruiser"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Hertha"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Dresden"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Danzig"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Bremse"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Brummer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Comet"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Bussard"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Cormoran"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Condor"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Leipzig"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Meteor"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Niobe"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Nymphe"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Pillau"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Prinz Adalbert"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Rostock"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Scharnhorst"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Irene"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Magdeburg"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Königsberg"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Medusa"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Amazone"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Amazone"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Arcona"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Arcona"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Seeadler"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Schwalbe"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Sperber"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Stettin"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Königsberg"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Leipzig"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Leipzig"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Meteor"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Greif"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Hertha"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Hela"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Jagd"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+	}
+	navy = {
+		name = "5th Fleet"
+		base = 8461
+		location = 13193
+		ship = {
+			name = "Ariadne"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Blitz"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Breslau"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+		ship = {
+			name = "Blücher"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = PSA
+				}
+			}
+		}
+	}
+}

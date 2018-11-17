@@ -1,1 +1,37 @@
-瑳瑡㵥ൻऊ摩㌽㤵਍渉浡㵥∠呓呁彅㔳∹਍洉湡潰敷⁲‽㜲㔱㐶ലഊऊ敲潳牵散㵳ൻऊ猉整汥㴠ㄠസऊ琉湵獧整⁮‽സऊൽऊ瑳瑡彥慣整潧祲㴠洠来污灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽䕍൘ऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㜸″‹ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽സऊउ湩畤瑳楲污损浯汰硥㴠㔠਍उ愉浲彳慦瑣牯⁹‽ളऊउ潤正慹摲㴠㐠਍उ㈉㔰‱‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㈱㐷‶‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㈱㜸″‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠㌠਍उൽऊ愉摤损牯彥景㴠䴠塅਍紉਍਍瀉潲楶据獥笽਍उ〲ㄵ㔠㔰′㈱㐷‶㈱㜸″㌱㠰‹਍紉਍ൽ
+state={
+	id=359
+	name= "STATE_359"
+	manpower = 2715642
+
+	resources={
+		steel = 18
+		tungsten = 8
+	}
+	state_category = megalopolis
+
+	history={
+		owner = MEX
+		victory_points = { 12873 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 4
+			2051 = {
+				naval_base = 6
+			}
+			12746 = {
+				naval_base = 6
+			}
+			12873 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		2051 5052 12746 12873 13089 
+	}
+}

@@ -1,1 +1,39 @@
-瑳瑡㵥ൻऊ摩ㄽ〵਍渉浡㵥∠呓呁彅㔱∰਍洉湡潰敷⁲‽㐱㐱㈰സഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠ㄠവऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠ㄠ〳〱㘠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㘠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠〠਍उ搉捯祫牡⁤‽റऊउ〱㐴‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㈱〳‴‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ㈱㜴‷‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㌱㄰‰‽ൻऊउ渉癡污扟獡⁥‽വऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ㔱㌱㐠㐶‷㈷㔴ㄠ㈰㐵ㄠ㐰〴ㄠ㌲㐰ㄠ㐲㜷ㄠ〳〱ഠऊൽ紊਍
+state={
+	id=150
+	name= "STATE_150"
+	manpower = 1414028
+
+	resources={
+		aluminium = 15
+	}
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = { 13010 6 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			10440 = {
+				naval_base = 4
+			}
+			12304 = {
+				naval_base = 2
+			}
+			12477 = {
+				naval_base = 6
+			}
+			13010 = {
+				naval_base = 5
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1513 4647 7245 10254 10440 12304 12477 13010 
+	}
+}

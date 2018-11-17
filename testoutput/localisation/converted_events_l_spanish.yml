@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  conv.political.1.a:10 "Nuestra única esperanza es que no organicen un golpe contra nosotros"
  conv.political.1.d:10 "Algunos pueden decir que éstos son sólo viejos que gritan en las nubes, pero el movimiento reaccionario está ganando costantly nuevos partidarios. Sin embargo, lo que el gobierno debe hacer al respecto es difícil de decir."
  conv.political.1.t:10 "Ideas reaccionarias que se extienden por [Root.GetName]"

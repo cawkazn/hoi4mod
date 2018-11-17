@@ -1,1 +1,34 @@
-瑳瑡㵥ൻऊ摩㐽㈰਍渉浡㵥∠呓呁彅〴∲਍洉湡潰敷⁲‽㐴㘷〷਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽രऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠倠剏਍उ楶瑣牯役潰湩獴㴠笠ㄠ〳㔱ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㠉ㄲ‹‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ㈸㠴㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ〳㔱㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍紉਍਍瀉潲楶据獥笽਍उ㈸㤱㠠㐲‸㌱㄰‵਍紉਍ൽ
+state={
+	id=402
+	name= "STATE_402"
+	manpower = 447670
+
+	resources={
+		steel = 0
+	}
+	state_category = pastoral
+
+	history={
+		owner = POR
+		victory_points = { 13015 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8219 = {
+				naval_base = 6
+			}
+			8248 = {
+				naval_base = 6
+			}
+			13015 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		8219 8248 13015 
+	}
+}

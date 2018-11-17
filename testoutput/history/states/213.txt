@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㈽㌱਍渉浡㵥∠呓呁彅ㄲ∳਍洉湡潰敷⁲‽㔳㌲㌹ശഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠〠਍उ档潲業浵㴠㠠਍उ畴杮瑳湥㴠㤠਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠㠠㠰‷‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍उ摡彤潣敲潟⁦‽㉘റऊൽഊऊ牰癯湩散㵳ൻऊㄉ㜲‵㌱㜱ㄠ㔳‹㈴〸㐠㜴′〵㤱㔠㘰″ㄵ㐰㜠㘰‰〸㜸ㄠ㈰㤵ㄠ㌰ㄱㄠ㌰㐲ㄠ㔰ㄱㄠ㜰㤹ㄠ㤱〵ㄠㄲ㐱ㄠ㈲㘲ഠऊൽ紊਍
+state={
+	id=213
+	name= "STATE_213"
+	manpower = 3523936
+
+	resources={
+		aluminium = 0
+		chromium = 8
+		tungsten = 9
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 8087 8 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = ENG
+		add_core_of = HYD
+	}
+
+	provinces={
+		1275 1317 1359 4280 4472 5019 5063 5104 7060 8087 10259 10311 10324 10511 10799 11950 12114 12226 
+	}
+}

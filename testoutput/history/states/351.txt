@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽ㄵ਍渉浡㵥∠呓呁彅㔳∱਍洉湡潰敷⁲‽㈵㘲ശഊऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽㍘ലऊ瘉捩潴祲灟楯瑮⁳‽⁻㤶㘴㠠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠ㄠ਍उ㘉㐹‶‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㈳਍紉਍਍瀉潲楶据獥笽਍उ㤶㘴ഠऊൽ紊਍
+state={
+	id=351
+	name= "STATE_351"
+	manpower = 52266
+
+	state_category = rural
+
+	history={
+		owner = LUC
+		victory_points = { 6946 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			6946 = {
+				naval_base = 2
+			}
+			air_base = 5
+		}
+		add_core_of = LUC
+	}
+
+	provinces={
+		6946 
+	}
+}

@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㌽സऊ慮敭‽匢䅔䕔㍟∸਍洉湡潰敷⁲‽㜱㜰㘷਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽റऊ按牨浯畩⁭‽ശऊ猉整汥㴠㠠਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㐰਍उ楶瑣牯役潰湩獴㴠笠㜠㘴‵‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㐰਍紉਍਍瀉潲楶据獥笽਍उ㘱㈲㜠㈴‸㐷㔶ㄠ㐰㤶ㄠ㐲〹ഠऊൽ紊਍
+state={
+	id=38
+	name= "STATE_38"
+	manpower = 170776
+
+	resources={
+		aluminium = 1
+		chromium = 6
+		steel = 8
+	}
+	state_category = rural
+
+	history={
+		owner = BST
+		victory_points = { 7465 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BST
+	}
+
+	provinces={
+		1622 7428 7465 10469 12490 
+	}
+}

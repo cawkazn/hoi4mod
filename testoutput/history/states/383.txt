@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㌽㌸਍渉浡㵥∠呓呁彅㠳∳਍洉湡潰敷⁲‽㈲ㄱ〳਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽വऊ按牨浯畩⁭‽㌱਍उ瑳敥⁬‽㔱਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㐴਍उ楶瑣牯役潰湩獴㴠笠ㄠ㌵‸‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㐴਍紉਍਍瀉潲楶据獥笽਍उ〱㤵ㄠ〱‱㔱㠳㐠〱‴㔴㌱㤠㐹‶〱㘰‰〱㈴‸਍紉਍ൽ
+state={
+	id=383
+	name= "STATE_383"
+	manpower = 221130
+
+	resources={
+		aluminium = 5
+		chromium = 13
+		steel = 15
+	}
+	state_category = rural
+
+	history={
+		owner = ORI
+		victory_points = { 1538 8 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = ORI
+	}
+
+	provinces={
+		1059 1101 1538 4104 4513 9946 10060 10428 
+	}
+}

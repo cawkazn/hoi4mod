@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩ㄽ〶਍渉浡㵥∠呓呁彅㘱∰਍洉湡潰敷⁲‽㜱㜷㌳രഊऊ瑳瑡彥慣整潧祲㴠洠瑥潲潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠ㄠ㈱ㄲ㜠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㠠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠ㄠ਍उ搉捯祫牡⁤‽റऊउ㈲‱‽ൻऊउ渉癡污扟獡⁥‽ഷऊउൽऊउㄱ㜳‴‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ㈲‱㜲‱㤲‶㈳′㈳㜸ㄠ㈱ㄲㄠ㈱㌵ㄠ㌱㐷ഠऊൽ紊਍
+state={
+	id=160
+	name= "STATE_160"
+	manpower = 1777330
+
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = { 11221 7 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			221 = {
+				naval_base = 7
+			}
+			11374 = {
+				naval_base = 6
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		221 271 296 322 3287 11221 11253 11374 
+	}
+}

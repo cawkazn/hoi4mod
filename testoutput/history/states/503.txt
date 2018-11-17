@@ -1,1 +1,31 @@
-瑳瑡㵥ൻऊ摩㔽㌰਍渉浡㵥∠呓呁彅〵∳਍洉湡潰敷⁲‽㠶㤶㠱਍਍猉慴整损瑡来牯⁹‽楣祴਍਍栉獩潴祲笽਍उ睯敮⁲‽䍓ുऊ瘉捩潴祲灟楯瑮⁳‽⁻㌶㘳㔠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㘠਍उ椉摮獵牴慩彬潣灭敬⁸‽ളऊउ牡獭晟捡潴祲㴠〠਍उ搉捯祫牡⁤‽റऊउ㌶㘳㴠笠਍उउ慮慶彬慢敳㴠ㄠരऊउൽऊउ㌹㔳㴠笠਍उउ慮慶彬慢敳㴠㠠਍उ紉਍उ愉物扟獡⁥‽റऊ紉਍उ摡彤潣敲潟⁦‽佈ൌऊ愉摤损牯彥景㴠匠䅃਍紉਍਍瀉潲楶据獥笽਍उ㈶㘸㘠㌳‶㌹㤰㤠㌳‵㐹㌰ㄠ㌱㠱ഠऊൽ紊਍
+state={
+	id=503
+	name= "STATE_503"
+	manpower = 686918
+
+	state_category = city
+
+	history={
+		owner = SCA
+		victory_points = { 6336 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			6336 = {
+				naval_base = 10
+			}
+			9335 = {
+				naval_base = 8
+			}
+			air_base = 1
+		}
+		add_core_of = HOL
+		add_core_of = SCA
+	}
+
+	provinces={
+		6286 6336 9309 9335 9403 11318 
+	}
+}

@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㠽ഷऊ慮敭‽匢䅔䕔㡟∷਍洉湡潰敷⁲‽㤵㐰㔸ലഊऊ敲潳牵散㵳ൻऊ爉扵敢⁲‽റऊ猉整汥㴠㌠਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䌠䥈਍उ楶瑣牯役潰湩獴㴠笠ㄠ㐰㐷㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䡃൉ऊൽഊऊ牰癯湩散㵳ൻऊㄉㄶ′〴㤰㐠㌱‰〵〳㜠㄰‹㔷㘹㜠〶‹㘷㔲㠠㜰′㤹㐳ㄠ㐰㐷ㄠ㜰㜵ㄠ〲㘸ㄠ㐲㠰ㄠ㐲㐱ഠऊൽ紊਍
+state={
+	id=87
+	name= "STATE_87"
+	manpower = 5904852
+
+	resources={
+		rubber = 1
+		steel = 3
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CHI
+		victory_points = { 10474 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1612 4009 4130 5030 7019 7596 7609 7625 8072 9934 10474 10757 12086 12408 12414 
+	}
+}

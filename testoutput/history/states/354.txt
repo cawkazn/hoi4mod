@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㌽㐵਍渉浡㵥∠呓呁彅㔳∴਍洉湡潰敷⁲‽ㄱ㠲㐰਍਍爉獥畯捲獥笽਍उ档潲業浵㴠ㄠ਍उ瑳敥⁬‽ളऊ琉湵獧整⁮‽റऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽㍘വऊ瘉捩潴祲灟楯瑮⁳‽⁻㠴′‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㔳਍紉਍਍瀉潲楶据獥笽਍उ㠴′਍紉਍ൽ
+state={
+	id=354
+	name= "STATE_354"
+	manpower = 112804
+
+	resources={
+		chromium = 1
+		steel = 3
+		tungsten = 1
+	}
+	state_category = rural
+
+	history={
+		owner = SAX
+		victory_points = { 482 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = SXM
+	}
+
+	provinces={
+		482 
+	}
+}

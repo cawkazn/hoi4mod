@@ -1,1 +1,24 @@
-瑳瑡㵥ൻऊ摩㔽㌳਍渉浡㵥∠呓呁彅㌵∳਍洉湡潰敷⁲‽〱㌳㐹਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠䅉਍उ楶瑣牯役潰湩獴㴠笠ㄠ㄰㜷㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㌠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䅃്ऊ愉摤损牯彥景㴠匠䅉਍紉਍਍瀉潲楶据獥笽਍उ㈴ㄵ㐠〳′〱㌱‴〱㜱‷〱㘴‷㈱㐴‷㈱㘴‰਍紉਍ൽ
+state={
+	id=533
+	name= "STATE_533"
+	manpower = 103394
+
+	state_category = rural
+
+	history={
+		owner = SIA
+		victory_points = { 10177 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = CAM
+		add_core_of = SIA
+	}
+
+	provinces={
+		4251 4302 10134 10177 10467 12447 12460 
+	}
+}

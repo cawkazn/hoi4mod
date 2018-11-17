@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㌽㐸਍渉浡㵥∠呓呁彅㠳∴਍洉湡潰敷⁲‽㘷㠴〷਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽ളऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽㑘വऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱ㄷ‷″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠唠〸਍उ摡彤潣敲潟⁦‽㑘വऊൽഊऊ牰癯湩散㵳ൻऊㄉㄹ‰㤱㠷㐠㔵‸㤴㠹ㄠ㜲㜱ㄠ㜲㌶ഠऊൽ紊਍
+state={
+	id=384
+	name= "STATE_384"
+	manpower = 764870
+
+	resources={
+		steel = 3
+	}
+	state_category = rural
+
+	history={
+		owner = PJB
+		victory_points = { 12717 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = KAS
+		add_core_of = PJB
+	}
+
+	provinces={
+		1910 1978 4558 4998 12717 12763 
+	}
+}

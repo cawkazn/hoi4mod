@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩㌽㔹਍渉浡㵥∠呓呁彅㤳∵਍洉湡潰敷⁲‽ㄳ㔴㠹਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽സऊ琉湵獧整⁮‽〳രऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽佐൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㠹㜱㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠ㄠ਍उ㤉ㄸ‷‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠倠剏਍紉਍਍瀉潲楶据獥笽਍उ㈷‴㐸‵㜸‷㠸‹㌹‸㠳㈹㌠㘹‹㠶㠱㘠㈹‱㤶ㄴ㘠㤹‶㜹㜸㤠ㄸ‷ㄱ㜶″ㄱ㠸‵਍紉਍ൽ
+state={
+	id=395
+	name= "STATE_395"
+	manpower = 314598
+
+	resources={
+		steel = 8
+		tungsten = 300
+	}
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = { 9817 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			9817 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		724 845 877 889 938 3892 3969 6818 6921 6941 6996 9787 9817 11673 11885 
+	}
+}

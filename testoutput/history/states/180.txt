@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩ㄽ〸਍渉浡㵥∠呓呁彅㠱∰਍洉湡潰敷⁲‽ㄳ㠷㠹ലഊऊ敲潳牵散㵳ൻऊ按牨浯畩⁭‽〱਍उ畴杮瑳湥㴠㘠റऊൽऊ瑳瑡彥慣整潧祲㴠洠来污灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽久േऊ瘉捩潴祲灟楯瑮⁳‽⁻㌴㔱ㄠ′ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽രऊउ潤正慹摲㴠ㄠ਍उ愉物扟獡⁥‽വऊ紉਍उ摡彤潣敲潟⁦‽久േऊ愉摤损牯彥景㴠堠㠳਍紉਍਍瀉潲楶据獥笽਍उ㐱㈱㐠ㄳ‵㌴㐴㜠㐲‴㌷㔹㠠㄰‱ㄸ〰ㄠ㄰〹ㄠ㈰㠰ㄠㄲ㘴ㄠ㜲㐳ഠऊൽ紊਍
+state={
+	id=180
+	name= "STATE_180"
+	manpower = 3178982
+
+	resources={
+		chromium = 10
+		tungsten = 61
+	}
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = { 4315 12 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			air_base = 5
+		}
+		add_core_of = ENG
+		add_core_of = MYS
+	}
+
+	provinces={
+		1412 4315 4344 7244 7395 8011 8100 10190 10208 12146 12734 
+	}
+}

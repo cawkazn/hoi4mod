@@ -1,1 +1,24 @@
-瑳瑡㵥ൻऊ摩㔽〲਍渉浡㵥∠呓呁彅㈵∰਍洉湡潰敷⁲‽㔱㜴〷਍਍猉慴整损瑡来牯⁹‽畲慲൬ऊ浩慰獳扡敬㴠礠獥਍਍栉獩潴祲笽਍उ睯敮⁲‽䍓ുऊ瘉捩潴祲灟楯瑮⁳‽⁻〱㠷‰″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠匠䅃਍紉਍਍瀉潲楶据獥笽਍उ〱㠷‰਍紉਍ൽ
+state={
+	id=520
+	name= "STATE_520"
+	manpower = 154770
+
+	state_category = rural
+	impassable = yes
+
+	history={
+		owner = SCA
+		victory_points = { 10780 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		10780 
+	}
+}

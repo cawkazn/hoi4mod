@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㔽㐳਍渉浡㵥∠呓呁彅㌵∴਍洉湡潰敷⁲‽㈹㘵ശഊऊ敲潳牵散㵳ൻऊ爉扵敢⁲‽㌲സऊ猉整汥㴠ㄠരऊ琉湵獧整⁮‽㜸਍紉਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠䅉਍उ楶瑣牯役潰湩獴㴠笠ㄠㄲ㐴㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㌠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䥓ുऊ愉摤损牯彥景㴠堠㘲਍紉਍਍瀉潲楶据獥笽਍उ㈱ㄹㄠ㐳‸㌴㔵㜠㈳‹〱㈲‷㈱㐱‴㈱㤱‹਍紉਍ൽ
+state={
+	id=534
+	name= "STATE_534"
+	manpower = 92566
+
+	resources={
+		rubber = 238
+		steel = 10
+		tungsten = 87
+	}
+	state_category = rural
+
+	history={
+		owner = SIA
+		victory_points = { 12144 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = SIA
+		add_core_of = JOH
+	}
+
+	provinces={
+		1291 1348 4355 7329 10227 12144 12199 
+	}
+}

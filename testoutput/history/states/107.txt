@@ -1,1 +1,37 @@
-瑳瑡㵥ൻऊ摩ㄽ㜰਍渉浡㵥∠呓呁彅〱∷਍洉湡潰敷⁲‽㘲ㄴ㘴രഊऊ敲潳牵散㵳ൻऊ漉汩㴠ㄠഹऊ猉整汥㴠㈠਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䌠䱏਍उ楶瑣牯役潰湩獴㴠笠ㄠ㠲㔴㤠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㠠਍उ椉摮獵牴慩彬潣灭敬⁸‽ഴऊउ牡獭晟捡潴祲㴠㈠਍उ搉捯祫牡⁤‽ഴऊउ㤱㜳㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㐰㐹㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㜲〹㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ愉物扟獡⁥‽ളऊ紉਍उ摡彤潣敲潟⁦‽佃ൌऊൽഊऊ牰癯湩散㵳ൻऊㄉ㌹‷〲㌲㈠㠰‵㤴㤶㠠㔰‶〱㤴‴〱㘸‴㈱〷″㈱㤷‰㈱㐸‵਍紉਍ൽ
+state={
+	id=107
+	name= "STATE_107"
+	manpower = 2641460
+
+	resources={
+		oil = 19
+		steel = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = COL
+		victory_points = { 12845 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 4
+			1937 = {
+				naval_base = 6
+			}
+			10494 = {
+				naval_base = 6
+			}
+			12790 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 
+	}
+}

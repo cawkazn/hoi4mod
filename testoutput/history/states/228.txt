@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩㈽㠲਍渉浡㵥∠呓呁彅㈲∸਍洉湡潰敷⁲‽㐱㔳㔷ഴഊऊ瑳瑡彥慣整潧祲㴠氠牡敧瑟睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠㤠㘹′‵ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उㄲ㘷㈠〲‶㈲〲㐠㜱‱ㄵ〸㔠㈲‴ㄸ㐴㤠㘹′〱㌹′〱㠹‸ㄱ㄰‷਍紉਍ൽ
+state={
+	id=228
+	name= "STATE_228"
+	manpower = 1435754
+
+	state_category = large_town
+
+	history={
+		owner = ENG
+		victory_points = { 9962 5 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		2176 2206 2220 4171 5180 5224 8144 9962 10932 10988 11017 
+	}
+}

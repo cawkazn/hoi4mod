@@ -1,1 +1,33 @@
-瑳瑡㵥ൻऊ摩㌽റऊ慮敭‽匢䅔䕔㍟∱਍洉湡潰敷⁲‽㌱ㄹ㘸സഊऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䄠单਍उ楶瑣牯役潰湩獴㴠笠㘠㈶‶‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠㌠਍उ愉浲彳慦瑣牯⁹‽റऊउ潤正慹摲㴠㈠਍उ㘉㈶‶‽ൻऊउ渉癡污扟獡⁥‽സऊउൽऊउㄱ㘵‴‽ൻऊउ渉癡污扟獡⁥‽സऊउൽऊउㄱ㌷‵‽ൻऊउ渉癡污扟獡⁥‽സऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䄠单਍紉਍਍瀉潲楶据獥笽਍उ㤵‹㘶㘲ㄠ㔱㐶ㄠ㔱㔹ㄠ㜱㔳ഠऊൽ紊਍
+state={
+	id=31
+	name= "STATE_31"
+	manpower = 1391868
+
+	state_category = large_city
+
+	history={
+		owner = AUS
+		victory_points = { 6626 6 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
+			6626 = {
+				naval_base = 8
+			}
+			11564 = {
+				naval_base = 8
+			}
+			11735 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		599 6626 11564 11595 11735 
+	}
+}

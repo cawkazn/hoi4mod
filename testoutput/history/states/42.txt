@@ -1,1 +1,31 @@
-瑳瑡㵥ൻऊ摩㐽ലऊ慮敭‽匢䅔䕔㑟∲਍洉湡潰敷⁲‽㔲㐶㠴സഊऊ敲潳牵散㵳ൻऊ漉汩㴠〠਍उ瑳敥⁬‽㌴਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䈠䱅਍उ楶瑣牯役潰湩獴㴠笠㔠㘱ㄠ″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഷऊउ湩畤瑳楲污损浯汰硥㴠㐠਍उ愉浲彳慦瑣牯⁹‽ളऊउ潤正慹摲㴠㐠਍उ㘉㐴‶‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠㜠਍उൽऊ愉摤损牯彥景㴠䈠䱅਍紉਍਍瀉潲楶据獥笽਍उ㠴‰ㄵ‶㐶㘴㘠㘵‰㔶㠹㤠㜵‴ㄱㄴ‹㌱㘰‸਍紉਍ൽ
+state={
+	id=42
+	name= "STATE_42"
+	manpower = 2564488
+
+	resources={
+		oil = 0
+		steel = 43
+	}
+	state_category = megalopolis
+
+	history={
+		owner = BEL
+		victory_points = { 516 13 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+			dockyard = 4
+			6446 = {
+				naval_base = 6
+			}
+			air_base = 7
+		}
+		add_core_of = BEL
+	}
+
+	provinces={
+		480 516 6446 6560 6598 9574 11419 13068 
+	}
+}

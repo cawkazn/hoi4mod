@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㘽㤲਍渉浡㵥∠呓呁彅㈶∹਍洉湡潰敷⁲‽〲㘹㤴ഴഊऊ敲潳牵散㵳ൻऊ按牨浯畩⁭‽ലऊ猉整汥㴠㌠ലऊ琉湵獧整⁮‽㐳਍紉਍猉慴整损瑡来牯⁹‽敭牴灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽单ുऊ瘉捩潴祲灟楯瑮⁳‽⁻㘹㘱㜠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㜠਍उ椉摮獵牴慩彬潣灭敬⁸‽ളऊउ牡獭晟捡潴祲㴠ㄠ਍उ愉物扟獡⁥‽ളऊ紉਍उ摡彤潣敲潟⁦‽单ുऊൽഊऊ牰癯湩散㵳ൻऊㄉ㠷‹㠱㈳㌠㠷‱㜴㠷㜠㐸‵㘹㘱㤠㤶‵〱㔵‶〱〶′〱㜶′㈱㈱‴㈱㌵‵㈱〶‷਍紉਍ൽ
+state={
+	id=629
+	name= "STATE_629"
+	manpower = 2096494
+
+	resources={
+		chromium = 2
+		steel = 32
+		tungsten = 34
+	}
+	state_category = metropolis
+
+	history={
+		owner = USA
+		victory_points = { 9616 7 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1789 1832 3781 4778 7845 9616 9695 10556 10602 10672 12124 12535 12607 
+	}
+}

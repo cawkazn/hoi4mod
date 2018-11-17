@@ -1,1 +1,30 @@
-瑳瑡㵥ൻऊ摩ㄽ〹਍渉浡㵥∠呓呁彅㤱∰਍洉湡潰敷⁲‽ㄲㄴ㈳ഴഊऊ敲潳牵散㵳ൻऊ猉整汥㴠㈠ലऊൽऊ瑳瑡彥慣整潧祲㴠洠瑥潲潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䔠䝎਍उ楶瑣牯役潰湩獴㴠笠ㄠ㔲㤸㜠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㠠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠〠਍उ搉捯祫牡⁤‽റऊउ㈱㠵‹‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍紉਍਍瀉潲楶据獥笽਍उ㔴㠲ㄠ㐰㔱ㄠ㐰㈴ㄠ㔲㜴ㄠ㔲㤸ㄠ㘲㈹ഠऊൽ紊਍
+state={
+	id=190
+	name= "STATE_190"
+	manpower = 2141324
+
+	resources={
+		steel = 22
+	}
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = { 12589 7 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			12589 = {
+				naval_base = 2
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		4528 10415 10442 12547 12589 12692 
+	}
+}

@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㐽വऊ慮敭‽匢䅔䕔㑟∵਍洉湡潰敷⁲‽㔴㘱ലഊऊ敲潳牵散㵳ൻऊ琉湵獧整⁮‽ലऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䈠啈਍उ楶瑣牯役潰湩獴㴠笠㠠㄰‰‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽രऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠䈠啈਍紉਍਍瀉潲楶据獥笽਍उ〸〱ㄠ㠲〶ഠऊൽ紊਍
+state={
+	id=45
+	name= "STATE_45"
+	manpower = 45162
+
+	resources={
+		tungsten = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = BHU
+		victory_points = { 8010 8 }
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BHU
+	}
+
+	provinces={
+		8010 12860 
+	}
+}

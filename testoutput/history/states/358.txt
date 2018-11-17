@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㌽㠵਍渉浡㵥∠呓呁彅㔳∸਍洉湡潰敷⁲‽㔲㤶㤶സഊऊ敲潳牵散㵳ൻऊ爉扵敢⁲‽രऊ猉整汥㴠㐠਍उ畴杮瑳湥㴠㈠਍紉਍猉慴整损瑡来牯⁹‽敭慧潬潰楬൳ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䴠塅਍उ楶瑣牯役潰湩獴㴠笠㈠㄰‱‹ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽സऊउ湩畤瑳楲污损浯汰硥㴠㠠਍उ愉浲彳慦瑣牯⁹‽ഴऊउ楡彲慢敳㴠㐠਍उൽऊ愉摤损牯彥景㴠䴠塅਍紉਍਍瀉潲楶据獥笽਍उ〲㠰㈠㄰‱〲㌸㐠㔹‶〱㜱′㈱〸‴਍紉਍ൽ
+state={
+	id=358
+	name= "STATE_358"
+	manpower = 2569698
+
+	resources={
+		rubber = 0
+		steel = 4
+		tungsten = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = MEX
+		victory_points = { 2011 9 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		2008 2011 2083 4956 10172 12804 
+	}
+}

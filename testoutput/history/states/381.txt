@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽ㄸ਍渉浡㵥∠呓呁彅㠳∱਍洉湡潰敷⁲‽㔴〲ശഊऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽䵏ുऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㤹‱″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ㈱㤹‱‽ൻऊउ渉癡污扟獡⁥‽ലऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠传䅍਍紉਍਍瀉潲楶据獥笽਍उㄸ㐶ㄠ㤰㠲ㄠ㤲ㄹഠऊൽ紊਍
+state={
+	id=381
+	name= "STATE_381"
+	manpower = 45206
+
+	state_category = rural
+
+	history={
+		owner = OMA
+		victory_points = { 12991 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12991 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = OMA
+	}
+
+	provinces={
+		8164 10928 12991 
+	}
+}

@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩㈽㘴਍渉浡㵥∠呓呁彅㐲∶਍洉湡潰敷⁲‽㤷㈰㠷਍਍猉慴整损瑡来牯⁹‽慬杲彥楣祴਍਍栉獩潴祲笽਍उ睯敮⁲‽剆ുऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ〵‶㜲素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㘠਍उ椉摮獵牴慩彬潣灭敬⁸‽വऊउ牡獭晟捡潴祲㴠㈠਍उ愉物扟獡⁥‽〱਍उൽऊ愉摤损牯彥景㴠䘠䅒਍紉਍਍瀉潲楶据獥笽਍उ㔶㜴㘠㐹‹㔹㜰㤠㈵″㜹㔲ㄠ㐱ㄹㄠ㔱㘰ㄠ㔱㠱ഠऊൽ紊਍
+state={
+	id=246
+	name= "STATE_246"
+	manpower = 790278
+
+	state_category = large_city
+
+	history={
+		owner = FRA
+		victory_points = { 11506 27 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 10
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		6547 6949 9507 9523 9725 11491 11506 11518 
+	}
+}

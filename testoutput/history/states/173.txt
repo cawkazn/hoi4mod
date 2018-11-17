@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩ㄽ㌷਍渉浡㵥∠呓呁彅㜱∳਍洉湡潰敷⁲‽㠲〴㠰ലഊऊ敲潳牵散㵳ൻऊ琉湵獧整⁮‽〲਍紉਍猉慴整损瑡来牯⁹‽敭牴灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽久േऊ瘉捩潴祲灟楯瑮⁳‽⁻㤴ㄷ㈠′ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽സऊउ湩畤瑳楲污损浯汰硥㴠㌠਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㜠਍उൽऊ愉摤损牯彥景㴠䔠䝎਍उ摡彤潣敲潟⁦‽㉘ളऊ愉摤损牯彥景㴠堠㐲਍उ摡彤潣敲潟⁦‽㍘ശऊൽഊऊ牰癯湩散㵳ൻऊㄉ㤱‹㤱㠰㈠㔰‴〲㈹㐠㜹‱㤷㔰㜠㤹‸〱㘸‶㈱㈸‹਍紉਍ൽ
+state={
+	id=173
+	name= "STATE_173"
+	manpower = 2840082
+
+	resources={
+		tungsten = 20
+	}
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = { 4971 22 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 7
+		}
+		add_core_of = ENG
+		add_core_of = JPR
+		add_core_of = JSL
+		add_core_of = MEW
+	}
+
+	provinces={
+		1199 1908 2054 2092 4971 7905 7998 10866 12829 
+	}
+}

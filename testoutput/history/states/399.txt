@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㤹਍渉浡㵥∠呓呁彅㤳∹਍洉湡潰敷⁲‽㐲㐳സഊऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽佐൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄴ㤸㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㐠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㐉㠱‹‽ൻऊउ渉癡污扟獡⁥‽ശऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠倠剏਍紉਍਍瀉潲楶据獥笽਍उㄴ㤸ഠऊൽ紊਍
+state={
+	id=399
+	name= "STATE_399"
+	manpower = 24348
+
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = { 4189 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4189 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		4189 
+	}
+}

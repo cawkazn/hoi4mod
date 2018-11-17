@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㤸਍渉浡㵥∠呓呁彅㠳∹਍洉湡潰敷⁲‽ㄲ㤸㈶਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽വऊൽऊ瑳瑡彥慣整潧祲㴠琠睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㘴਍उ楶瑣牯役潰湩獴㴠笠㤠㔷′‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㘴਍紉਍਍瀉潲楶据獥笽਍उ㜳㌷㘠㤷‰㜹㈵ഠऊൽ紊਍
+state={
+	id=389
+	name= "STATE_389"
+	manpower = 218962
+
+	resources={
+		aluminium = 5
+	}
+	state_category = town
+
+	history={
+		owner = PRM
+		victory_points = { 9752 8 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = PRM
+	}
+
+	provinces={
+		3773 6790 9752 
+	}
+}

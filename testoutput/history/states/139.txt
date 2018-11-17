@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩ㄽ㤳਍渉浡㵥∠呓呁彅㌱∹਍洉湡潰敷⁲‽㔴㌳㈹਍਍爉獥畯捲獥笽਍उ畲扢牥㴠ㄠ਍紉਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽䝅൙ऊ瘉捩潴祲灟楯瑮⁳‽⁻〱㌷‴‱ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ളऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䔠䡔਍紉਍਍瀉潲楶据獥笽਍उ〲㤰㐠㔹‴㤷㈱ㄠ㜰㐳ㄠ㠲㘵ഠऊൽ紊਍
+state={
+	id=139
+	name= "STATE_139"
+	manpower = 453392
+
+	resources={
+		rubber = 1
+	}
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 10734 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		2009 4954 7912 10734 12856 
+	}
+}

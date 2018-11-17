@@ -1,1 +1,34 @@
-瑳瑡㵥ൻऊ摩ㄽഴऊ慮敭‽匢䅔䕔ㅟ∴਍洉湡潰敷⁲‽㘸㐲㠷਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽ഴऊ猉整汥㴠ㄠറऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽剁േऊ瘉捩潴祲灟楯瑮⁳‽⁻㈸㤲ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠ㄠ਍उ搉捯祫牡⁤‽റऊउㄵㄲ㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㤲㐸㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䡃ൌऊൽഊऊ牰癯湩散㵳ൻऊ㔉㈱‱㈸㤲㠠㔲‱㈱㈹‰㈱㠹‴਍紉਍ൽ
+state={
+	id=14
+	name= "STATE_14"
+	manpower = 862478
+
+	resources={
+		aluminium = 4
+		steel = 11
+	}
+	state_category = rural
+
+	history={
+		owner = ARG
+		victory_points = { 8229 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			5121 = {
+				naval_base = 6
+			}
+			12984 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = CHL
+	}
+
+	provinces={
+		5121 8229 8251 12920 12984 
+	}
+}

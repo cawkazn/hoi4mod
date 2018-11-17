@@ -1,1 +1,27 @@
-瑳瑡㵥ൻऊ摩㌽ഹऊ慮敭‽匢䅔䕔㍟∹਍洉湡潰敷⁲‽㌳㌰㐴਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽സऊ猉整汥㴠㌠ഴऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽じവऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㐵‷″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠堠㔰਍紉਍਍瀉潲楶据獥笽਍उ㘵″㔳㠵ㄠ㔱㜴ഠऊൽ紊਍
+state={
+	id=39
+	name= "STATE_39"
+	manpower = 330344
+
+	resources={
+		aluminium = 8
+		steel = 34
+	}
+	state_category = rural
+
+	history={
+		owner = HES
+		victory_points = { 11547 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = BAV
+	}
+
+	provinces={
+		563 3558 11547 
+	}
+}

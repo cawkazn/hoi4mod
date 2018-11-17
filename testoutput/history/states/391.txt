@@ -1,1 +1,32 @@
-瑳瑡㵥ൻऊ摩㌽ㄹ਍渉浡㵥∠呓呁彅㤳∱਍洉湡潰敷⁲‽㐲㐴㠸രഊऊ敲潳牵散㵳ൻऊ漉汩㴠㠠਍紉਍猉慴整损瑡来牯⁹‽敭牴灯汯獩਍਍栉獩潴祲笽਍उ睯敮⁲‽剐ൕऊ瘉捩潴祲灟楯瑮⁳‽⁻㈱㘹‹‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽സऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽ശऊउㄲ㘵㴠笠਍उउ慮慶彬慢敳㴠㠠਍उ紉਍उ㠉㤱‹‽ൻऊउ渉癡污扟獡⁥‽സऊउൽऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠倠啒਍紉਍਍瀉潲楶据獥笽਍उㄲ㘵㔠㘱′ㄸ㤹ㄠ㤲㤶ഠऊൽ紊਍
+state={
+	id=391
+	name= "STATE_391"
+	manpower = 2444880
+
+	resources={
+		oil = 8
+	}
+	state_category = metropolis
+
+	history={
+		owner = PRU
+		victory_points = { 12969 6 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 6
+			2156 = {
+				naval_base = 8
+			}
+			8199 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2156 5162 8199 12969 
+	}
+}

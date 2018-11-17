@@ -1,1 +1,40 @@
-瑳瑡㵥ൻऊ摩㔽㈶਍渉浡㵥∠呓呁彅㘵∲਍洉湡潰敷⁲‽ㄱ㈵㔲സഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠〠਍उ楯⁬‽ഴऊ猉整汥㴠㈠਍紉਍猉慴整损瑡来牯⁹‽潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽偓൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㤴㤵ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उㄉ㠸‹‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㠴ㄹ㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ㐉㔹‹‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㤷㈸㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䕐൒ऊൽഊऊ牰癯湩散㵳ൻऊㄉ㠸‹〲〷㐠㤸‱㤴㤵㜠㠹′〱㠷′㈱㤸‵㌱㠰′਍紉਍ൽ
+state={
+	id=562
+	name= "STATE_562"
+	manpower = 1152258
+
+	resources={
+		aluminium = 0
+		oil = 4
+		steel = 2
+	}
+	state_category = town
+
+	history={
+		owner = SPR
+		victory_points = { 4959 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			1889 = {
+				naval_base = 4
+			}
+			4891 = {
+				naval_base = 4
+			}
+			4959 = {
+				naval_base = 4
+			}
+			7982 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1889 2070 4891 4959 7982 10782 12895 13082 
+	}
+}

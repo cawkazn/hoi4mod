@@ -1,1 +1,25 @@
-瑳瑡㵥ൻऊ摩㌽㔷਍渉浡㵥∠呓呁彅㜳∵਍洉湡潰敷⁲‽ㄱ㤹〴਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䠠䱏਍उ楶瑣牯役潰湩獴㴠笠ㄠ〳㐸ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उㄉ〳㐸㴠笠਍उउ慮慶彬慢敳㴠ㄠരऊउൽऊउ楡彲慢敳㴠〠਍उൽऊൽഊऊ牰癯湩散㵳ൻऊㄉ〳㐸ഠऊൽ紊਍
+state={
+	id=375
+	name= "STATE_375"
+	manpower = 119940
+
+	state_category = rural
+
+	history={
+		owner = HOL
+		victory_points = { 13084 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			13084 = {
+				naval_base = 10
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		13084 
+	}
+}

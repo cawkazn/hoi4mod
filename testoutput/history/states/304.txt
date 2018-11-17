@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽㐰਍渉浡㵥∠呓呁彅〳∴਍洉湡潰敷⁲‽㤲㌲〲਍਍爉獥畯捲獥笽਍उ瑳敥⁬‽ലऊൽऊ瑳瑡彥慣整潧祲㴠瀠獡潴慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䘠䅒਍उ楶瑣牯役潰湩獴㴠笠㈠ㄱ‵″ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽വऊउ湩畤瑳楲污损浯汰硥㴠〠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠䘠䅒਍紉਍਍瀉潲楶据獥笽਍उㄲ㔱㔠㔱‸਍紉਍ൽ
+state={
+	id=304
+	name= "STATE_304"
+	manpower = 292320
+
+	resources={
+		steel = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = FRA
+		victory_points = { 2115 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		2115 5158 
+	}
+}

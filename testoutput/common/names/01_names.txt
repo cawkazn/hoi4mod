@@ -1,4 +1,4 @@
-﻿AFG = {
+AFG = {
 	male = {
 		names = {
 			"Abdallah" "Abd al-Rahman" "Abd al-Quddus" "Afzal" "Ahmad" "Akbar" "Akram" "Ayyub" "Fath" "Firuz al-Din"
@@ -1444,7 +1444,7 @@ TUR = {
 		
 	}
 }
-U78 = {
+USC = {
 	male = {
 		names = {
 			"Alejandro" "Andrés" "Aniceto" "Arturo" "Bartolomé" "Basilio" "Benito" "Benjamín" "Bernardo" "Carlos"
@@ -1474,7 +1474,7 @@ U78 = {
 		"Guatemala" "Salvador" "Honduras" "Nicaragua" "Costarrica" "Los Altos" "Mosquito"
 	}
 }
-U80 = {
+KAS = {
 	male = {
 		names = {
 			"Atta" "Sher" "Muhammad" "Abdullah" "Vakil" "Kifayat" "Rahmatullah" "Mir" "Mirza" "Juma"
@@ -1642,7 +1642,7 @@ VIN = {
 	callsigns = {
 	}
 }
-X00 = {
+ANH = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -1670,7 +1670,7 @@ X00 = {
 		"The Red knight" "Reeste"
 	}
 }
-X01 = {
+ATJ = {
 	male = {
 		names = {
 			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
@@ -1687,7 +1687,7 @@ X01 = {
 	callsigns = {
 	}
 }
-X02 = {
+BAD = {
 	male = {
 		names = {
 			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"
@@ -1714,7 +1714,7 @@ X02 = {
 		"The Red knight" "Reeste"
 	}
 }
-X03 = {
+BAL = {
 	male = {
 		names = {
 			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
@@ -1731,7 +1731,7 @@ X03 = {
 	callsigns = {
 	}
 }
-X04 = {
+BST = {
 	male = {
 		names = {
 			"Vasireddy" "Venkatadri" "Uyyalawada" "Narasimha" "Veerapandiya" "Keneganti" "Alluri" "Potti" "Tanguturi" "Pingali"
@@ -1750,7 +1750,7 @@ X04 = {
 		
 	}
 }
-X05 = {
+BAV = {
 	male = {
 		names = {
 			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"
@@ -1777,7 +1777,7 @@ X05 = {
 		"The Red knight" "Reeste"
 	}
 }
-X06 = {
+BER = {
 	male = {
 		names = {
 			"Chetan" "Fakirbhai" "Jivraj" "Madhavsingh" "Khemchand" "Manubhai" "Bharatsingh" "Balwantry" "Chabildas" "Maniraj"
@@ -1795,7 +1795,7 @@ X06 = {
 		
 	}
 }
-X07 = {
+BHO = {
 	male = {
 		names = {
 			"Venkatji" "Shahuji" "Pratapsinha" "Rajaram" "Shivaji" "Shambhaji" "Balaji" "Bajirao" "Madhava" "Narayan"
@@ -1814,7 +1814,7 @@ X07 = {
 		
 	}
 }
-X08 = {
+BIK = {
 	male = {
 		names = {
 			"Sardar" "Fateh" "Muhammad" "Malik" "Umar" "Hayat" "Rai" "Hussain" "Veer" "Durga"
@@ -1833,7 +1833,7 @@ X08 = {
 		
 	}
 }
-X09 = {
+BRN = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -1861,7 +1861,7 @@ X09 = {
 		"The Red knight" "Reeste"
 	}
 }
-X10 = {
+BRE = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -1889,7 +1889,7 @@ X10 = {
 		"The Red knight" "Reeste"
 	}
 }
-X11 = {
+BUN = {
 	male = {
 		names = {
 			"Lokendra" "Raghuraj" "Vijay" "Vishvanath" "Pheran" "Jugal" "Parbhu" "Narayan" "Ishvari" "Udit"
@@ -1908,7 +1908,7 @@ X11 = {
 		
 	}
 }
-X12 = {
+SCG = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -1936,7 +1936,7 @@ X12 = {
 		"The Red knight" "Reeste"
 	}
 }
-X13 = {
+FAM = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -1964,7 +1964,7 @@ X13 = {
 		"The Red knight" "Reeste"
 	}
 }
-X14 = {
+GWA = {
 	male = {
 		names = {
 			"Venkatji" "Shahuji" "Pratapsinha" "Rajaram" "Shivaji" "Shambhaji" "Balaji" "Bajirao" "Madhava" "Narayan"
@@ -1983,7 +1983,7 @@ X14 = {
 		
 	}
 }
-X15 = {
+HAM = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2011,7 +2011,7 @@ X15 = {
 		"The Red knight" "Reeste"
 	}
 }
-X16 = {
+HAN = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2039,7 +2039,7 @@ X16 = {
 		"The Red knight" "Reeste"
 	}
 }
-X17 = {
+HED = {
 	male = {
 		names = {
 			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil"
@@ -2059,7 +2059,7 @@ X17 = {
 	callsigns = {
 	}
 }
-X18 = {
+HEK = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2087,7 +2087,7 @@ X18 = {
 		"The Red knight" "Reeste"
 	}
 }
-X19 = {
+HES = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2115,7 +2115,7 @@ X19 = {
 		"The Red knight" "Reeste"
 	}
 }
-X20 = {
+SCH = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2143,7 +2143,7 @@ X20 = {
 		"The Red knight" "Reeste"
 	}
 }
-X21 = {
+HYD = {
 	male = {
 		names = {
 			"Lokendra" "Raghuraj" "Vijay" "Vishvanath" "Pheran" "Jugal" "Parbhu" "Narayan" "Ishvari" "Udit"
@@ -2162,7 +2162,7 @@ X21 = {
 		
 	}
 }
-X22 = {
+IND = {
 	male = {
 		names = {
 			"Venkatji" "Shahuji" "Pratapsinha" "Rajaram" "Shivaji" "Shambhaji" "Balaji" "Bajirao" "Madhava" "Narayan"
@@ -2181,7 +2181,7 @@ X22 = {
 		
 	}
 }
-X23 = {
+JPR = {
 	male = {
 		names = {
 			"Sardar" "Fateh" "Muhammad" "Malik" "Umar" "Hayat" "Rai" "Hussain" "Veer" "Durga"
@@ -2200,7 +2200,7 @@ X23 = {
 		
 	}
 }
-X24 = {
+JSL = {
 	male = {
 		names = {
 			"Sardar" "Fateh" "Muhammad" "Malik" "Umar" "Hayat" "Rai" "Hussain" "Veer" "Durga"
@@ -2219,7 +2219,7 @@ X24 = {
 		
 	}
 }
-X25 = {
+JOD = {
 	male = {
 		names = {
 			"Sardar" "Fateh" "Muhammad" "Malik" "Umar" "Hayat" "Rai" "Hussain" "Veer" "Durga"
@@ -2238,7 +2238,7 @@ X25 = {
 		
 	}
 }
-X26 = {
+JOH = {
 	male = {
 		names = {
 			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
@@ -2255,7 +2255,7 @@ X26 = {
 	callsigns = {
 	}
 }
-X27 = {
+KAL = {
 	male = {
 		names = {
 			"Abdullah" "Ahmad" "Azam" "Khudadad" "Mehrab" "Mohammad" "Muhabbat" "Nasir" "Nawaz" "Samandar"
@@ -2301,7 +2301,7 @@ X27 = {
 		"Shar" "Lashari" "Lund" "Hooth" "Korai" "Jatoi" "Nausherwani"
 	}
 }
-X28 = {
+KRA = {
 	male = {
 		names = {
 			"Adam" "Aleksander" "Antoni" "Boleslaw" "Bonawentura" "Bronislaw" "Dezydery" "Edmund" "Edward" "Emil"
@@ -2334,7 +2334,7 @@ X28 = {
 		
 	}
 }
-X29 = {
+KUT = {
 	male = {
 		names = {
 			"Chetan" "Fakirbhai" "Jivraj" "Madhavsingh" "Khemchand" "Manubhai" "Bharatsingh" "Balwantry" "Chabildas" "Maniraj"
@@ -2352,7 +2352,7 @@ X29 = {
 		
 	}
 }
-X30 = {
+LIP = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2380,7 +2380,7 @@ X30 = {
 		"The Red knight" "Reeste"
 	}
 }
-X31 = {
+LUB = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2408,7 +2408,7 @@ X31 = {
 		"The Red knight" "Reeste"
 	}
 }
-X32 = {
+LUC = {
 	male = {
 		names = {
 			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
@@ -2435,7 +2435,7 @@ X32 = {
 		"Raven" "Two Shot" "Rosso"
 	}
 }
-X33 = {
+MAK = {
 	male = {
 		names = {
 			"Abdullah" "Ahmad" "Azam" "Khudadad" "Mehrab" "Mohammad" "Muhabbat" "Nasir" "Nawaz" "Samandar"
@@ -2481,7 +2481,7 @@ X33 = {
 		"Shar" "Lashari" "Lund" "Hooth" "Korai" "Jatoi" "Nausherwani"
 	}
 }
-X34 = {
+MEC = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2509,7 +2509,7 @@ X34 = {
 		"The Red knight" "Reeste"
 	}
 }
-X35 = {
+SXM = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2537,7 +2537,7 @@ X35 = {
 		"The Red knight" "Reeste"
 	}
 }
-X36 = {
+MEW = {
 	male = {
 		names = {
 			"Sardar" "Fateh" "Muhammad" "Malik" "Umar" "Hayat" "Rai" "Hussain" "Veer" "Durga"
@@ -2556,7 +2556,7 @@ X36 = {
 		
 	}
 }
-X37 = {
+MOD = {
 	male = {
 		names = {
 			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
@@ -2583,7 +2583,7 @@ X37 = {
 		"Raven" "Two Shot" "Rosso"
 	}
 }
-X38 = {
+MYS = {
 	male = {
 		names = {
 			"Aliya" "Abbakka" "Amoghavarasha" "Basaveshwara" "Bijjala" "Guvida" "Harihara" "Kempe" "Krishnadeva" "Krisnaraja"
@@ -2602,7 +2602,7 @@ X38 = {
 		
 	}
 }
-X39 = {
+NAG = {
 	male = {
 		names = {
 			"Venkatji" "Shahuji" "Pratapsinha" "Rajaram" "Shivaji" "Shambhaji" "Balaji" "Bajirao" "Madhava" "Narayan"
@@ -2621,7 +2621,7 @@ X39 = {
 		
 	}
 }
-X40 = {
+NAS = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2649,7 +2649,7 @@ X40 = {
 		"The Red knight" "Reeste"
 	}
 }
-X41 = {
+NEJ = {
 	male = {
 		names = {
 			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad"
@@ -2678,7 +2678,7 @@ X41 = {
 		"Ibn Ummay" "Ibn Utman" "Ibn Ya'far" "Ibn Yahyà" "Ibn Yusuf"
 	}
 }
-X42 = {
+OLD = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2706,7 +2706,7 @@ X42 = {
 		"The Red knight" "Reeste"
 	}
 }
-X43 = {
+ORA = {
 	male = {
 		names = {
 			"Sarel" "Rudolf" "Andries" "Hendrik" "Piet" "Racheltjie" "Dirkie" "Siener" "Koos" "Danie"
@@ -2727,7 +2727,7 @@ X43 = {
 		
 	}
 }
-X44 = {
+ORI = {
 	male = {
 		names = {
 			"Dibvyasimhadeva" "Harekrushnadeva" "Gopinathdeva" "Ramachandradeva" "Padmanavadeva" "Birakishoredeva" "Mukundadeva"
@@ -2745,7 +2745,7 @@ X44 = {
 		
 	}
 }
-X45 = {
+PJB = {
 	male = {
 		names = {
 			"Ranjit" "Kharak" "Nau" "Nihal" "Chand" "Kaur" "Shir" "Dhalip" "Diwan" "Jassa"
@@ -2764,7 +2764,7 @@ X45 = {
 		
 	}
 }
-X46 = {
+PRM = {
 	male = {
 		names = {
 			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
@@ -2791,7 +2791,7 @@ X46 = {
 		"Raven" "Two Shot" "Rosso"
 	}
 }
-X47 = {
+PSA = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2819,7 +2819,7 @@ X47 = {
 		"The Red knight" "Reeste"
 	}
 }
-X48 = {
+SPD = {
 	male = {
 		names = {
 			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
@@ -2846,7 +2846,7 @@ X48 = {
 		"Raven" "Two Shot" "Rosso"
 	}
 }
-X49 = {
+SAX = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -2874,7 +2874,7 @@ X49 = {
 		"The Red knight" "Reeste"
 	}
 }
-X50 = {
+SIC = {
 	male = {
 		names = {
 			"Alessandro" "Armando" "Augusto" "Carlo" "Cesare" "Corrado" "Domenico" "Enrico" "Fabio" "Fabrizio"
@@ -2897,7 +2897,7 @@ X50 = {
 		"Raven" "Two Shot" "Rosso"
 	}
 }
-X51 = {
+SIK = {
 	male = {
 		names = {
 			"Bhimsen" "Amar" "Ranjur" "Bhakti" "Jang" "Renaudip" "Shamsher" "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher"
@@ -2916,7 +2916,7 @@ X51 = {
 		
 	}
 }
-X52 = {
+SIN = {
 	male = {
 		names = {
 			"Morad Ali" "Nur Mohammad" "Sobhdar" "Hosayn" "Shahdad" "Mohammad" "Nasir" "Morad" "Karim" "Gholam"
@@ -2936,7 +2936,7 @@ X52 = {
 		
 	}
 }
-X53 = {
+TRA = {
 	male = {
 		names = {
 			"Sarel" "Rudolf" "Andries" "Hendrik" "Piet" "Racheltjie" "Dirkie" "Siener" "Koos" "Danie"
@@ -2957,7 +2957,7 @@ X53 = {
 		
 	}
 }
-X54 = {
+TUS = {
 	male = {
 		names = {
 			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
@@ -2984,7 +2984,7 @@ X54 = {
 		"Raven" "Two Shot" "Rosso"
 	}
 }
-X55 = {
+WAL = {
 	male = {
 		names = {
 			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
@@ -3010,7 +3010,7 @@ X55 = {
 		
 	}
 }
-X56 = {
+SXW = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
@@ -3038,7 +3038,7 @@ X56 = {
 		"The Red knight" "Reeste"
 	}
 }
-X57 = {
+WIC = {
 	male = {
 		names = {
 			"Manthaturath" "Anurutha" "Unkeo" "Sukha" "Chantha" "Unkham" "Sakkarin" "Sisavang" "Setthathirath" "Nanthasen"
@@ -3055,7 +3055,7 @@ X57 = {
 	callsigns = {
 	}
 }
-X58 = {
+WUR = {
 	male = {
 		names = {
 			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"
@@ -3082,7 +3082,7 @@ X58 = {
 		"The Red knight" "Reeste"
 	}
 }
-X59 = {
+ZUL = {
 	male = {
 		names = {
 			"Cetshwayo" "Ntshingwayo" "Dabulamanzi" "Sikukuni" "Sihayo" "Mavumengwana" "Mbilini" "Mnyamana" "Hamu" "Gawozi"

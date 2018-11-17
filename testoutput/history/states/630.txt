@@ -1,1 +1,23 @@
-瑳瑡㵥ൻऊ摩㘽〳਍渉浡㵥∠呓呁彅㌶∰਍洉湡潰敷⁲‽㔱㜰㈶രഊऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠唠䅓਍उ楶瑣牯役潰湩獴㴠笠㐠㈷″‶ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽റऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠唠䅓਍紉਍਍瀉潲楶据獥笽਍उ㠱㔱㐠ㄶ‰㜴㌲㐠㤷‴㠴〲㜠㠶‸㠷㐱㜠㠸‸〱㐶‰〱ㄷ‱㈱㘵‱㈱㌶″㈱㔶‱਍紉਍ൽ
+state={
+	id=630
+	name= "STATE_630"
+	manpower = 1507620
+
+	state_category = large_city
+
+	history={
+		owner = USA
+		victory_points = { 4723 6 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 
+	}
+}

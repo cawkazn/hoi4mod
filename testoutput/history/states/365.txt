@@ -1,1 +1,28 @@
-瑳瑡㵥ൻऊ摩㌽㔶਍渉浡㵥∠呓呁彅㘳∵਍洉湡潰敷⁲‽㈲㜳㔱ഴഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠㔠਍उ档潲業浵㴠㘠਍उ瑳敥⁬‽ശऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧损瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㤳਍उ楶瑣牯役潰湩獴㴠笠㐠㠸″‸ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ഴऊउ湩畤瑳楲污损浯汰硥㴠ㄠ਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㔠਍उൽऊ愉摤损牯彥景㴠堠㤳਍紉਍਍瀉潲楶据獥笽਍उ㔱〱ㄠ㜵‹㔴㜵㐠㠸″㔷㐷㜠ㄶ‹ㄸ〲ㄠ㄰ㄷㄠ㐰㄰ㄠ㐲〲ഠऊൽ紊਍
+state={
+	id=365
+	name= "STATE_365"
+	manpower = 2237154
+
+	resources={
+		aluminium = 5
+		chromium = 6
+		steel = 6
+	}
+	state_category = large_city
+
+	history={
+		owner = NAG
+		victory_points = { 4883 8 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = NAG
+	}
+
+	provinces={
+		1510 1579 4557 4883 7574 7619 8120 10171 10401 12420 
+	}
+}

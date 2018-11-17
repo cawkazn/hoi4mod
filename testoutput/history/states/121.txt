@@ -1,1 +1,24 @@
-瑳瑡㵥ൻऊ摩ㄽㄲ਍渉浡㵥∠呓呁彅㈱∱਍洉湡潰敷⁲‽㔲㘶〹਍਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽䝅൙ऊ瘉捩潴祲灟楯瑮⁳‽⁻㐴〴㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㌠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䝅൙ऊ愉摤损牯彥景㴠吠剕਍紉਍਍瀉潲楶据獥笽਍उ㔱㐴㐠㄰‷ㄴ㔱㐠㐴‰㔴㈶㐠㜵‴㔴ㄹ㐠〶″〷㄰㜠㔱‱ㄷ〷ㄠ〰㤸ㄠ㤱㘷ഠऊൽ紊਍
+state={
+	id=121
+	name= "STATE_121"
+	manpower = 256690
+
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		victory_points = { 4440 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = EGY
+		add_core_of = TUR
+	}
+
+	provinces={
+		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+	}
+}

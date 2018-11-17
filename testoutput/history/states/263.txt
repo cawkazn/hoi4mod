@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㈽㌶਍渉浡㵥∠呓呁彅㘲∳਍洉湡潰敷⁲‽㔱㔵㐰਍਍猉慴整损瑡来牯⁹‽畲慲൬ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠䘠䅒਍उ楶瑣牯役潰湩獴㴠笠ㄠ㜷㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उㄉ㜷㴠笠਍उउ慮慶彬慢敳㴠㠠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽剆ുऊൽഊऊ牰癯湩散㵳ൻऊㄉ㜷ഠऊൽ紊਍
+state={
+	id=263
+	name= "STATE_263"
+	manpower = 155504
+
+	state_category = rural
+
+	history={
+		owner = FRA
+		victory_points = { 177 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			177 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		177 
+	}
+}

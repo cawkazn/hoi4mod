@@ -1,1 +1,36 @@
-瑳瑡㵥ൻऊ摩㔽㈸਍渉浡㵥∠呓呁彅㠵∲਍洉湡潰敷⁲‽㘲ㄱ〹਍਍爉獥畯捲獥笽਍उ档潲業浵㴠㘠਍紉਍猉慴整损瑡来牯⁹‽慰瑳牯污਍਍栉獩潴祲笽਍उ睯敮⁲‽啔൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻㔶〵㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㘉㔵‰‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㐸㔳㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उㄉ〰㜰㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽則൅ऊ愉摤损牯彥景㴠吠剕਍紉਍਍瀉潲楶据獥笽਍उ㔶〵㜠〰″㐸㔳ㄠ〰㜰ഠऊൽ紊਍
+state={
+	id=582
+	name= "STATE_582"
+	manpower = 261190
+
+	resources={
+		chromium = 6
+	}
+	state_category = pastoral
+
+	history={
+		owner = TUR
+		victory_points = { 6550 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			6550 = {
+				naval_base = 4
+			}
+			8435 = {
+				naval_base = 4
+			}
+			10007 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = GRE
+		add_core_of = TUR
+	}
+
+	provinces={
+		6550 7003 8435 10007 
+	}
+}

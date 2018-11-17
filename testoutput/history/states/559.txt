@@ -1,1 +1,35 @@
-瑳瑡㵥ൻऊ摩㔽㤵਍渉浡㵥∠呓呁彅㔵∹਍洉湡潰敷⁲‽㐱㤹㔶ശഊऊ敲潳牵散㵳ൻऊ猉整汥㴠㈠਍紉਍猉慴整损瑡来牯⁹‽楣祴਍਍栉獩潴祲笽਍उ睯敮⁲‽偓൒ऊ瘉捩潴祲灟楯瑮⁳‽⁻ㄱ㈰ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠〠਍उㄉ〱′‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ〷㤶㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उㄉ㤱㌴㴠笠਍उउ慮慶彬慢敳㴠㐠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽䅍൒ऊൽഊऊ牰癯湩散㵳ൻऊㄉ〱′㈱㜰㐠〱‸ㄴ㤳㜠㘰‹〱㈰″〱〱‷ㄱ㐹″਍紉਍ൽ
+state={
+	id=559
+	name= "STATE_559"
+	manpower = 1499656
+
+	resources={
+		steel = 2
+	}
+	state_category = city
+
+	history={
+		owner = SPR
+		victory_points = { 1102 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1102 = {
+				naval_base = 4
+			}
+			7069 = {
+				naval_base = 4
+			}
+			11943 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = MAR
+	}
+
+	provinces={
+		1102 1207 4108 4139 7069 10023 10107 11943 
+	}
+}

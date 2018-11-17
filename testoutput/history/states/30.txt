@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㌽രऊ慮敭‽匢䅔䕔㍟∰਍洉湡潰敷⁲‽㈴㤸㘰਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽㠱਍紉਍猉慴整损瑡来牯⁹‽潴湷਍਍栉獩潴祲笽਍उ睯敮⁲‽啁൓ऊ瘉捩潴祲灟楯瑮⁳‽⁻㘶ㄳ㐠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽റऊउ牡獭晟捡潴祲㴠ㄠ਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽啁൓ऊൽഊऊ牰癯湩散㵳ൻऊ㘉㌶‱㘶㔷㤠㤵‸㘹〳ㄠ㔱㠹ㄠ㘱㔱ഠऊൽ紊਍
+state={
+	id=30
+	name= "STATE_30"
+	manpower = 428906
+
+	resources={
+		aluminium = 18
+	}
+	state_category = town
+
+	history={
+		owner = AUS
+		victory_points = { 6631 4 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		6631 6675 9598 9630 11598 11615 
+	}
+}

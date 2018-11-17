@@ -1,1 +1,29 @@
-瑳瑡㵥ൻऊ摩㔽ㄱ਍渉浡㵥∠呓呁彅ㄵ∱਍洉湡潰敷⁲‽ㄱㄵ〷സഊऊ敲潳牵散㵳ൻऊ愉畬業楮浵㴠〠਍उ畲扢牥㴠ㄠ਍उ瑳敥⁬‽രऊൽऊ瑳瑡彥慣整潧祲㴠琠睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠匠䅃਍उ楶瑣牯役潰湩獴㴠笠㐠㠸‹‴ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠㈠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠ㄠ਍उൽऊ愉摤损牯彥景㴠丠䝉਍उ摡彤潣敲潟⁦‽䍓ുऊൽഊऊ牰癯湩散㵳ൻऊ㐉㠸‹ㄸ㤰ㄠ㠰〲ഠऊൽ紊਍
+state={
+	id=511
+	name= "STATE_511"
+	manpower = 1151708
+
+	resources={
+		aluminium = 0
+		rubber = 1
+		steel = 0
+	}
+	state_category = town
+
+	history={
+		owner = SCA
+		victory_points = { 4889 4 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = NIG
+		add_core_of = SCA
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+}

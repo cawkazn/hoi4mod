@@ -1,1 +1,33 @@
-瑳瑡㵥ൻऊ摩㘽റऊ慮敭‽匢䅔䕔㙟∱਍洉湡潰敷⁲‽㈶㈸㈱਍਍爉獥畯捲獥笽਍उ污浵湩畩⁭‽സऊൽऊ瑳瑡彥慣整潧祲㴠爠牵污਍਍栉獩潴祲笽਍उ睯敮⁲‽剂ുऊ瘉捩潴祲灟楯瑮⁳‽⁻㔴㔷㌠素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽ലऊउ牡獭晟捡潴祲㴠〠਍उ搉捯祫牡⁤‽റऊउ㘷㠳㴠笠਍उउ慮慶彬慢敳㴠㘠਍उ紉਍उㄉ㐰㜴㴠笠਍उउ慮慶彬慢敳㴠㈠਍उ紉਍उ愉物扟獡⁥‽രऊ紉਍उ摡彤潣敲潟⁦‽剂ുऊൽഊऊ牰癯湩散㵳ൻऊㄉ㐵′㔱㔸ㄠ㤵‸㐴㘳㐠㜵‵㔴㤸㐠〶‴ㄵ〱㜠㠵‱㔷㐹㜠㌶‸〱㐴‷㈱㤳‶਍紉਍ൽ
+state={
+	id=61
+	name= "STATE_61"
+	manpower = 628212
+
+	resources={
+		aluminium = 8
+	}
+	state_category = rural
+
+	history={
+		owner = BRA
+		victory_points = { 4575 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			7638 = {
+				naval_base = 6
+			}
+			10447 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		1542 1585 1598 4436 4575 4589 4604 5110 7581 7594 7638 10447 12396 
+	}
+}

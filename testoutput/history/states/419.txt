@@ -1,1 +1,26 @@
-瑳瑡㵥ൻऊ摩㐽㤱਍渉浡㵥∠呓呁彅ㄴ∹਍洉湡潰敷⁲‽㈱〶㠷രഊऊ敲潳牵散㵳ൻऊ猉整汥㴠ㄠലऊൽऊ瑳瑡彥慣整潧祲㴠氠牡敧瑟睯൮ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠堠㜴਍उ楶瑣牯役潰湩獴㴠笠㘠㌵‵‵ൽऊ戉極摬湩獧㴠笠਍उ椉普慲瑳畲瑣牵⁥‽ശऊउ湩畤瑳楲污损浯汰硥㴠㐠਍उ愉浲彳慦瑣牯⁹‽രऊउ楡彲慢敳㴠㈠਍उൽऊ愉摤损牯彥景㴠堠㜴਍紉਍਍瀉潲楶据獥笽਍उ〴‵㤴‵㈵‹㌳㠹㌠ㄵ′㔶㔳㘠㈶′㐹㌴㤠〵‹㔹㜴ㄠ㌱㘴ㄠ㐱ㄳㄠ㔱㌳ഠऊൽ紊਍
+state={
+	id=419
+	name= "STATE_419"
+	manpower = 1260780
+
+	resources={
+		steel = 12
+	}
+	state_category = large_town
+
+	history={
+		owner = PSA
+		victory_points = { 6535 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 2
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		405 495 529 3398 3512 6535 6622 9443 9509 9547 11346 11431 11533 
+	}
+}

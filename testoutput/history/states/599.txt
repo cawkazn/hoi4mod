@@ -1,1 +1,36 @@
-瑳瑡㵥ൻऊ摩㔽㤹਍渉浡㵥∠呓呁彅㤵∹਍洉湡潰敷⁲‽㜱㌸ㄲഴഊऊ敲潳牵散㵳ൻऊ漉汩㴠㐠വऊ猉整汥㴠ㄠരऊൽऊ瑳瑡彥慣整潧祲㴠挠瑩൹ഊऊ楨瑳牯㵹ൻऊ漉湷牥㴠吠剕਍उ楶瑣牯役潰湩獴㴠笠ㄠ㠲㈳ㄠ素਍उ畢汩楤杮⁳‽ൻऊउ湩牦獡牴捵畴敲㴠㔠਍उ椉摮獵牴慩彬潣灭敬⁸‽രऊउ牡獭晟捡潴祲㴠〠਍उ㔉〰‵‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ〱㤷‷‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ㈱㌸′‽ൻऊउ渉癡污扟獡⁥‽ഴऊउൽऊउ楡彲慢敳㴠〠਍उൽऊ愉摤损牯彥景㴠倠剅਍紉਍਍瀉潲楶据獥笽਍उ㤱㈲㔠〰‵〵㤸㜠㔹″〱㤷‷㈱㌸′਍紉਍ൽ
+state={
+	id=599
+	name= "STATE_599"
+	manpower = 1783214
+
+	resources={
+		oil = 45
+		steel = 10
+	}
+	state_category = city
+
+	history={
+		owner = TUR
+		victory_points = { 12832 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			5005 = {
+				naval_base = 4
+			}
+			10797 = {
+				naval_base = 4
+			}
+			12832 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1922 5005 5089 7953 10797 12832 
+	}
+}
