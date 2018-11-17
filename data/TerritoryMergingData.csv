@@ -17,3 +17,4 @@ stateId,countryFrom,countryTo,tagFrom,tagTo,addCore,retainCore,provinceOnly,prov
 379,oldenburg,Hannover,OLD,HAN,y,,,
 350,lubeck,Mecklenburg,LUB,MEC,y,,,
 323,hamburg,Holstein,HAM,SCH,y,,,
+504,scandinavia,netherlands,SCA,HOL,y,y,,

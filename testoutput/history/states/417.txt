@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = X47
+		owner = PSA
 		victory_points = { 11435 5 }
 		buildings = {
 			infrastructure = 6
@@ -18,7 +18,7 @@ state={
 			arms_factory = 0
 			air_base = 2
 		}
-		add_core_of = X47
+		add_core_of = PSA
 	}
 
 	provinces={

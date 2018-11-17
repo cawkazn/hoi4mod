@@ -1,4 +1,4 @@
-﻿l_polish:
+l_polish:
  conv.political.1.a:10 "Nasza jedyna nadzieja to, że nie zorganizują przeciwko nam zamachu"
  conv.political.1.d:10 "Niektórzy twierdzą, że są to tylko starcy, krzycząc na chmury, ale ruch reaktywny kosztuje coraz nowych zwolenników. Co jednak powinien zrobić rząd, trudno powiedzieć."
  conv.political.1.t:10 "Pomysły Reakcyjne rozrzucone po [Root.GetName]"

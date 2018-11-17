@@ -32,8 +32,8 @@ state={
 			air_base = 8
 		}
 		add_core_of = ENG
-		add_core_of = X06
-		add_core_of = X29
+		add_core_of = BER
+		add_core_of = KUT
 	}
 
 	provinces={

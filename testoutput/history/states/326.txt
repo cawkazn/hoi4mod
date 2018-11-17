@@ -9,7 +9,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = X16
+		owner = HAN
 		victory_points = { 6513 3 }
 		buildings = {
 			infrastructure = 6
@@ -17,7 +17,7 @@ state={
 			arms_factory = 0
 			air_base = 1
 		}
-		add_core_of = X16
+		add_core_of = HAN
 	}
 
 	provinces={

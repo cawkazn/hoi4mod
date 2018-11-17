@@ -1,4 +1,4 @@
-﻿l_french:
+l_french:
  conv.political.1.a:10 "Notre seul espoir est qu'ils ne vont pas organiser un coup d'Etat contre nous"
  conv.political.1.d:10 "Certains peuvent dire que ce ne sont que le vieil homme qui crie aux nuages, mais le mouvement réactionnaire gagne de façon coûteuse de nouveaux supporters. Ce que le gouvernement devrait faire à ce sujet, cependant, est difficile à dire."
  conv.political.1.t:10 "Des idées de réaction se propager dans [Root.GetName]"

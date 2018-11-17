@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SCA
+		owner = HOL
 		victory_points = { 11562 5 }
 		buildings = {
 			infrastructure = 7
@@ -16,6 +16,7 @@ state={
 		}
 		add_core_of = HOL
 		add_core_of = SCA
+	add core of = HOL
 	}
 
 	provinces={

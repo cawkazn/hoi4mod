@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = X27
+		owner = KAL
 		victory_points = { 8098 8 }
 		buildings = {
 			infrastructure = 3
@@ -18,7 +18,7 @@ state={
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = X27
+		add_core_of = KAL
 	}
 
 	provinces={

@@ -18,9 +18,9 @@ state={
 			air_base = 7
 		}
 		add_core_of = ENG
-		add_core_of = X23
-		add_core_of = X24
-		add_core_of = X36
+		add_core_of = JPR
+		add_core_of = JSL
+		add_core_of = MEW
 	}
 
 	provinces={

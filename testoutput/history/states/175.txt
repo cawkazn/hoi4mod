@@ -20,7 +20,7 @@ state={
 			air_base = 3
 		}
 		add_core_of = ENG
-		add_core_of = X39
+		add_core_of = NAG
 	}
 
 	provinces={

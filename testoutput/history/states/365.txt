@@ -11,7 +11,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = X39
+		owner = NAG
 		victory_points = { 4883 8 }
 		buildings = {
 			infrastructure = 4
@@ -19,7 +19,7 @@ state={
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = X39
+		add_core_of = NAG
 	}
 
 	provinces={

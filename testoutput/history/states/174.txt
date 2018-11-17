@@ -20,10 +20,10 @@ state={
 			air_base = 7
 		}
 		add_core_of = ENG
-		add_core_of = X07
-		add_core_of = X11
-		add_core_of = X14
-		add_core_of = X39
+		add_core_of = BHO
+		add_core_of = BUN
+		add_core_of = GWA
+		add_core_of = NAG
 	}
 
 	provinces={

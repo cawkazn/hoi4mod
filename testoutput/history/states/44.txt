@@ -6,7 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = X07
+		owner = BHO
 		victory_points = { 11995 8 }
 		buildings = {
 			infrastructure = 5
@@ -14,7 +14,7 @@ state={
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = X07
+		add_core_of = BHO
 	}
 
 	provinces={

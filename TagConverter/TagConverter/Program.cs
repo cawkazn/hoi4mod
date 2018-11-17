@@ -19,7 +19,7 @@ namespace TagConverter
             string outputDirectory = @"C:\Users\Jobber 2k17\Documents\Paradox Interactive\Hearts of Iron IV\mod\test";
             string dataDirectory = "C:\\myprojects\\hoi4mod\\data\\";
             string mergeDataFilename = "TerritoryMergingData.csv";
-            string countriesFilename = "CountriesGeneral.csv";
+            string countriesFilename = "Countries.csv";
 
             Dictionary<string, TagHelper> tagsToChange = new Dictionary<string, TagHelper>();
 

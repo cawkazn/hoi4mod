@@ -29,7 +29,7 @@ state={
 			air_base = 6
 		}
 		add_core_of = SCA
-		add_core_of = X17
+		add_core_of = HED
 	}
 
 	provinces={

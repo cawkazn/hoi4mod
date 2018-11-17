@@ -1,4 +1,4 @@
-﻿l_german:
+l_german:
  conv.political.1.a:10 "Unsere einzige Hoffnung ist, dass sie keinen Putsch gegen uns organisieren werden"
  conv.political.1.d:10 "Manche mögen sagen, das ist nur ein alter Mann, der an Wolken schreit, aber die Reaktionspolitik ist kostspielig neue Anhänger. Was soll die Regierung tun, ist aber schwer zu sagen."
  conv.political.1.t:10 "Reactionary Ideas breitet sich aus [Root.GetName]"

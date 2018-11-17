@@ -11,7 +11,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = X26
+		owner = JOH
 		victory_points = { 10313 8 }
 		buildings = {
 			infrastructure = 0
@@ -19,7 +19,7 @@ state={
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = X26
+		add_core_of = JOH
 	}
 
 	provinces={

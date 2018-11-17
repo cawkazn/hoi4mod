@@ -1,0 +1,317 @@
+capital = 659
+set_research_slots = 3
+
+oob = "WUR_OOB"
+
+# Starting tech
+set_technology = {
+basic_battleship = 1
+basic_destroyer = 1
+basic_heavy_cruiser = 1
+basic_light_cruiser = 1
+early_battleship = 1
+early_bomber = 1
+early_destroyer = 1
+early_fighter = 1
+early_heavy_cruiser = 1
+early_light_cruiser = 1
+early_submarine = 1
+gw_artillery = 1
+gwtank = 1
+infantry_weapons = 1
+synth_oil_experiments = 1
+tech_support = 1
+transport = 1
+}
+
+# Research Bonuses
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_grand_battle_plan name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_mass_assault name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_mobile_warfare name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_superior_firepower name = doctrine_bonus }
+set_convoys = 0
+
+
+set_politics = {
+
+    parties = {
+        absolutist = {
+            popularity = 2
+        }
+        democratic = {
+            popularity = 85
+        }
+        neutrality = {
+            popularity = 13
+        }
+    }
+    
+    ruling_party = neutrality
+    last_election = "1926.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+add_opinion_modifier = { target = ARG modifier = positive_0 }
+add_opinion_modifier = { target = AUS modifier = positive_186 }
+add_opinion_modifier = { target = BEL modifier = positive_0 }
+add_opinion_modifier = { target = BHU modifier = positive_0 }
+add_opinion_modifier = { target = BOL modifier = positive_0 }
+add_opinion_modifier = { target = BRA modifier = positive_0 }
+add_opinion_modifier = { target = BUR modifier = positive_0 }
+add_opinion_modifier = { target = CAM modifier = positive_0 }
+add_opinion_modifier = { target = CHI modifier = positive_0 }
+add_opinion_modifier = { target = CHL modifier = positive_0 }
+add_opinion_modifier = { target = COL modifier = positive_0 }
+add_opinion_modifier = { target = ECU modifier = positive_0 }
+add_opinion_modifier = { target = EGY modifier = positive_0 }
+add_opinion_modifier = { target = ENG modifier = positive_0 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = FRA modifier = positive_0 }
+add_opinion_modifier = { target = GRE modifier = negative_5 }
+add_opinion_modifier = { target = HAI modifier = positive_0 }
+add_opinion_modifier = { target = HOL modifier = positive_0 }
+add_opinion_modifier = { target = JAP modifier = positive_0 }
+add_opinion_modifier = { target = KGZ modifier = positive_0 }
+add_opinion_modifier = { target = KOR modifier = positive_0 }
+add_opinion_modifier = { target = LIB modifier = positive_0 }
+add_opinion_modifier = { target = LUX modifier = positive_0 }
+add_opinion_modifier = { target = MDA modifier = negative_5 }
+add_opinion_modifier = { target = MEX modifier = positive_20 }
+add_opinion_modifier = { target = MNT modifier = negative_5 }
+add_opinion_modifier = { target = NEP modifier = positive_0 }
+add_opinion_modifier = { target = OMA modifier = positive_0 }
+add_opinion_modifier = { target = PAR modifier = positive_0 }
+add_opinion_modifier = { target = POR modifier = positive_0 }
+add_opinion_modifier = { target = PRU modifier = positive_0 }
+add_opinion_modifier = { target = SCA modifier = positive_0 }
+add_opinion_modifier = { target = SER modifier = negative_5 }
+add_opinion_modifier = { target = SIA modifier = positive_0 }
+add_opinion_modifier = { target = SOV modifier = positive_0 }
+add_opinion_modifier = { target = SPR modifier = positive_0 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = TIB modifier = positive_0 }
+add_opinion_modifier = { target = TKM modifier = positive_0 }
+add_opinion_modifier = { target = TUR modifier = positive_0 }
+add_opinion_modifier = { target = USC modifier = positive_0 }
+add_opinion_modifier = { target = URG modifier = positive_0 }
+add_opinion_modifier = { target = USA modifier = positive_0 }
+add_opinion_modifier = { target = UZB modifier = positive_0 }
+add_opinion_modifier = { target = VAT modifier = positive_30 }
+add_opinion_modifier = { target = VEN modifier = positive_0 }
+add_opinion_modifier = { target = VIN modifier = positive_0 }
+add_opinion_modifier = { target = ANH modifier = positive_0 }
+add_opinion_modifier = { target = BAD modifier = positive_3 }
+add_opinion_modifier = { target = BST modifier = positive_0 }
+add_opinion_modifier = { target = BAV modifier = positive_108 }
+add_opinion_modifier = { target = BHO modifier = positive_0 }
+add_opinion_modifier = { target = BIK modifier = positive_0 }
+add_opinion_modifier = { target = BRN modifier = positive_0 }
+add_opinion_modifier = { target = BRE modifier = positive_0 }
+add_opinion_modifier = { target = SCG modifier = positive_0 }
+add_opinion_modifier = { target = FAM modifier = positive_0 }
+add_opinion_modifier = { target = HAM modifier = positive_0 }
+add_opinion_modifier = { target = HAN modifier = positive_0 }
+add_opinion_modifier = { target = HEK modifier = positive_0 }
+add_opinion_modifier = { target = HES modifier = positive_0 }
+add_opinion_modifier = { target = SCH modifier = positive_0 }
+add_opinion_modifier = { target = IND modifier = positive_0 }
+add_opinion_modifier = { target = JOD modifier = positive_0 }
+add_opinion_modifier = { target = JOH modifier = positive_0 }
+add_opinion_modifier = { target = KAL modifier = positive_0 }
+add_opinion_modifier = { target = KRA modifier = positive_30 }
+add_opinion_modifier = { target = LIP modifier = positive_0 }
+add_opinion_modifier = { target = LUB modifier = positive_0 }
+add_opinion_modifier = { target = LUC modifier = positive_0 }
+add_opinion_modifier = { target = MEC modifier = positive_0 }
+add_opinion_modifier = { target = SXM modifier = positive_0 }
+add_opinion_modifier = { target = MOD modifier = positive_10 }
+add_opinion_modifier = { target = NAG modifier = positive_0 }
+add_opinion_modifier = { target = NAS modifier = positive_0 }
+add_opinion_modifier = { target = OLD modifier = positive_0 }
+add_opinion_modifier = { target = ORA modifier = negative_15 }
+add_opinion_modifier = { target = ORI modifier = positive_0 }
+add_opinion_modifier = { target = PJB modifier = positive_0 }
+add_opinion_modifier = { target = PRM modifier = positive_10 }
+add_opinion_modifier = { target = PSA modifier = positive_63 }
+add_opinion_modifier = { target = SPD modifier = positive_30 }
+add_opinion_modifier = { target = SAX modifier = positive_0 }
+add_opinion_modifier = { target = SIC modifier = positive_30 }
+add_opinion_modifier = { target = SIK modifier = positive_0 }
+add_opinion_modifier = { target = TRA modifier = negative_15 }
+add_opinion_modifier = { target = TUS modifier = positive_0 }
+add_opinion_modifier = { target = WAL modifier = negative_5 }
+add_opinion_modifier = { target = SXW modifier = positive_0 }
+add_opinion_modifier = { target = ZUL modifier = positive_0 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_south_german
+}
+set_stability = 0.60
+set_war_support = 0.59
+create_country_leader = {
+    name = "Reinhold von Hohenhausen"
+    desc = "POLITICS_REINHOLD_VON HOHENHAUSEN_DESC"
+    picture = "GFX_portrait_ger_august_von_mackensen"
+    expire = "1965.1.1"
+    ideology = leninism_neutral
+    traits = {
+    }
+}
+create_corps_commander = {
+	name = "Horst von Brudermann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joachim Schobber"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "G�nther von Hortstein"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Horst von Clam-Gallas"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Erwin von Brudermann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Julius von W�rttemberg"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lothar von Zahringen"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Engelbert von W�rttemberg"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alois Trunk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gottfried von Kirbach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Viktor von Wittelsbach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Albrecht Blos"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Theodor Trunk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lothar von Wittelsbach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+

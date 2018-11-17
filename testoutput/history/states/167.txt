@@ -18,7 +18,7 @@ state={
 			air_base = 4
 		}
 		add_core_of = ENG
-		add_core_of = X11
+		add_core_of = BUN
 	}
 
 	provinces={

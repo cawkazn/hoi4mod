@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = LAO
 		add_core_of = SIA
-		add_core_of = X57
+		add_core_of = WIC
 	}
 
 	provinces={

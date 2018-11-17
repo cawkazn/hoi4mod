@@ -9,7 +9,7 @@ state={
 	state_category = town
 
 	history={
-		owner = X37
+		owner = MOD
 		victory_points = { 3976 8 }
 		buildings = {
 			infrastructure = 4
@@ -20,7 +20,7 @@ state={
 			}
 			air_base = 5
 		}
-		add_core_of = X37
+		add_core_of = MOD
 	}
 
 	provinces={

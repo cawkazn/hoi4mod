@@ -11,7 +11,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = U78
+		owner = USC
 		victory_points = { 10886 14 }
 		buildings = {
 			infrastructure = 9
@@ -26,7 +26,7 @@ state={
 			}
 			air_base = 8
 		}
-		add_core_of = U78
+		add_core_of = USC
 	}
 
 	provinces={

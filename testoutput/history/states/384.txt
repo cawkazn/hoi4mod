@@ -9,7 +9,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = X45
+		owner = PJB
 		victory_points = { 12717 3 }
 		buildings = {
 			infrastructure = 4
@@ -17,8 +17,8 @@ state={
 			arms_factory = 0
 			air_base = 0
 		}
-		add_core_of = U80
-		add_core_of = X45
+		add_core_of = KAS
+		add_core_of = PJB
 	}
 
 	provinces={

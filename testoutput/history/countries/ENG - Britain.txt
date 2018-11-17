@@ -1,4 +1,4 @@
-﻿capital = 161
+capital = 161
 set_research_slots = 4
 
 oob = "ENG_OOB"
@@ -48,48 +48,48 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X04
+        target = BST
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X07
+        target = BHO
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X08
+        target = BIK
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X22
+        target = IND
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X25
+        target = JOD
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X39
+        target = NAG
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X44
+        target = ORI
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     else = {
-        puppet = X04
-        puppet = X07
-        puppet = X08
-        puppet = X22
-        puppet = X25
-        puppet = X39
-        puppet = X44
+        puppet = BST
+        puppet = BHO
+        puppet = BIK
+        puppet = IND
+        puppet = JOD
+        puppet = NAG
+        puppet = ORI
     }
 }
 
@@ -158,73 +158,73 @@ add_opinion_modifier = { target = SWI modifier = positive_150 }
 add_opinion_modifier = { target = TIB modifier = positive_170 }
 add_opinion_modifier = { target = TKM modifier = negative_55 }
 add_opinion_modifier = { target = TUR modifier = positive_160 }
-add_opinion_modifier = { target = U78 modifier = positive_196 }
+add_opinion_modifier = { target = USC modifier = positive_196 }
 add_opinion_modifier = { target = URG modifier = positive_0 }
 add_opinion_modifier = { target = USA modifier = negative_125 }
 add_opinion_modifier = { target = UZB modifier = negative_5 }
 add_opinion_modifier = { target = VAT modifier = positive_170 }
 add_opinion_modifier = { target = VEN modifier = positive_130 }
 add_opinion_modifier = { target = VIN modifier = negative_200 }
-add_opinion_modifier = { target = X00 modifier = positive_150 }
-add_opinion_modifier = { target = X02 modifier = positive_130 }
-add_opinion_modifier = { target = X04 modifier = positive_200 }
-add_opinion_modifier = { target = X05 modifier = positive_135 }
-add_opinion_modifier = { target = X07 modifier = positive_200 }
-add_opinion_modifier = { target = X08 modifier = positive_200 }
-add_opinion_modifier = { target = X09 modifier = positive_130 }
-add_opinion_modifier = { target = X10 modifier = positive_130 }
-add_opinion_modifier = { target = X12 modifier = positive_125 }
-add_opinion_modifier = { target = X13 modifier = positive_135 }
-add_opinion_modifier = { target = X15 modifier = positive_130 }
-add_opinion_modifier = { target = X16 modifier = positive_200 }
-add_opinion_modifier = { target = X18 modifier = positive_195 }
-add_opinion_modifier = { target = X19 modifier = positive_200 }
-add_opinion_modifier = { target = X20 modifier = positive_65 }
-add_opinion_modifier = { target = X22 modifier = positive_200 }
-add_opinion_modifier = { target = X25 modifier = positive_200 }
-add_opinion_modifier = { target = X26 modifier = positive_73 }
-add_opinion_modifier = { target = X27 modifier = positive_125 }
-add_opinion_modifier = { target = X28 modifier = negative_195 }
-add_opinion_modifier = { target = X30 modifier = positive_135 }
-add_opinion_modifier = { target = X31 modifier = positive_170 }
-add_opinion_modifier = { target = X32 modifier = positive_0 }
-add_opinion_modifier = { target = X34 modifier = positive_130 }
-add_opinion_modifier = { target = X35 modifier = positive_0 }
-add_opinion_modifier = { target = X37 modifier = negative_185 }
-add_opinion_modifier = { target = X39 modifier = positive_200 }
-add_opinion_modifier = { target = X40 modifier = positive_70 }
-add_opinion_modifier = { target = X42 modifier = positive_130 }
-add_opinion_modifier = { target = X43 modifier = positive_200 }
-add_opinion_modifier = { target = X44 modifier = positive_200 }
-add_opinion_modifier = { target = X45 modifier = positive_200 }
-add_opinion_modifier = { target = X46 modifier = negative_175 }
-add_opinion_modifier = { target = X47 modifier = positive_135 }
-add_opinion_modifier = { target = X48 modifier = positive_134 }
-add_opinion_modifier = { target = X49 modifier = positive_130 }
-add_opinion_modifier = { target = X50 modifier = positive_150 }
-add_opinion_modifier = { target = X51 modifier = positive_37 }
-add_opinion_modifier = { target = X53 modifier = positive_170 }
-add_opinion_modifier = { target = X54 modifier = positive_0 }
-add_opinion_modifier = { target = X55 modifier = positive_40 }
-add_opinion_modifier = { target = X56 modifier = positive_40 }
-add_opinion_modifier = { target = X58 modifier = positive_0 }
-add_opinion_modifier = { target = X59 modifier = positive_126 }
+add_opinion_modifier = { target = ANH modifier = positive_150 }
+add_opinion_modifier = { target = BAD modifier = positive_130 }
+add_opinion_modifier = { target = BST modifier = positive_200 }
+add_opinion_modifier = { target = BAV modifier = positive_135 }
+add_opinion_modifier = { target = BHO modifier = positive_200 }
+add_opinion_modifier = { target = BIK modifier = positive_200 }
+add_opinion_modifier = { target = BRN modifier = positive_130 }
+add_opinion_modifier = { target = BRE modifier = positive_130 }
+add_opinion_modifier = { target = SCG modifier = positive_125 }
+add_opinion_modifier = { target = FAM modifier = positive_135 }
+add_opinion_modifier = { target = HAM modifier = positive_130 }
+add_opinion_modifier = { target = HAN modifier = positive_200 }
+add_opinion_modifier = { target = HEK modifier = positive_195 }
+add_opinion_modifier = { target = HES modifier = positive_200 }
+add_opinion_modifier = { target = SCH modifier = positive_65 }
+add_opinion_modifier = { target = IND modifier = positive_200 }
+add_opinion_modifier = { target = JOD modifier = positive_200 }
+add_opinion_modifier = { target = JOH modifier = positive_73 }
+add_opinion_modifier = { target = KAL modifier = positive_125 }
+add_opinion_modifier = { target = KRA modifier = negative_195 }
+add_opinion_modifier = { target = LIP modifier = positive_135 }
+add_opinion_modifier = { target = LUB modifier = positive_170 }
+add_opinion_modifier = { target = LUC modifier = positive_0 }
+add_opinion_modifier = { target = MEC modifier = positive_130 }
+add_opinion_modifier = { target = SXM modifier = positive_0 }
+add_opinion_modifier = { target = MOD modifier = negative_185 }
+add_opinion_modifier = { target = NAG modifier = positive_200 }
+add_opinion_modifier = { target = NAS modifier = positive_70 }
+add_opinion_modifier = { target = OLD modifier = positive_130 }
+add_opinion_modifier = { target = ORA modifier = positive_200 }
+add_opinion_modifier = { target = ORI modifier = positive_200 }
+add_opinion_modifier = { target = PJB modifier = positive_200 }
+add_opinion_modifier = { target = PRM modifier = negative_175 }
+add_opinion_modifier = { target = PSA modifier = positive_135 }
+add_opinion_modifier = { target = SPD modifier = positive_134 }
+add_opinion_modifier = { target = SAX modifier = positive_130 }
+add_opinion_modifier = { target = SIC modifier = positive_150 }
+add_opinion_modifier = { target = SIK modifier = positive_37 }
+add_opinion_modifier = { target = TRA modifier = positive_170 }
+add_opinion_modifier = { target = TUS modifier = positive_0 }
+add_opinion_modifier = { target = WAL modifier = positive_40 }
+add_opinion_modifier = { target = SXW modifier = positive_40 }
+add_opinion_modifier = { target = WUR modifier = positive_0 }
+add_opinion_modifier = { target = ZUL modifier = positive_126 }
 
 create_faction = "Alliance of The United Kingdom"
 add_to_faction = ENG
 add_to_faction = SCA
-add_to_faction = X20
-add_to_faction = X04
-add_to_faction = X07
-add_to_faction = X08
-add_to_faction = X18
-add_to_faction = X19
-add_to_faction = X22
-add_to_faction = X25
-add_to_faction = X39
-add_to_faction = X43
-add_to_faction = X44
-add_to_faction = X45
+add_to_faction = SCH
+add_to_faction = BST
+add_to_faction = BHO
+add_to_faction = BIK
+add_to_faction = HEK
+add_to_faction = HES
+add_to_faction = IND
+add_to_faction = JOD
+add_to_faction = NAG
+add_to_faction = ORA
+add_to_faction = ORI
+add_to_faction = PJB
 
 add_ideas = {
 	great_power

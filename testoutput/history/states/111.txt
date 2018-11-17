@@ -11,7 +11,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = X12
+		owner = SAX
 		victory_points = { 3500 8 }
 		buildings = {
 			infrastructure = 4
@@ -19,7 +19,7 @@ state={
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = X12
+		add_core_of = SCG
 	}
 
 	provinces={

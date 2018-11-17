@@ -9,7 +9,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = X49
+		owner = SAX
 		victory_points = { 514 9 }
 		buildings = {
 			infrastructure = 6
@@ -17,7 +17,7 @@ state={
 			arms_factory = 1
 			air_base = 6
 		}
-		add_core_of = X49
+		add_core_of = SAX
 	}
 
 	provinces={
