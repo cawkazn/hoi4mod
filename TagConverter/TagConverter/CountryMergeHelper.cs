@@ -30,9 +30,6 @@ namespace TagConverter
             this.tagTo = tagTo;
             this.addCore = addCore;
             this.retainCore = retainCore;
-            this.provinceOnly = provinceOnly;
-            this.provinceId = provinceId;
-            this.stateId = stateId;
         }
     }
 }
