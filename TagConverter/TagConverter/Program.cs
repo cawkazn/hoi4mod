@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using TagConverter.HelperModels;
 
 namespace TagConverter
 {
@@ -15,11 +16,21 @@ namespace TagConverter
 
 
             int level;
-            string baseDirectory = "C:\\myprojects\\hoi4mod\\test";
-            string outputDirectory = @"C:\Users\Jobber 2k17\Documents\Paradox Interactive\Hearts of Iron IV\mod\test";
-            string dataDirectory = "C:\\myprojects\\hoi4mod\\data\\";
+
+            //home
+            //string baseDirectory = "C:\\myprojects\\hoi4mod\\test";
+            //string outputDirectory = @"C:\Users\Jobber 2k17\Documents\Paradox Interactive\Hearts of Iron IV\mod\test";
+            //string dataDirectory = "C:\\myprojects\\hoi4mod\\data\\";
+
+
+            //work
+            string baseDirectory = "C:\\coreymods\\hoi4mod\\test";
+            string outputDirectory = "C:\\coreymods\\hoi4mod\\testoutput";
+            string dataDirectory = "C:\\coreymods\\hoi4mod\\data\\";
+
             string mergeDataFilename = "TerritoryMergingData.csv";
             string countriesFilename = "Countries.csv";
+            string provincesFilename = "Provinces.csv";
 
             Dictionary<string, TagHelper> tagsToChange = new Dictionary<string, TagHelper>();
 
@@ -50,7 +61,7 @@ namespace TagConverter
             var stateRecords = stateCsvReader.GetRecords<CountryMergeHelper>();
             foreach(CountryMergeHelper cmh in stateRecords)
             {
-                if (cmh.stateId != null && String.IsNullOrWhiteSpace(cmh.stateId))
+                if (cmh.stateId == null || String.IsNullOrWhiteSpace(cmh.stateId))
                 {
                     continue;
                 }
@@ -58,19 +69,64 @@ namespace TagConverter
             }
             stateCsvReader.Dispose();
 
+            Dictionary<int, ProvinceHelper> provinceChanges = new Dictionary<int, ProvinceHelper>();
+
+            TextReader provinceReader = new StreamReader(dataDirectory + provincesFilename);
+            var provinceCsvReader = new CsvReader(stateReader);
+            stateCsvReader.Read();
+            stateCsvReader.ReadHeader();
+            var provinceRecords = stateCsvReader.GetRecords<ProvinceHelper>();
+            ProvincesToChange provincesToChange = new ProvincesToChange();
+            provincesToChange.provincesFrom = new Dictionary<string, List<string>>();
+            provincesToChange.provincesTo = new Dictionary<string, List<string>>();
+            foreach (ProvinceHelper cmh in provinceRecords)
+            {
+                if (cmh.provinceId == null || String.IsNullOrWhiteSpace(cmh.provinceId))
+                {
+                    continue;
+                }
+                List<string> provincesFrom = new List<string>();
+                if (provincesToChange.provincesFrom.TryGetValue(cmh.stateIdFrom, out provincesFrom))
+                {
+                    provincesFrom.Add(cmh.provinceId);
+                    provincesToChange.provincesFrom[cmh.stateIdFrom] = provincesFrom;
+                }
+                else
+                {
+                    provincesFrom.Add(cmh.provinceId);
+                    provincesToChange.provincesFrom.Add(cmh.stateIdFrom, provincesFrom);
+                }
+
+                List<string> provincesTo = new List<string>();
+                if (provincesToChange.provincesTo.TryGetValue(cmh.stateIdTo, out provincesTo))
+                {
+                    provincesTo.Add(cmh.provinceId);
+                    provincesToChange.provincesTo[cmh.stateIdTo] = provincesTo;
+                }
+                else
+                {
+                    provincesTo.Add(cmh.provinceId);
+                    provincesToChange.provincesTo.Add(cmh.stateIdTo, provincesTo);
+                }
+            }
+            stateCsvReader.Dispose();
+
+
+
             ClearDirectory(outputDirectory);
             Directory.CreateDirectory(outputDirectory);
             Copy(baseDirectory, outputDirectory);
-
+            
             level = 0;
-            SlamItOut(tagsToChange, stateChanges, outputDirectory, level);
+            SlamItOut(tagsToChange, stateChanges, provincesToChange, outputDirectory, level);
             //Console.WriteLine("finished tag " + th.oldTag + " to " + th.newTag);
 
-            Console.WriteLine("TAll done.");
+            Console.WriteLine("TAll done."); 
             Console.ReadLine();
         }
 
-        public static void SlamItOut(Dictionary<string, TagHelper> tagsToChange, Dictionary<int, CountryMergeHelper> statesToChangeOwnership, string directory, int level)
+        public static void SlamItOut(Dictionary<string, TagHelper> tagsToChange, Dictionary<int, CountryMergeHelper> statesToChangeOwnership, 
+            ProvincesToChange provincesToChange, string directory, int level)
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(directory);
 
@@ -94,7 +150,7 @@ namespace TagConverter
                     {
                         foreach (DirectoryInfo di in bestFuckinList)
                         {
-                            SlamItOut(tagsToChange, statesToChangeOwnership, di.FullName, level + 1);
+                            SlamItOut(tagsToChange, statesToChangeOwnership, provincesToChange, di.FullName, level + 1);
                         }
                     }
                 }
@@ -107,12 +163,13 @@ namespace TagConverter
                 }
                 foreach (FileInfo fi in files)
                 {
-                    ProcessFile(fi, level, directoryInfo, tagsToChange, statesToChangeOwnership);
+                    ProcessFile(fi, level, directoryInfo, tagsToChange, statesToChangeOwnership, provincesToChange);
                 }
             }
         }
 
-        public static void ProcessFile(FileInfo fi, int level, DirectoryInfo directoryInfo, Dictionary<string, TagHelper> tagsToChange, Dictionary<int, CountryMergeHelper> statesToChangeOwner)
+        public static void ProcessFile(FileInfo fi, int level, DirectoryInfo directoryInfo, Dictionary<string, TagHelper> tagsToChange, 
+            Dictionary<int, CountryMergeHelper> statesToChangeOwner, ProvincesToChange provincesToChange)
         {
             if (File.Exists(fi.FullName))
             {
@@ -231,12 +288,23 @@ namespace TagConverter
                             if (int.TryParse(fi.Name.Replace(fi.Extension, ""), out stateId))
                             {
                                 CountryMergeHelper cmh;
+                                List<string> provinces = new List<string>();
                                 if (statesToChangeOwner.TryGetValue(stateId, out cmh))
                                 {
                                     List<Tuple<string, string>> statesPrefixSuffixes = new List<Tuple<string, string>>();
                                     statesPrefixSuffixes.Add(new Tuple<string, string>("owner = ", ""));
                                     statesPrefixSuffixes.Add(new Tuple<string, string>("add core of = ", ""));
                                     ChangeStateOwners(fi, cmh, statesPrefixSuffixes);
+                                }
+                                if(provincesToChange.provincesFrom.TryGetValue(stateId.ToString(), out provinces))
+                                {
+                                    //remove province from state
+                                }
+
+                                provinces = new List<string>();
+                                if(provincesToChange.provincesTo.TryGetValue(stateId.ToString(), out provinces))
+                                {
+                                    //add province to state
                                 }
                             }
 
@@ -333,6 +401,66 @@ namespace TagConverter
         public static string SwapTag(string text, string tag, string newTag, string prefix, string suffix)
         {
             return text.Replace(prefix + tag.ToUpperInvariant() + suffix, prefix + newTag.ToUpperInvariant() + suffix);
+        }
+
+        public static string RemoveProvincesFromState(string text, List<string> provinces)
+        {
+            int locationOfProvince = 0;
+            string frontline = "provinces={";
+            Regex provinceFinder = new Regex(frontline);
+            try
+            {
+                if(provinceFinder.IsMatch(text))
+                {
+                    Match locationOfProvinces = provinceFinder.Match(text);
+
+                    locationOfProvince = locationOfProvinces.Index;
+                    int lengthofSection = locationOfProvinces.Length;
+                    string provincesList = text.Substring(locationOfProvince);
+                    
+                    foreach(string province in provinces)
+                    {
+                        provincesList = provincesList.Replace(province, "");
+                    }
+
+                    text = text.Substring(0, locationOfProvince) + provincesList;
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("regex matching in history->state file fucked up while removing provinces.\n\tLeaving it unchanged" + "\n\t" + e.Message);
+            }
+
+            return text;
+        }
+
+        public static string AddProvincesToState(string text, List<string> provinces)
+        {
+            int locationOfProvince = 0;
+            string frontline = "provinces={";
+            Regex provinceFinder = new Regex(frontline);
+            try
+            {
+                if (provinceFinder.IsMatch(text))
+                {
+                    Match locationOfProvinces = provinceFinder.Match(text);
+
+                    locationOfProvince = locationOfProvinces.Index;
+                    int lengthofSection = locationOfProvinces.Length;
+                    string provincesList = text.Substring(locationOfProvince);
+
+                    foreach (string province in provinces)
+                    {
+                        text = text.Insert(locationOfProvince + frontline.Length, province + " ");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("regex matching in history->state file fucked up while removing provinces.\n\tLeaving it unchanged" + "\n\t" + e.Message);
+            }
+
+            return text;
         }
 
         public static string AddCoreToState(string text, CountryMergeHelper cmh, string prefix, string suffix)

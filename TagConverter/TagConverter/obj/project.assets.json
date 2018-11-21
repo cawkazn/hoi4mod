@@ -784,11 +784,10 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.4.0": {
-      "sha512": "JRxOAH6by+wn1gNnZc9jf2HbO/szhMJuLY2w44nEW77354WntXlFzWSVkx6280Uvcl3URZ/At+444vjX0/X1Aw==",
+      "sha512": "dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.4.0",
       "files": [
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -854,31 +853,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jobber 2k17\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\candersen\\.nuget\\packages\\": {},
+    "C:\\pf\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyProjects\\hoi4mod\\TagConverter\\TagConverter\\TagConverter.csproj",
+      "projectUniqueName": "C:\\CoreyMods\\hoi4mod\\TagConverter\\TagConverter\\TagConverter.csproj",
       "projectName": "TagConverter",
-      "projectPath": "C:\\MyProjects\\hoi4mod\\TagConverter\\TagConverter\\TagConverter.csproj",
-      "packagesPath": "C:\\Users\\Jobber 2k17\\.nuget\\packages\\",
-      "outputPath": "C:\\MyProjects\\hoi4mod\\TagConverter\\TagConverter\\obj\\",
+      "projectPath": "C:\\CoreyMods\\hoi4mod\\TagConverter\\TagConverter\\TagConverter.csproj",
+      "packagesPath": "C:\\Users\\candersen\\.nuget\\packages\\",
+      "outputPath": "C:\\CoreyMods\\hoi4mod\\TagConverter\\TagConverter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\pf\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jobber 2k17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\candersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\CoreyDevelopment\\Tuohy\\auto-teds\\Tuohy AutoTEDs\\packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -899,6 +899,7 @@
             "version": "[9.0.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
