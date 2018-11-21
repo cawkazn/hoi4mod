@@ -13,15 +13,13 @@ namespace TagConverter
         public string tagTo { get; set; }
         public string addCore { get; set; }
         public string retainCore { get; set; }
-        public string provinceOnly { get; set; }
-        public string provinceId { get; set; }
 
         public CountryMergeHelper()
         {
 
         }
 
-        public CountryMergeHelper(string stateId, string countryFrom, string countryTo, string tagFrom, string tagTo, string addCore, string retainCore, string provinceOnly, string provinceId)
+        public CountryMergeHelper(string stateId, string countryFrom, string countryTo, string tagFrom, string tagTo, string addCore, string retainCore)
         {
             this.stateId = stateId;
             this.countryFrom = countryFrom;

@@ -1,5 +1,5 @@
 stateId,countryFrom,countryTo,tagFrom,tagTo,addCore,retainCore
-328,hesse darmstadt,Hesse,PSA,HES,y,y
+327,hesse kassel,Hesse,HEK,HES,y,
 366,nassau,Hesse,NAS,HES,y,
 318,Frankfurt am main,Hesse,FAM,HES,y,
 39,bavaria,Hesse,BAV,HES,y,
@@ -9,12 +9,11 @@ stateId,countryFrom,countryTo,tagFrom,tagTo,addCore,retainCore
 1,Anhalt,Saxony,ANH,SAX,y,
 420,Prussia,Baden,PSA,BAD,y,y
 659,Wurtemburg,Baden,WUR,BAD,y,
-,,,,,,
 48,braunsch,Hannover,BRN,HAN,y,
 349,lippe detmold,Hannover,LIP,HAN,y,
 164,Oldenburg,Hannover,OLD,HAN,y,
 49,bremen,Hannover,BRE,HAN,y,
 379,oldenburg,,OLD,HAN,y,
-350,lubeck,Mecklenburg,LUB,MEK,y,
-,,,,,,
-323,hamburg,Holstein,HAM,HOL,y,
+350,lubeck,Mecklenburg,LUB,MEC,y,
+323,hamburg,Holstein,HAM,SCH,y,
+504,scandinavia,netherlands,SCA,HOL,y,
