@@ -210,6 +210,20 @@ namespace TagConverter
                                 List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
                                 prefixSuffixes.Add(new Tuple<string, string>("", ""));
                                 ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
+
+                                //change ideology names in here as well
+                            }
+                            else if(fi.Name == "converterPoliticalEvents.txt")
+                            {
+                                //change ideology names in here
+                            }
+                            else if(fi.Name == "StabilityEvents.txt")
+                            {
+                                //change ideology names in here as well
+                            }
+                            else if(fi.Name == "WarJustification.txt")
+                            {
+                                //change ideology names in here.  way at the end.
                             }
                         }
                         break;
