@@ -181,17 +181,21 @@ namespace TagConverter
                         break;
                     case "1":
                         if(directoryInfo.Name == "localisation")
-                        {
-                            List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
-                            prefixSuffixes.Add(new Tuple<string, string>("", ""));
-                            ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
+                        {                            
+                            if (fi.Name == "countries_mod_I_english.yml")
+                            {
+                                List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
+                                prefixSuffixes.Add(new Tuple<string, string>("", "_"));
+                                ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
+                                //have to change some ideologies in here
+                            }
                         }
                         if(directoryInfo.Name == "interface")
                         {
                             if(fi.Name == "converter_ideas.gfx")
                             {
                                 List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
-                                prefixSuffixes.Add(new Tuple<string, string>("", ""));
+                                prefixSuffixes.Add(new Tuple<string, string>("_", "_"));
                                 ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
                             }
                         }
@@ -208,7 +212,7 @@ namespace TagConverter
                             if(fi.Name == "ElectionEvents.txt")
                             {
                                 List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
-                                prefixSuffixes.Add(new Tuple<string, string>("", ""));
+                                prefixSuffixes.Add(new Tuple<string, string>(" ", ""));
                                 ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
 
                                 //change ideology names in here as well
@@ -234,17 +238,18 @@ namespace TagConverter
                         if (directoryInfo.Name == "names")
                         {
                             List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
-                            prefixSuffixes.Add(new Tuple<string, string>("", ""));
+                            prefixSuffixes.Add(new Tuple<string, string>("", " = {"));
                             ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
                         }
-                        if (directoryInfo.Name == "countries")
+                        if (directoryInfo.Name == "countries" && directoryInfo.Parent.Name == "history")
                         {
                             //open a text file for the tag to be replaced
                             //if one is found
 
                             //scrub this file for every tag we're changing
                             List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
-                            prefixSuffixes.Add(new Tuple<string, string>("", ""));
+                            prefixSuffixes.Add(new Tuple<string, string>(" ", ""));
+                            prefixSuffixes.Add(new Tuple<string, string>("", "_OOB"));
                             ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
                             string fileName = fi.Name;
                             string newFileName = "";
@@ -269,7 +274,7 @@ namespace TagConverter
                         if(directoryInfo.Name == "country_tags")
                         {
                             List<Tuple<string, string>> prefixSuffixes = new List<Tuple<string, string>>();
-                            prefixSuffixes.Add(new Tuple<string, string>("", ""));
+                            prefixSuffixes.Add(new Tuple<string, string>("", " ="));
                             ProcessCountryTags(fi, tagsToChange, prefixSuffixes);
                         }
                         if(directoryInfo.Name == "ideas")
@@ -308,8 +313,8 @@ namespace TagConverter
                                 if (statesToChangeOwner.TryGetValue(stateId, out cmh))
                                 {
                                     List<Tuple<string, string>> statesPrefixSuffixes = new List<Tuple<string, string>>();
-                                    statesPrefixSuffixes.Add(new Tuple<string, string>("owner = ", ""));
-                                    statesPrefixSuffixes.Add(new Tuple<string, string>("add core of = ", ""));
+                                    statesPrefixSuffixes.Add(new Tuple<string, string>("owner = ", " "));
+                                    statesPrefixSuffixes.Add(new Tuple<string, string>("add core of = ", " "));
                                     ChangeStateOwners(fi, cmh, statesPrefixSuffixes);
                                 }
                                 if(provincesToChange.provincesFrom.TryGetValue(stateId.ToString(), out provinces))
