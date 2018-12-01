@@ -31,6 +31,11 @@ namespace TagConverter
             string mergeDataFilename = "TerritoryMergingData.csv";
             string countriesFilename = "Countries.csv";
             string provincesFilename = "Provinces.csv";
+            string ideologyPropertiesFilename = "IdeologyProperties.csv";
+            string ideologyTypesFilename = "IdeologyTypes.csv";
+            string ideologyFactionsFilename = "IdeologyFactions.csv";
+            string ideologyRulesFilename = "IdeologyRules.csv";
+            string ideologyModifiersFilename = "IdeologyModifiers.csv";
 
             Dictionary<string, TagHelper> tagsToChange = new Dictionary<string, TagHelper>();
 
@@ -50,6 +55,7 @@ namespace TagConverter
                     tagsToChange.Add(th.Tag, th);
                 }
             }
+            reader.Dispose();
             csvReader.Dispose();
 
             Dictionary<int, CountryMergeHelper> stateChanges = new Dictionary<int, CountryMergeHelper>();
@@ -67,6 +73,7 @@ namespace TagConverter
                 }
                 stateChanges.Add(int.Parse(cmh.stateId), cmh);
             }
+            stateReader.Dispose();
             stateCsvReader.Dispose();
 
             Dictionary<int, ProvinceHelper> provinceChanges = new Dictionary<int, ProvinceHelper>();
@@ -111,16 +118,111 @@ namespace TagConverter
                     provincesToChange.provincesTo.Add(cmh.stateTo, provincesTo);
                 }
             }
-            stateCsvReader.Dispose();
+            provinceReader.Dispose();
+            provinceCsvReader.Dispose();
+
+            //ideology readers setup
+            List<Ideology> ideologies = new List<Ideology>();        
+
+            TextReader ideologyPropertiesReader = new StreamReader(dataDirectory + ideologyPropertiesFilename);
+            var ideologyPropertiesCsvReader = new CsvReader(ideologyPropertiesReader);
+            ideologyPropertiesCsvReader.Read();
+            ideologyPropertiesCsvReader.ReadHeader();
+            var ideologyPropertiesList = ideologyPropertiesCsvReader.GetRecords<IdeologyProperties>();
+
+            ideologyPropertiesReader.Dispose();
+            ideologyPropertiesCsvReader.Dispose();
+
+            TextReader ideologyTypesReader = new StreamReader(dataDirectory + ideologyTypesFilename);
+            var ideologyTypesCsvReader = new CsvReader(ideologyTypesReader);
+            ideologyTypesCsvReader.Read();
+            ideologyTypesCsvReader.ReadHeader();
+            var ideologyTypesList = ideologyTypesCsvReader.GetRecords<IdeologyType>();
+
+            ideologyTypesReader.Dispose();
+            ideologyTypesCsvReader.Dispose();
+
+            TextReader ideologyFactionsReader = new StreamReader(dataDirectory + ideologyFactionsFilename);
+            var ideologyFactionsCsvReader = new CsvReader(ideologyFactionsReader);
+            ideologyFactionsCsvReader.Read();
+            ideologyFactionsCsvReader.ReadHeader();
+            var ideologyFactionsList = ideologyFactionsCsvReader.GetRecords<IdeologyFaction>();
+
+            ideologyFactionsReader.Dispose();
+            ideologyFactionsCsvReader.Dispose();
 
 
+            TextReader ideologyRulesReader = new StreamReader(dataDirectory + ideologyRulesFilename);
+            var ideologyRulesCsvReader = new CsvReader(ideologyRulesReader);
+            ideologyRulesCsvReader.Read();
+            ideologyRulesCsvReader.ReadHeader();
+            var ideologyRulesList = ideologyRulesCsvReader.GetRecords<IdeologyRules>();
+
+            ideologyRulesReader.Dispose();
+            ideologyRulesCsvReader.Dispose();
+
+            TextReader ideologyModifiersReader = new StreamReader(dataDirectory + ideologyModifiersFilename);
+            var ideologyModifiersCsvReader = new CsvReader(ideologyModifiersReader);
+            ideologyModifiersCsvReader.Read();
+            ideologyModifiersCsvReader.ReadHeader();
+            var ideologyModifiersList = ideologyModifiersCsvReader.GetRecords<IdeologyModifiers>();
+
+            ideologyModifiersReader.Dispose();
+            ideologyModifiersCsvReader.Dispose();
+
+            foreach(IdeologyProperties ip in ideologyPropertiesList)
+            {
+                Ideology ideology = new Ideology();
+
+                ideology.properties = ip;
+                List<IdeologyType> ideologyTypes = new List<IdeologyType>();
+
+                foreach (IdeologyType ideologyType in ideologyTypesList)
+                {
+                    if(ideologyType.name == ip.name)
+                    {
+                        ideologyTypes.Add(ideologyType);
+                    }
+                }
+
+                ideology.types = ideologyTypes;
+
+                List<IdeologyFaction> ideologyFactions = new List<IdeologyFaction>();
+                foreach(IdeologyFaction idFa in ideologyFactionsList)
+                {
+                    if(idFa.name == ip.name)
+                    {
+                        ideologyFactions.Add(idFa);
+                    }
+                }
+
+                ideology.factions = ideologyFactions;
+
+                foreach(IdeologyRules ir in ideologyRulesList)
+                {
+                    if(ir.name == ip.name)
+                    {
+                        ideology.rules = ir;
+                    }
+                }
+
+                foreach(IdeologyModifiers im in ideologyModifiersList)
+                {
+                    if(im.name == ip.name)
+                    {
+                        ideology.modifiers = im;
+                    }
+                }
+
+                ideologies.Add(ideology);
+            }
 
             ClearDirectory(outputDirectory);
             Directory.CreateDirectory(outputDirectory);
             Copy(baseDirectory, outputDirectory);
             
             level = 0;
-            SlamItOut(tagsToChange, stateChanges, provincesToChange, outputDirectory, level);
+            SlamItOut(tagsToChange, stateChanges, provincesToChange, ideologies, outputDirectory, level);
             //Console.WriteLine("finished tag " + th.oldTag + " to " + th.newTag);
 
             Console.WriteLine("TAll done."); 
@@ -128,7 +230,7 @@ namespace TagConverter
         }
 
         public static void SlamItOut(Dictionary<string, TagHelper> tagsToChange, Dictionary<int, CountryMergeHelper> statesToChangeOwnership, 
-            ProvincesToChange provincesToChange, string directory, int level)
+            ProvincesToChange provincesToChange, List<Ideology> ideologies, string directory, int level)
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(directory);
 
@@ -152,7 +254,7 @@ namespace TagConverter
                     {
                         foreach (DirectoryInfo di in bestFuckinList)
                         {
-                            SlamItOut(tagsToChange, statesToChangeOwnership, provincesToChange, di.FullName, level + 1);
+                            SlamItOut(tagsToChange, statesToChangeOwnership, provincesToChange, ideologies, di.FullName, level + 1);
                         }
                     }
                 }
@@ -165,13 +267,13 @@ namespace TagConverter
                 }
                 foreach (FileInfo fi in files)
                 {
-                    ProcessFile(fi, level, directoryInfo, tagsToChange, statesToChangeOwnership, provincesToChange);
+                    ProcessFile(fi, level, directoryInfo, tagsToChange, statesToChangeOwnership, provincesToChange, ideologies);
                 }
             }
         }
 
         public static void ProcessFile(FileInfo fi, int level, DirectoryInfo directoryInfo, Dictionary<string, TagHelper> tagsToChange, 
-            Dictionary<int, CountryMergeHelper> statesToChangeOwner, ProvincesToChange provincesToChange)
+            Dictionary<int, CountryMergeHelper> statesToChangeOwner, ProvincesToChange provincesToChange, List<Ideology> ideologies)
         {
             if (File.Exists(fi.FullName))
             {
@@ -364,6 +466,12 @@ namespace TagConverter
                                     File.Move(fi.FullName, newFileName);
                                 }
                             }
+                        }
+
+                        if (directoryInfo.Name == "Ideologies")
+                        {
+                            //process ideologies file
+                            GenerateIdeologiesFile(fi, ideologies);
                         }
 
                         break;
@@ -571,6 +679,46 @@ namespace TagConverter
                     counter++;
                 }
             File.WriteAllText(fi.FullName, file);
+        }
+
+        public static void GenerateIdeologiesFile(FileInfo fi, List<Ideology> ideologies)
+        {
+            string oldText = File.ReadAllText(fi.FullName, Encoding.UTF8);
+            string newText = "";
+            newText += "ideologies = {\r\n\r\n";
+            
+            foreach(Ideology ideology in ideologies)
+            {
+                newText += ideology.properties.name + " = {\r\n\r\n\t\t";
+                newText += "types = {" + "\r\n\r\n\t\t\t";
+
+                foreach(IdeologyType it in ideology.types)
+                {
+                    newText += it.type + " = {" + "\r\n\t\t\t" + "\r\n\r\n";
+                }
+                newText += "\t\t" + "}" + "\r\n\r\n\t\t";
+
+                newText += "dynamic_faction_names = {" + "\r\n\t\t\t";
+
+                foreach(IdeologyFaction idfa in ideology.factions)
+                {
+                    newText += idfa.factionName + "\r\n\t\t\t";
+                }
+
+                newText += "\t\t" + "}" + "\r\n\r\n\t\t";
+
+                newText += "color = { " + ideology.properties.color + " }" + "\r\n\r\n\t\t";
+
+                newText += "rules = {" + "\r\n\t\t\t";
+
+                //rules
+
+                //modifiers
+
+                //faction modifiers
+            }
+
+            newText += "}";
         }
 
         //first level folders
